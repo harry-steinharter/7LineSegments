@@ -55,7 +55,7 @@ dataFile = open(fullFile+'.csv', 'w')
 dataFile.write('Participant_Number,Trial_Number,Condition,FCfar,FCmed,FCclose,Target_Contrast,Correct_Response,Reaction_Time\n')
 
 # Set up the window and visual elements   #####REMEMBER TO CHANGE MONITOR to `flanders` from `myMacbook`#######
-mywin = visual.Window(fullscr=False, monitor="myMacbook", units="deg",colorSpace='rgb',color = [0,0,0],bpc=(10,10,10),depthBits=10)
+mywin = visual.Window(fullscr=True, monitor="Flanders", units="deg",colorSpace='rgb',color = [0,0,0],bpc=(10,10,10),depthBits=10)
 
 subInfo = visual.TextStim(mywin,f"""Subject Number: {nSubject}\n{dateStr}""",color='black')
 OF.drawOrder(subInfo,mywin)
@@ -63,15 +63,15 @@ event.waitKeys()
 
 line_Length = 0.5
 # Lines go 1-7, top to bottom. `line1` is top, `line4` is the target, `line7` is the bottom
-line1=visual.Line(win=mywin, start=(0,2.75),  end=(0,3.25),  lineWidth=4.2, pos=(0,3),  colorSpace='rgb')
-line2=visual.Line(win=mywin, start=(0,1.75),  end=(0,2.25),  lineWidth=4.2, pos=(0,2),  colorSpace='rgb')
-line3=visual.Line(win=mywin, start=(0,0.75),  end=(0,1.25),  lineWidth=4.2, pos=(0,1),  colorSpace='rgb')
+line1=visual.Line(win=mywin, start=(0,.75), end=(0,1.25),  lineWidth=4.2, pos=(0,3),  colorSpace='rgb')
+line2=visual.Line(win=mywin, start=(0,.75), end=(0,1.25),  lineWidth=4.2, pos=(0,2),  colorSpace='rgb')
+line3=visual.Line(win=mywin, start=(0,.75), end=(0,1.25),  lineWidth=4.2, pos=(0,1),  colorSpace='rgb')
 
 line4=visual.Line(win=mywin, start=(0,-0.25), end=(0,0.25),  lineWidth=4.2, pos=(0,0),  colorSpace='rgb')
 
-line5=visual.Line(win=mywin, start=(0,-.75),  end=(0,-1.25), lineWidth=4.2, pos=(0,-1), colorSpace='rgb')
-line6=visual.Line(win=mywin, start=(0,-1.75), end=(0,-2.25), lineWidth=4.2, pos=(0,-2), colorSpace='rgb')
-line7=visual.Line(win=mywin, start=(0,-2.75), end=(0,-3.25), lineWidth=4.2, pos=(0,-3), colorSpace='rgb')
+line5=visual.Line(win=mywin, start=(0,-.75), end=(0,-1.25), lineWidth=4.2, pos=(0,-1), colorSpace='rgb')
+line6=visual.Line(win=mywin, start=(0,-.75), end=(0,-1.25), lineWidth=4.2, pos=(0,-2), colorSpace='rgb')
+line7=visual.Line(win=mywin, start=(0,-.75), end=(0,-1.25), lineWidth=4.2, pos=(0,-3), colorSpace='rgb')
 #Use the link below to easily calculate visual angle measurements for lineWidth which is ALWAYS IN PIXELS
 #https://elvers.us/perception/visualAngle/
 
@@ -124,7 +124,7 @@ offset = math.cos(math.radians(60))*(6/12)
 # %%
 #### Establish some stuff ####
 nup = 1
-ndown = 3
+ndown = 1
 nBlocks = 5
 nReal = 18*3 # 18 was last experiment
 nNull = 2*3 # 2 was last experiment
@@ -185,7 +185,7 @@ condition_counters = [
 ############################################################################
 # %%
 #trialNum = 0
-maxTrials = (nReal+nNull) * nBlocks
+maxTrials = (nReal+nNull) * nBlocks * len(exp_cons)
 maxWait = 1.3#1.3
 #### Define my own personal hell #### 
 
@@ -387,10 +387,12 @@ def pilot():
 #### Define the practice loop ####
 def training():
     trials = np.linspace(0,19,20,True,dtype=int).tolist()
+    trialContrast = np.linspace(0,.2,20).tolist()
     random.shuffle(trials)
+    random.shuffle(trialContrast)
 
     maxWait = 1
-    tStim = 2
+    tStim = 1 # actual EXP is 0.2
         # Why is `visual.Circle(...) broken??`
     topBall =       visual.GratingStim(win=mywin, colorSpace='rgb', color='black', size=0.5, pos=(0,1), tex=None, mask='circle')
     bottomBall =    visual.GratingStim(win=mywin, colorSpace='rgb', color='black', size=0.5, pos=(0,-1), tex=None, mask='circle')
@@ -398,13 +400,13 @@ def training():
     fix =           visual.GratingStim(win = mywin, color=-1, colorSpace='rgb',tex=None, mask='circle', size=0.1)
     respLEFT =      visual.TextStim(win=mywin, pos=[0,0],colorSpace='rgb',color = [-1,-1,-1],text="You pressed LEFT")
     respRIGHT =     visual.TextStim(win=mywin, pos=[0,0],colorSpace='rgb',color = [-1,-1,-1],text="You pressed RIGHT")
-    debug = True
+    debug = False
     
     i = .5
     for trial in trials:
         debug_i = visual.TextStim(win=mywin, pos=[0,3],colorSpace='rgb',color = [-1,-1,-1],text=f"{i}")
-        midBall.color = [i,i,i]
-        midBall.fillColor =[i,i,i]
+        midBall.contrast = trialContrast[trial]
+#        midBall.fillColor = i
 
         OF.drawOrder(fix,mywin)
         core.wait(.5)
@@ -437,7 +439,7 @@ def training():
         OF.drawOrder(resp,mywin)
         core.wait(maxWait-rt)
         if trials.index(trial) % 2:
-            i -= .5
+            i -= .05
 
 ############################################################################
 # %%
@@ -449,7 +451,7 @@ core.wait(break_t)
 OF.drawOrder(continue_m,mywin)
 event.waitKeys()
 OF.countdown(mywin)
-OF.drawOrder(message1,mywin)
+#OF.drawOrder(message1,mywin)
 event.waitKeys()
 
 pilot()
