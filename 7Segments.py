@@ -126,8 +126,8 @@ offset = math.cos(math.radians(60))*(6/12)
 nup = 1
 ndown = 1
 nBlocks = 5
-nReal = 18*3 # 18 was last experiment
-nNull = 2*3 # 2 was last experiment
+nReal = 18 # 18 was last experiment
+nNull = 2 # 2 was last experiment4646
 # Define experimental conditions (Different staircase procedures which run independently and randomly)
 conditions=[
     {"label":"FarHighNarrow",'startVal': .1, "FCfar":0.2, "FCmed":0.15, "FCclose":0.1,  "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nReal*nBlocks, "minVal":0, "maxVal":.1},
@@ -146,6 +146,10 @@ conditions=[
     {"label":"FarHighWide_null",'startVal': .1,   "FCfar":0.5, "FCmed":0.25, "FCclose":0.03, "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nNull*nBlocks, "minVal":0, "maxVal":.1},
     {"label":"FarLowWide_null",'startVal': .1,    "FCfar":0.03, "FCmed":0.25, "FCclose":0.5, "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nNull*nBlocks, "minVal":0, "maxVal":.1},
     {"label":"Constant_null",'startVal': .1,      "FCfar":0.1, "FCmed":0.1, "FCclose":0.1,   "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nNull*nBlocks, "minVal":0, "maxVal":.1},
+    # Control w/ 3 lines
+    {"label":"ThreeLinesControl",'startVal': .1, "FCfar":0.0, "FCmed":0.0, "FCclose":0.1,  "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nReal*nBlocks, "minVal":0, "maxVal":.1},
+    {"label":"ThreeLinesControl_null",'startVal': .1, "FCfar":0.0, "FCmed":0.0, "FCclose":0.1,  "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nNull*nBlocks, "minVal":0, "maxVal":.1},
+
 ]
 
 exp_cons = [
@@ -154,6 +158,8 @@ exp_cons = [
     {"label":"FarHighWide",'startVal': .1,   "FCfar":0.5, "FCmed":0.25, "FCclose":0.03, "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nReal*nBlocks, "minVal":0, "maxVal":.1},
     {"label":"FarLowWide",'startVal': .1,    "FCfar":0.03, "FCmed":0.25, "FCclose":0.5, "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nReal*nBlocks, "minVal":0, "maxVal":.1},
     {"label":"Constant",'startVal': .1,      "FCfar":0.1, "FCmed":0.1, "FCclose":0.1,   "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nReal*nBlocks, "minVal":0, "maxVal":.1},
+    {"label":"ThreeLinesControl",'startVal': .1, "FCfar":0.0, "FCmed":0.0, "FCclose":0.1,  "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nReal*nBlocks, "minVal":0, "maxVal":.1},
+
 ]
 
 null_cons = [
@@ -163,6 +169,7 @@ null_cons = [
     {"label":"FarHighWide_null",'startVal': .1,   "FCfar":0.5, "FCmed":0.25, "FCclose":0.03, "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nNull*nBlocks, "minVal":0, "maxVal":.1},
     {"label":"FarLowWide_null",'startVal': .1,    "FCfar":0.03, "FCmed":0.25, "FCclose":0.5, "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nNull*nBlocks, "minVal":0, "maxVal":.1},
     {"label":"Constant_null",'startVal': .1,      "FCfar":0.1, "FCmed":0.1, "FCclose":0.1,   "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nNull*nBlocks, "minVal":0, "maxVal":.1},
+    {"label":"ThreeLinesControl_null",'startVal': .1, "FCfar":0.0, "FCmed":0.0, "FCclose":0.1,  "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nNull*nBlocks, "minVal":0, "maxVal":.1},
 ]
 
 global condition_counters
@@ -173,13 +180,15 @@ condition_counters = [
     [{"label":"FarHighWide",'startVal': .1,   "FCfar":0.5, "FCmed":0.25, "FCclose":0.03, "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nReal*nBlocks, "minVal":0, "maxVal":.1}, 1, nReal*nBlocks],
     [{"label":"FarLowWide",'startVal': .1,    "FCfar":0.03, "FCmed":0.25, "FCclose":0.5, "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nReal*nBlocks, "minVal":0, "maxVal":.1}, 1, nReal*nBlocks],
     [{"label":"Constant",'startVal': .1,      "FCfar":0.1, "FCmed":0.1, "FCclose":0.1,   "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nReal*nBlocks, "minVal":0, "maxVal":.1}, 1, nReal*nBlocks],
+    [{"label":"ThreeLinesControl",'startVal': .1, "FCfar":0.0, "FCmed":0.0, "FCclose":0.1,  "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nReal*nBlocks, "minVal":0, "maxVal":.1}, 1, nReal*nBlocks],
     # Null
     # C
     [{"label":"FarHighNarrow_null",'startVal': .1, "FCfar":0.2, "FCmed":0.15, "FCclose":0.1,  "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nNull*nBlocks, "minVal":0, "maxVal":.1}, 1, nNull*nBlocks],
     [{"label":"FarLowNarrow_null",'startVal': .1,  "FCfar":0.1, "FCmed":0.15, "FCclose":0.2,  "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nNull*nBlocks, "minVal":0, "maxVal":.1}, 1, nNull*nBlocks],
     [{"label":"FarHighWide_null",'startVal': .1,   "FCfar":0.5, "FCmed":0.25, "FCclose":0.03, "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nNull*nBlocks, "minVal":0, "maxVal":.1}, 1, nNull*nBlocks],
     [{"label":"FarLowWide_null",'startVal': .1,    "FCfar":0.03, "FCmed":0.25, "FCclose":0.5, "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nNull*nBlocks, "minVal":0, "maxVal":.1}, 1, nNull*nBlocks],
-    [{"label":"Constant_null",'startVal': .1,      "FCfar":0.1, "FCmed":0.1, "FCclose":0.1,   "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nNull*nBlocks, "minVal":0, "maxVal":.1}, 1, nNull*nBlocks]
+    [{"label":"Constant_null",'startVal': .1,      "FCfar":0.1, "FCmed":0.1, "FCclose":0.1,   "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nNull*nBlocks, "minVal":0, "maxVal":.1}, 1, nNull*nBlocks],
+    [{"label":"ThreeLinesControl_null",'startVal': .1, "FCfar":0.0, "FCmed":0.0, "FCclose":0.1,  "nReversals":1, "stepType":'log', "stepSizes":0.1, "nUp":nup, "nDown":ndown, "nTrials":nNull*nBlocks, "minVal":0, "maxVal":.1},, 1, nNull*nBlocks]
 ]
 
 ############################################################################
@@ -359,11 +368,11 @@ def pilot():
         if allKeys:
             for thisKey in allKeys:
                 rt = trialClock.getTime()
-                if thisKey=='left':
+                if thisKey in ['left','num_4']:
                     if thisCondition['label'].endswith('_null'): 
                         thisResp = 1
-                    else: thisResp = 0              
-                elif thisKey=='right':
+                    else: thisResp = 0
+                elif thisKey in ['right','num_6']:
                     if thisCondition['label'].endswith('_null'): 
                         thisResp = 0
                     else: thisResp = 1              
@@ -424,11 +433,12 @@ def training():
         
         # Process the response
         if allKeys:
+            print(allKeys)  # Add this line temporarily
             for thisKey in allKeys:
                 rt = trialClock.getTime()
-                if thisKey=='left':
+                if thisKey in ['left','num_4']:
                     resp = respLEFT
-                elif thisKey=='right':
+                elif thisKey in ['right','num_6']:
                     resp = respRIGHT
                 elif thisKey in ['q', 'escape']:
                     core.quit()  
