@@ -1,0 +1,3414 @@
+0.9450 	WARNING 	Import Error: dlopen(/Applications/PsychoPy.app/Contents/Resources/lib/python3.10/psychtoolbox/PsychHID.abi3.so, 2): Symbol not found: ____chkstk_darwin
+  Referenced from: /Applications/PsychoPy.app/Contents/Resources/lib/python3.10/psychtoolbox/.dylibs/libusb-1.0.0.dylib (which was built for Mac OS X 11.0)
+  Expected in: /usr/lib/libSystem.B.dylib
+ in /Applications/PsychoPy.app/Contents/Resources/lib/python3.10/psychtoolbox/.dylibs/libusb-1.0.0.dylib. Using event module for keyboard component.
+63.3188 	WARNING 	User requested fullscreen with size [800 600], but screen is actually [1920, 1080]. Using actual size
+70.6935 	DATA 	Keypress: right
+78.5092 	DATA 	Keypress: num_6
+80.1169 	DATA 	Keypress: num_6
+81.2270 	DATA 	No keypress (maxWait exceeded)
+82.7409 	DATA 	Keypress: num_6
+83.7688 	DATA 	No keypress (maxWait exceeded)
+85.0111 	DATA 	Keypress: num_6
+86.3292 	DATA 	No keypress (maxWait exceeded)
+88.4767 	DATA 	Keypress: num_4
+91.4496 	DATA 	No keypress (maxWait exceeded)
+92.6287 	DATA 	Keypress: num_6
+94.0158 	DATA 	No keypress (maxWait exceeded)
+95.1269 	DATA 	Keypress: num_6
+96.5854 	DATA 	No keypress (maxWait exceeded)
+98.5888 	DATA 	Keypress: num_6
+101.2208 	DATA 	Keypress: num_6
+103.6609 	DATA 	Keypress: num_6
+106.1968 	DATA 	Keypress: num_6
+108.1136 	DATA 	Keypress: num_6
+109.1008 	DATA 	Keypress: num_6
+111.5408 	DATA 	Keypress: num_6
+114.1328 	DATA 	Keypress: num_6
+116.6287 	DATA 	Keypress: num_6
+119.0048 	DATA 	Keypress: num_6
+121.7249 	DATA 	Keypress: num_6
+124.3328 	DATA 	Keypress: num_6
+126.8128 	DATA 	Keypress: num_6
+129.3648 	DATA 	Keypress: num_6
+157.2930 	DATA 	Keypress: num_6
+160.3380 	DATA 	Trial 0 begins: FarLowNarrow | 0.1
+160.6186 	DATA 	Stim Appears
+160.8347 	DATA 	Stim Disappears
+161.4610 	DATA 	Keypress: num_6
+162.0530 	DATA 	Keypress: num_6
+162.1864 	DATA 	Trial 1 begins: FarLowNarrow | 0.07943282347242815
+162.4686 	DATA 	Stim Appears
+162.6844 	DATA 	Stim Disappears
+162.9809 	DATA 	Keypress: num_6
+164.0365 	DATA 	Trial 2 begins: FarLowNarrow | 0.06309573444801932
+164.3184 	DATA 	Stim Appears
+164.5354 	DATA 	Stim Disappears
+164.9889 	DATA 	Keypress: num_6
+165.8878 	DATA 	Trial 3 begins: FarHighWide | 0.1
+166.1683 	DATA 	Stim Appears
+166.3854 	DATA 	Stim Disappears
+166.8128 	DATA 	Keypress: num_6
+167.7374 	DATA 	Trial 4 begins: FarLowNarrow | 0.05011872336272722
+168.0179 	DATA 	Stim Appears
+168.2349 	DATA 	Stim Disappears
+168.8209 	DATA 	Keypress: num_6
+169.5869 	DATA 	Trial 5 begins: Constant | 0.1
+169.8598 	DATA 	Stim Appears
+170.0687 	DATA 	Stim Disappears
+170.6449 	DATA 	Keypress: num_6
+171.4205 	DATA 	Trial 6 begins: FarLowNarrow | 0.03981071705534971
+171.6940 	DATA 	Stim Appears
+171.9015 	DATA 	Stim Disappears
+172.5488 	DATA 	Keypress: num_6
+173.2538 	DATA 	Trial 7 begins: ThreeLinesControl | 0.1
+173.5269 	DATA 	Stim Appears
+173.7345 	DATA 	Stim Disappears
+174.4688 	DATA 	Keypress: num_6
+175.0866 	DATA 	Trial 8 begins: ThreeLinesControl | 0.07943282347242815
+175.3626 	DATA 	Stim Appears
+175.5795 	DATA 	Stim Disappears
+176.3328 	DATA 	Keypress: num_6
+176.9302 	DATA 	Trial 9 begins: ThreeLinesControl | 0.06309573444801932
+177.2132 	DATA 	Stim Appears
+177.4293 	DATA 	Stim Disappears
+178.1889 	DATA 	Keypress: num_6
+178.7819 	DATA 	Trial 10 begins: FarHighNarrow | 0.1
+179.0661 	DATA 	Stim Appears
+179.2822 	DATA 	Stim Disappears
+180.1009 	DATA 	Keypress: num_6
+180.6342 	DATA 	Trial 11 begins: Constant | 0.07943282347242815
+180.9162 	DATA 	Stim Appears
+181.1330 	DATA 	Stim Disappears
+181.8528 	DATA 	Keypress: num_6
+182.4860 	DATA 	Trial 12 begins: ThreeLinesControl | 0.05011872336272722
+182.7660 	DATA 	Stim Appears
+182.9829 	DATA 	Stim Disappears
+183.6769 	DATA 	Keypress: num_6
+184.3354 	DATA 	Trial 13 begins: FarHighNarrow | 0.07943282347242815
+184.6186 	DATA 	Stim Appears
+184.8347 	DATA 	Stim Disappears
+185.4690 	DATA 	Keypress: num_6
+186.1880 	DATA 	Trial 14 begins: FarLowNarrow | 0.031622776601683784
+186.4687 	DATA 	Stim Appears
+186.6846 	DATA 	Stim Disappears
+187.2928 	DATA 	Keypress: num_6
+188.0372 	DATA 	Trial 15 begins: FarHighWide | 0.07943282347242815
+188.3187 	DATA 	Stim Appears
+188.5344 	DATA 	Stim Disappears
+189.2785 	DATA 	Keypress: num_6
+189.8864 	DATA 	Trial 16 begins: FarLowWide | 0.1
+190.1678 	DATA 	Stim Appears
+190.3851 	DATA 	Stim Disappears
+191.1410 	DATA 	Keypress: num_6
+191.7372 	DATA 	Trial 17 begins: FarLowWide | 0.07943282347242815
+192.0182 	DATA 	Stim Appears
+192.2354 	DATA 	Stim Disappears
+193.0369 	DATA 	Keypress: num_6
+193.5878 	DATA 	Trial 18 begins: ThreeLinesControl_null | 0.1
+193.8679 	DATA 	Stim Appears
+194.0848 	DATA 	Stim Disappears
+194.7968 	DATA 	Keypress: num_4
+195.4373 	DATA 	Trial 19 begins: FarLowWide | 0.06309573444801932
+195.7178 	DATA 	Stim Appears
+195.9349 	DATA 	Stim Disappears
+196.4689 	DATA 	Keypress: num_6
+197.2889 	DATA 	Trial 20 begins: FarHighWide | 0.06309573444801932
+197.5688 	DATA 	Stim Appears
+197.7846 	DATA 	Stim Disappears
+198.2850 	DATA 	Keypress: num_6
+199.1386 	DATA 	Trial 21 begins: Constant | 0.06309573444801932
+199.4108 	DATA 	Stim Appears
+199.6278 	DATA 	Stim Disappears
+200.1488 	DATA 	Keypress: num_6
+200.9799 	DATA 	Trial 22 begins: FarLowNarrow | 0.02511886431509579
+201.2512 	DATA 	Stim Appears
+201.4611 	DATA 	Stim Disappears
+201.9170 	DATA 	Keypress: num_6
+202.8146 	DATA 	Trial 23 begins: ThreeLinesControl_null | 0.07943282347242815
+203.0852 	DATA 	Stim Appears
+203.2940 	DATA 	Stim Disappears
+204.0769 	DATA 	Keypress: num_4
+204.6467 	DATA 	Trial 24 begins: FarLowWide | 0.05011872336272722
+204.9300 	DATA 	Stim Appears
+205.1472 	DATA 	Stim Disappears
+205.8609 	DATA 	Keypress: num_6
+206.4991 	DATA 	Trial 25 begins: FarHighWide | 0.05011872336272722
+206.7803 	DATA 	Stim Appears
+206.9971 	DATA 	Stim Disappears
+207.5488 	DATA 	Keypress: num_6
+208.3557 	DATA 	Trial 26 begins: FarHighWide_null | 0.1
+208.6329 	DATA 	Stim Appears
+208.8497 	DATA 	Stim Disappears
+209.7008 	DATA 	Keypress: num_4
+210.2011 	DATA 	Trial 27 begins: ThreeLinesControl | 0.03981071705534971
+210.4829 	DATA 	Stim Appears
+210.6997 	DATA 	Stim Disappears
+211.2128 	DATA 	Keypress: num_6
+212.0551 	DATA 	Trial 28 begins: FarLowWide_null | 0.1
+212.3327 	DATA 	Stim Appears
+212.5496 	DATA 	Stim Disappears
+213.0850 	DATA 	Keypress: num_4
+213.9016 	DATA 	Trial 29 begins: FarLowWide | 0.03981071705534971
+214.1853 	DATA 	Stim Appears
+214.4014 	DATA 	Stim Disappears
+215.0209 	DATA 	Keypress: num_6
+215.7535 	DATA 	Trial 30 begins: FarLowNarrow_null | 0.1
+216.0352 	DATA 	Stim Appears
+216.2512 	DATA 	Stim Disappears
+216.6448 	DATA 	Keypress: num_6
+217.6038 	DATA 	Trial 31 begins: Constant | 0.05011872336272722
+217.8854 	DATA 	Stim Appears
+218.1023 	DATA 	Stim Disappears
+218.4209 	DATA 	Keypress: num_6
+219.4555 	DATA 	Trial 32 begins: FarLowNarrow | 0.01995262314968879
+219.7348 	DATA 	Stim Appears
+219.9522 	DATA 	Stim Disappears
+220.6529 	DATA 	Keypress: num_6
+221.3059 	DATA 	Trial 33 begins: Constant | 0.03981071705534971
+221.5849 	DATA 	Stim Appears
+221.8017 	DATA 	Stim Disappears
+222.4290 	DATA 	Keypress: num_6
+223.1541 	DATA 	Trial 34 begins: ThreeLinesControl | 0.031622776601683784
+223.4349 	DATA 	Stim Appears
+223.6516 	DATA 	Stim Disappears
+224.2609 	DATA 	Keypress: num_6
+225.0038 	DATA 	Trial 35 begins: FarLowWide | 0.031622776601683784
+225.2844 	DATA 	Stim Appears
+225.5014 	DATA 	Stim Disappears
+225.8608 	DATA 	Keypress: num_6
+226.8532 	DATA 	Trial 36 begins: FarLowNarrow | 0.015848931924611127
+227.1355 	DATA 	Stim Appears
+227.3512 	DATA 	Stim Disappears
+227.6928 	DATA 	Keypress: num_6
+228.7042 	DATA 	Trial 37 begins: FarHighWide | 0.03981071705534971
+228.9770 	DATA 	Stim Appears
+229.1846 	DATA 	Stim Disappears
+229.5249 	DATA 	Keypress: num_6
+230.5376 	DATA 	Trial 38 begins: FarHighWide | 0.031622776601683784
+230.8110 	DATA 	Stim Appears
+231.0273 	DATA 	Stim Disappears
+231.3888 	DATA 	Keypress: num_6
+232.3800 	DATA 	Trial 39 begins: FarLowWide | 0.02511886431509579
+232.6509 	DATA 	Stim Appears
+232.8608 	DATA 	Stim Disappears
+233.2209 	DATA 	Keypress: num_6
+234.2130 	DATA 	Trial 40 begins: FarHighNarrow | 0.06309573444801932
+234.4970 	DATA 	Stim Appears
+234.7138 	DATA 	Stim Disappears
+235.0449 	DATA 	Keypress: num_6
+236.0667 	DATA 	Trial 41 begins: FarLowWide | 0.01995262314968879
+236.3465 	DATA 	Stim Appears
+236.5636 	DATA 	Stim Disappears
+237.1968 	DATA 	Keypress: num_4
+237.9156 	DATA 	Trial 42 begins: FarHighWide | 0.02511886431509579
+238.1977 	DATA 	Stim Appears
+238.4134 	DATA 	Stim Disappears
+238.9090 	DATA 	Keypress: num_6
+239.7653 	DATA 	Trial 43 begins: Constant_null | 0.1
+240.0491 	DATA 	Stim Appears
+240.2663 	DATA 	Stim Disappears
+240.8049 	DATA 	Keypress: num_4
+241.6188 	DATA 	Trial 44 begins: Constant | 0.031622776601683784
+241.9002 	DATA 	Stim Appears
+242.1161 	DATA 	Stim Disappears
+242.5568 	DATA 	Keypress: num_6
+243.4685 	DATA 	Trial 45 begins: FarHighNarrow | 0.05011872336272722
+243.7520 	DATA 	Stim Appears
+243.9681 	DATA 	Stim Disappears
+244.2928 	DATA 	Keypress: num_6
+245.3213 	DATA 	Trial 46 begins: ThreeLinesControl | 0.02511886431509579
+245.6019 	DATA 	Stim Appears
+245.8177 	DATA 	Stim Disappears
+246.2768 	DATA 	Keypress: num_6
+247.1711 	DATA 	Trial 47 begins: FarHighWide | 0.01995262314968879
+247.4519 	DATA 	Stim Appears
+247.6677 	DATA 	Stim Disappears
+248.4130 	DATA 	Keypress: num_6
+249.0211 	DATA 	Trial 48 begins: FarLowNarrow | 0.012589254117941666
+249.3014 	DATA 	Stim Appears
+249.5187 	DATA 	Stim Disappears
+250.2128 	DATA 	Keypress: num_6
+250.8746 	DATA 	Trial 49 begins: Constant | 0.02511886431509579
+251.1515 	DATA 	Stim Appears
+251.3685 	DATA 	Stim Disappears
+251.9649 	DATA 	Keypress: num_6
+252.7211 	DATA 	Trial 50 begins: Constant | 0.01995262314968879
+253.0011 	DATA 	Stim Appears
+253.2182 	DATA 	Stim Disappears
+253.6769 	DATA 	Keypress: num_6
+254.5699 	DATA 	Trial 51 begins: FarLowWide | 0.025118864315095794
+254.8511 	DATA 	Stim Appears
+255.0679 	DATA 	Stim Disappears
+255.3968 	DATA 	Keypress: num_6
+256.4203 	DATA 	Trial 52 begins: FarHighNarrow | 0.03981071705534971
+256.7021 	DATA 	Stim Appears
+256.9182 	DATA 	Stim Disappears
+257.2609 	DATA 	Keypress: num_6
+258.2703 	DATA 	Trial 53 begins: Constant | 0.015848931924611127
+258.5520 	DATA 	Stim Appears
+258.7606 	DATA 	Stim Disappears
+259.2049 	DATA 	Keypress: num_6
+260.1128 	DATA 	Trial 54 begins: FarLowNarrow | 0.009999999999999995
+260.3853 	DATA 	Stim Appears
+260.5943 	DATA 	Stim Disappears
+260.9169 	DATA 	Keypress: num_4
+261.9470 	DATA 	Trial 55 begins: ThreeLinesControl | 0.01995262314968879
+262.2275 	DATA 	Stim Appears
+262.4351 	DATA 	Stim Disappears
+263.0049 	DATA 	Keypress: num_4
+263.7875 	DATA 	Trial 56 begins: ThreeLinesControl | 0.025118864315095794
+264.0633 	DATA 	Stim Appears
+264.2810 	DATA 	Stim Disappears
+264.6529 	DATA 	Keypress: num_6
+265.6337 	DATA 	Trial 57 begins: FarLowWide_null | 0.07943282347242815
+265.9140 	DATA 	Stim Appears
+266.1301 	DATA 	Stim Disappears
+266.5808 	DATA 	Keypress: num_4
+267.4828 	DATA 	Trial 58 begins: FarHighWide | 0.015848931924611127
+267.7643 	DATA 	Stim Appears
+267.9801 	DATA 	Stim Disappears
+268.3649 	DATA 	Keypress: num_6
+269.3322 	DATA 	Trial 59 begins: FarHighNarrow | 0.031622776601683784
+269.6173 	DATA 	Stim Appears
+269.8338 	DATA 	Stim Disappears
+270.1489 	DATA 	Keypress: num_6
+271.1860 	DATA 	Trial 60 begins: FarLowNarrow | 0.012589254117941666
+271.4670 	DATA 	Stim Appears
+271.6828 	DATA 	Stim Disappears
+272.1649 	DATA 	Keypress: num_4
+273.0354 	DATA 	Trial 61 begins: FarLowWide | 0.01995262314968879
+273.3165 	DATA 	Stim Appears
+273.5338 	DATA 	Stim Disappears
+274.3090 	DATA 	Keypress: num_4
+274.8859 	DATA 	Trial 62 begins: FarHighWide | 0.012589254117941666
+275.1687 	DATA 	Stim Appears
+275.3846 	DATA 	Stim Disappears
+275.7008 	DATA 	Keypress: num_6
+276.7371 	DATA 	Trial 63 begins: FarHighNarrow | 0.02511886431509579
+277.0185 	DATA 	Stim Appears
+277.2354 	DATA 	Stim Disappears
+277.5328 	DATA 	Keypress: num_6
+278.5876 	DATA 	Trial 64 begins: Constant | 0.012589254117941666
+278.8686 	DATA 	Stim Appears
+279.0852 	DATA 	Stim Disappears
+279.5809 	DATA 	Keypress: num_6
+280.4375 	DATA 	Trial 65 begins: ThreeLinesControl_null | 0.06309573444801932
+280.7179 	DATA 	Stim Appears
+280.9353 	DATA 	Stim Disappears
+281.4048 	DATA 	Keypress: num_4
+282.2880 	DATA 	Trial 66 begins: FarLowNarrow | 0.015848931924611127
+282.5678 	DATA 	Stim Appears
+282.7854 	DATA 	Stim Disappears
+283.2208 	DATA 	Keypress: num_4
+284.1467 	DATA 	Trial 67 begins: Constant | 0.009999999999999995
+284.4177 	DATA 	Stim Appears
+284.6347 	DATA 	Stim Disappears
+285.0449 	DATA 	Keypress: num_4
+285.9887 	DATA 	Trial 68 begins: FarHighNarrow | 0.01995262314968879
+286.2514 	DATA 	Stim Appears
+286.4686 	DATA 	Stim Disappears
+287.0609 	DATA 	Keypress: num_4
+287.8221 	DATA 	Trial 69 begins: FarHighNarrow | 0.025118864315095794
+288.1017 	DATA 	Stim Appears
+288.3186 	DATA 	Stim Disappears
+288.9169 	DATA 	Keypress: num_4
+289.6719 	DATA 	Trial 70 begins: FarLowWide | 0.025118864315095794
+289.9442 	DATA 	Stim Appears
+290.1613 	DATA 	Stim Disappears
+290.9169 	DATA 	Keypress: num_6
+291.5137 	DATA 	Trial 71 begins: FarLowNarrow | 0.01995262314968879
+291.7940 	DATA 	Stim Appears
+292.0019 	DATA 	Stim Disappears
+293.0689 	DATA 	Keypress: num_6
+293.3538 	DATA 	Trial 72 begins: FarHighNarrow | 0.031622776601683784
+293.6311 	DATA 	Stim Appears
+293.8470 	DATA 	Stim Disappears
+294.7089 	DATA 	Keypress: num_6
+295.1986 	DATA 	Trial 73 begins: FarHighWide | 0.009999999999999995
+295.4811 	DATA 	Stim Appears
+295.6970 	DATA 	Stim Disappears
+296.6369 	DATA 	Keypress: num_4
+297.0494 	DATA 	Trial 74 begins: Constant | 0.012589254117941666
+297.3310 	DATA 	Stim Appears
+297.5477 	DATA 	Stim Disappears
+298.1249 	DATA 	Keypress: num_4
+298.8998 	DATA 	Trial 75 begins: FarLowWide | 0.01995262314968879
+299.1835 	DATA 	Stim Appears
+299.4008 	DATA 	Stim Disappears
+300.3088 	DATA 	Keypress: num_6
+300.7548 	DATA 	Trial 76 begins: FarLowNarrow | 0.015848931924611127
+301.0335 	DATA 	Stim Appears
+301.2503 	DATA 	Stim Disappears
+301.9889 	DATA 	Keypress: num_6
+302.6026 	DATA 	Trial 77 begins: FarHighWide | 0.012589254117941666
+302.8835 	DATA 	Stim Appears
+303.1004 	DATA 	Stim Disappears
+303.7010 	DATA 	Keypress: num_4
+304.4524 	DATA 	Trial 78 begins: FarLowWide | 0.015848931924611127
+304.7353 	DATA 	Stim Appears
+304.9510 	DATA 	Stim Disappears
+305.6449 	DATA 	Keypress: num_6
+306.3036 	DATA 	Trial 79 begins: ThreeLinesControl | 0.01995262314968879
+306.5851 	DATA 	Stim Appears
+306.8018 	DATA 	Stim Disappears
+307.6129 	DATA 	Keypress: num_6
+308.1535 	DATA 	Trial 80 begins: ThreeLinesControl | 0.015848931924611127
+308.4348 	DATA 	Stim Appears
+308.6518 	DATA 	Stim Disappears
+309.6930 	DATA 	Keypress: num_6
+310.0043 	DATA 	Trial 81 begins: FarHighWide | 0.015848931924611127
+310.2844 	DATA 	Stim Appears
+310.5015 	DATA 	Stim Disappears
+311.6689 	DATA 	Keypress: num_6
+311.8535 	DATA 	Trial 82 begins: Constant | 0.015848931924611127
+312.1348 	DATA 	Stim Appears
+312.3515 	DATA 	Stim Disappears
+313.6518 	DATA 	No keypress (maxWait exceeded)
+313.7061 	DATA 	Trial 83 begins: FarLowWide | 0.012589254117941666
+313.7120 	DATA 	Keypress: num_6
+313.9854 	DATA 	Stim Appears
+314.2013 	DATA 	Stim Disappears
+314.9568 	DATA 	Keypress: num_4
+315.5532 	DATA 	Trial 84 begins: Constant | 0.01995262314968879
+315.8181 	DATA 	Stim Appears
+316.0352 	DATA 	Stim Disappears
+316.6369 	DATA 	Keypress: num_6
+317.3875 	DATA 	Trial 85 begins: Constant | 0.015848931924611127
+317.6681 	DATA 	Stim Appears
+317.8851 	DATA 	Stim Disappears
+318.4768 	DATA 	Keypress: num_6
+319.2378 	DATA 	Trial 86 begins: Constant | 0.012589254117941666
+319.5119 	DATA 	Stim Appears
+319.7277 	DATA 	Stim Disappears
+320.3810 	DATA 	Keypress: num_6
+321.0799 	DATA 	Trial 87 begins: FarLowWide | 0.015848931924611127
+321.3446 	DATA 	Stim Appears
+321.5617 	DATA 	Stim Disappears
+321.9328 	DATA 	Keypress: num_4
+322.9137 	DATA 	Trial 88 begins: FarLowNarrow_null | 0.1
+323.1948 	DATA 	Stim Appears
+323.4115 	DATA 	Stim Disappears
+323.8369 	DATA 	Keypress: num_4
+324.7641 	DATA 	Trial 89 begins: FarHighNarrow | 0.02511886431509579
+325.0477 	DATA 	Stim Appears
+325.2646 	DATA 	Stim Disappears
+325.7489 	DATA 	Keypress: num_6
+326.6166 	DATA 	Trial 90 begins: FarLowWide | 0.01995262314968879
+326.8974 	DATA 	Stim Appears
+327.1145 	DATA 	Stim Disappears
+327.6369 	DATA 	Keypress: num_4
+328.4674 	DATA 	Trial 91 begins: Constant | 0.009999999999999995
+328.7501 	DATA 	Stim Appears
+328.9671 	DATA 	Stim Disappears
+330.0609 	DATA 	Keypress: num_6
+330.3205 	DATA 	Trial 92 begins: Constant_null | 0.07943282347242815
+330.6010 	DATA 	Stim Appears
+330.8168 	DATA 	Stim Disappears
+331.2768 	DATA 	Keypress: num_4
+332.1695 	DATA 	Trial 93 begins: ThreeLinesControl | 0.012589254117941666
+332.4510 	DATA 	Stim Appears
+332.6668 	DATA 	Stim Disappears
+333.2529 	DATA 	Keypress: num_4
+334.0188 	DATA 	Trial 94 begins: Constant | 0.00794328234724281
+334.3018 	DATA 	Stim Appears
+334.5186 	DATA 	Stim Disappears
+334.9328 	DATA 	Keypress: num_4
+335.8705 	DATA 	Trial 95 begins: ThreeLinesControl | 0.015848931924611127
+336.1519 	DATA 	Stim Appears
+336.3689 	DATA 	Stim Disappears
+337.5889 	DATA 	Keypress: num_6
+337.7219 	DATA 	Trial 96 begins: FarHighNarrow | 0.01995262314968879
+338.0013 	DATA 	Stim Appears
+338.2184 	DATA 	Stim Disappears
+338.7169 	DATA 	Keypress: num_6
+339.5707 	DATA 	Trial 97 begins: ThreeLinesControl | 0.012589254117941666
+339.8516 	DATA 	Stim Appears
+340.0683 	DATA 	Stim Disappears
+340.7728 	DATA 	Keypress: num_6
+341.4212 	DATA 	Trial 98 begins: Constant | 0.009999999999999995
+341.7011 	DATA 	Stim Appears
+341.9181 	DATA 	Stim Disappears
+343.0690 	DATA 	Keypress: num_6
+343.2685 	DATA 	Trial 99 begins: FarHighWide | 0.012589254117941666
+343.5510 	DATA 	Stim Appears
+343.7586 	DATA 	Stim Disappears
+344.3013 	DATA 	Keypress: num_6
+345.1105 	DATA 	Trial 100 begins: FarHighWide | 0.009999999999999995
+345.3846 	DATA 	Stim Appears
+345.5923 	DATA 	Stim Disappears
+346.3649 	DATA 	Keypress: num_6
+346.9451 	DATA 	Trial 101 begins: FarLowNarrow | 0.012589254117941666
+347.2176 	DATA 	Stim Appears
+347.4252 	DATA 	Stim Disappears
+348.4450 	DATA 	Keypress: num_4
+348.7791 	DATA 	Trial 102 begins: FarHighWide | 0.00794328234724281
+349.0615 	DATA 	Stim Appears
+349.2785 	DATA 	Stim Disappears
+350.0769 	DATA 	Keypress: num_6
+350.6310 	DATA 	Trial 103 begins: FarLowWide | 0.025118864315095794
+350.9112 	DATA 	Stim Appears
+351.1282 	DATA 	Stim Disappears
+351.8768 	DATA 	Keypress: num_6
+352.4808 	DATA 	Trial 104 begins: Constant | 0.00794328234724281
+352.7615 	DATA 	Stim Appears
+352.9786 	DATA 	Stim Disappears
+353.5410 	DATA 	Keypress: num_6
+354.3315 	DATA 	Trial 105 begins: FarHighWide | 0.0063095734448019285
+354.6142 	DATA 	Stim Appears
+354.8309 	DATA 	Stim Disappears
+355.9809 	DATA 	Keypress: num_4
+356.1844 	DATA 	Trial 106 begins: Constant | 0.0063095734448019285
+356.4649 	DATA 	Stim Appears
+356.6809 	DATA 	Stim Disappears
+357.3249 	DATA 	Keypress: num_4
+358.0329 	DATA 	Trial 107 begins: FarHighNarrow | 0.015848931924611127
+358.3150 	DATA 	Stim Appears
+358.5307 	DATA 	Stim Disappears
+358.8929 	DATA 	Keypress: num_6
+359.8870 	DATA 	Trial 108 begins: FarLowNarrow | 0.015848931924611127
+360.1678 	DATA 	Stim Appears
+360.3837 	DATA 	Stim Disappears
+361.3169 	DATA 	Keypress: num_6
+361.7360 	DATA 	Trial 109 begins: ThreeLinesControl | 0.009999999999999995
+362.0175 	DATA 	Stim Appears
+362.2344 	DATA 	Stim Disappears
+363.2128 	DATA 	Keypress: num_6
+363.5863 	DATA 	Trial 110 begins: FarLowNarrow | 0.012589254117941666
+363.8685 	DATA 	Stim Appears
+364.0844 	DATA 	Stim Disappears
+364.7649 	DATA 	Keypress: num_4
+365.4365 	DATA 	Trial 111 begins: ThreeLinesControl | 0.00794328234724281
+365.7181 	DATA 	Stim Appears
+365.9352 	DATA 	Stim Disappears
+366.3649 	DATA 	Keypress: num_4
+367.2876 	DATA 	Trial 112 begins: FarHighWide | 0.00794328234724281
+367.5677 	DATA 	Stim Appears
+367.7851 	DATA 	Stim Disappears
+368.1329 	DATA 	Keypress: num_6
+369.1373 	DATA 	Trial 113 begins: FarHighNarrow | 0.012589254117941666
+369.4178 	DATA 	Stim Appears
+369.6349 	DATA 	Stim Disappears
+370.2529 	DATA 	Keypress: num_6
+370.9878 	DATA 	Trial 114 begins: FarLowNarrow | 0.015848931924611127
+371.2678 	DATA 	Stim Appears
+371.4846 	DATA 	Stim Disappears
+372.0449 	DATA 	Keypress: num_6
+372.8371 	DATA 	Trial 115 begins: ThreeLinesControl | 0.009999999999999995
+373.1188 	DATA 	Stim Appears
+373.3347 	DATA 	Stim Disappears
+373.9569 	DATA 	Keypress: num_4
+374.6865 	DATA 	Trial 116 begins: ThreeLinesControl | 0.012589254117941666
+374.9586 	DATA 	Stim Appears
+375.1684 	DATA 	Stim Disappears
+375.6208 	DATA 	Keypress: num_4
+376.5201 	DATA 	Trial 117 begins: FarLowWide | 0.01995262314968879
+376.7930 	DATA 	Stim Appears
+377.0019 	DATA 	Stim Disappears
+377.3808 	DATA 	Keypress: num_6
+378.3553 	DATA 	Trial 118 begins: FarHighNarrow | 0.009999999999999995
+378.6262 	DATA 	Stim Appears
+378.8350 	DATA 	Stim Disappears
+379.1169 	DATA 	Keypress: num_6
+380.1870 	DATA 	Trial 119 begins: Constant | 0.00794328234724281
+380.4620 	DATA 	Stim Appears
+380.6791 	DATA 	Stim Disappears
+381.3328 	DATA 	Keypress: num_4
+394.4211 	DATA 	Keypress: num_6
+397.4354 	DATA 	Trial 120 begins: ThreeLinesControl | 0.015848931924611127
+397.7188 	DATA 	Stim Appears
+397.9347 	DATA 	Stim Disappears
+398.1728 	DATA 	Keypress: num_6
+399.2908 	DATA 	Trial 121 begins: Constant | 0.009999999999999995
+399.5685 	DATA 	Stim Appears
+399.7854 	DATA 	Stim Disappears
+400.1969 	DATA 	Keypress: num_4
+401.1399 	DATA 	Trial 122 begins: FarHighNarrow | 0.00794328234724281
+401.4182 	DATA 	Stim Appears
+401.6353 	DATA 	Stim Disappears
+402.0047 	DATA 	Keypress: num_4
+402.9883 	DATA 	Trial 123 begins: ThreeLinesControl | 0.012589254117941666
+403.2683 	DATA 	Stim Appears
+403.4850 	DATA 	Stim Disappears
+403.7967 	DATA 	Keypress: num_4
+404.8394 	DATA 	Trial 124 begins: FarLowNarrow | 0.012589254117941666
+405.1093 	DATA 	Stim Appears
+405.3180 	DATA 	Stim Disappears
+405.7649 	DATA 	Keypress: num_6
+406.6699 	DATA 	Trial 125 begins: FarLowWide | 0.015848931924611127
+406.9432 	DATA 	Stim Appears
+407.1518 	DATA 	Stim Disappears
+407.5248 	DATA 	Keypress: num_6
+408.5042 	DATA 	Trial 126 begins: ThreeLinesControl | 0.015848931924611127
+408.7791 	DATA 	Stim Appears
+408.9958 	DATA 	Stim Disappears
+409.4849 	DATA 	Keypress: num_6
+410.3488 	DATA 	Trial 127 begins: Constant | 0.012589254117941666
+410.6288 	DATA 	Stim Appears
+410.8457 	DATA 	Stim Disappears
+411.5008 	DATA 	Keypress: num_6
+412.1979 	DATA 	Trial 128 begins: FarLowWide | 0.012589254117941666
+412.4787 	DATA 	Stim Appears
+412.6956 	DATA 	Stim Disappears
+413.1728 	DATA 	Keypress: num_4
+414.0492 	DATA 	Trial 129 begins: FarHighNarrow | 0.009999999999999995
+414.3315 	DATA 	Stim Appears
+414.5484 	DATA 	Stim Disappears
+415.0608 	DATA 	Keypress: num_4
+415.9015 	DATA 	Trial 130 begins: FarHighNarrow | 0.012589254117941666
+416.1812 	DATA 	Stim Appears
+416.3980 	DATA 	Stim Disappears
+416.9248 	DATA 	Keypress: num_6
+417.7504 	DATA 	Trial 131 begins: FarHighWide | 0.0063095734448019285
+418.0321 	DATA 	Stim Appears
+418.2479 	DATA 	Stim Disappears
+419.0609 	DATA 	Keypress: num_6
+419.6003 	DATA 	Trial 132 begins: FarHighWide | 0.005011872336272719
+419.8839 	DATA 	Stim Appears
+420.1008 	DATA 	Stim Disappears
+420.5168 	DATA 	Keypress: num_6
+421.4529 	DATA 	Trial 133 begins: ThreeLinesControl | 0.012589254117941666
+421.7349 	DATA 	Stim Appears
+421.9506 	DATA 	Stim Disappears
+422.3330 	DATA 	Keypress: num_4
+423.3026 	DATA 	Trial 134 begins: FarHighWide | 0.00398107170553497
+423.5846 	DATA 	Stim Appears
+423.8017 	DATA 	Stim Disappears
+424.5328 	DATA 	Keypress: num_4
+425.1539 	DATA 	Trial 135 begins: FarHighWide | 0.00501187233627272
+425.4344 	DATA 	Stim Appears
+425.6514 	DATA 	Stim Disappears
+426.4369 	DATA 	Keypress: num_6
+427.0043 	DATA 	Trial 136 begins: FarHighNarrow | 0.009999999999999995
+427.2852 	DATA 	Stim Appears
+427.5011 	DATA 	Stim Disappears
+428.0049 	DATA 	Keypress: num_6
+428.8535 	DATA 	Trial 137 begins: ThreeLinesControl | 0.015848931924611127
+429.1354 	DATA 	Stim Appears
+429.3511 	DATA 	Stim Disappears
+429.7489 	DATA 	Keypress: num_6
+430.7032 	DATA 	Trial 138 begins: FarHighNarrow | 0.00794328234724281
+430.9853 	DATA 	Stim Appears
+431.2018 	DATA 	Stim Disappears
+431.5808 	DATA 	Keypress: num_4
+432.5538 	DATA 	Trial 139 begins: FarLowNarrow | 0.009999999999999995
+432.8348 	DATA 	Stim Appears
+433.0518 	DATA 	Stim Disappears
+433.3009 	DATA 	Keypress: num_4
+434.4035 	DATA 	Trial 140 begins: ThreeLinesControl | 0.012589254117941666
+434.6766 	DATA 	Stim Appears
+434.8854 	DATA 	Stim Disappears
+436.1857 	DATA 	No keypress (maxWait exceeded)
+436.2376 	DATA 	Trial 141 begins: FarHighWide_null | 0.07943282347242815
+436.5094 	DATA 	Stim Appears
+436.7183 	DATA 	Stim Disappears
+437.1329 	DATA 	Keypress: num_4
+438.0704 	DATA 	Trial 142 begins: FarHighNarrow | 0.009999999999999995
+438.3424 	DATA 	Stim Appears
+438.5511 	DATA 	Stim Disappears
+438.7888 	DATA 	Keypress: num_4
+439.9032 	DATA 	Trial 143 begins: FarLowNarrow | 0.012589254117941666
+440.1794 	DATA 	Stim Appears
+440.3952 	DATA 	Stim Disappears
+440.6848 	DATA 	Keypress: num_4
+441.7496 	DATA 	Trial 144 begins: FarHighNarrow | 0.012589254117941666
+442.0290 	DATA 	Stim Appears
+442.2461 	DATA 	Stim Disappears
+442.5890 	DATA 	Keypress: num_4
+443.5983 	DATA 	Trial 145 begins: FarLowWide | 0.015848931924611127
+443.8818 	DATA 	Stim Appears
+444.0988 	DATA 	Stim Disappears
+444.4449 	DATA 	Keypress: num_4
+445.4505 	DATA 	Trial 146 begins: FarHighNarrow | 0.015848931924611127
+445.7318 	DATA 	Stim Appears
+445.9486 	DATA 	Stim Disappears
+446.3808 	DATA 	Keypress: num_6
+447.3010 	DATA 	Trial 147 begins: Constant | 0.009999999999999995
+447.5815 	DATA 	Stim Appears
+447.7986 	DATA 	Stim Disappears
+448.4369 	DATA 	Keypress: num_4
+449.1521 	DATA 	Trial 148 begins: FarLowNarrow | 0.015848931924611127
+449.4348 	DATA 	Stim Appears
+449.6517 	DATA 	Stim Disappears
+450.0209 	DATA 	Keypress: num_4
+451.0056 	DATA 	Trial 149 begins: Constant | 0.012589254117941666
+451.2843 	DATA 	Stim Appears
+451.5013 	DATA 	Stim Disappears
+451.7489 	DATA 	Keypress: num_4
+452.8537 	DATA 	Trial 150 begins: FarLowWide | 0.01995262314968879
+453.1351 	DATA 	Stim Appears
+453.3511 	DATA 	Stim Disappears
+454.3328 	DATA 	Keypress: num_4
+454.7030 	DATA 	Trial 151 begins: FarHighNarrow | 0.012589254117941666
+454.9850 	DATA 	Stim Appears
+455.2011 	DATA 	Stim Disappears
+456.5015 	DATA 	No keypress (maxWait exceeded)
+456.5555 	DATA 	Trial 152 begins: FarLowWide | 0.025118864315095794
+456.7409 	DATA 	Keypress: num_6
+456.8347 	DATA 	Stim Appears
+457.0523 	DATA 	Stim Disappears
+457.5329 	DATA 	Keypress: num_6
+458.4063 	DATA 	Trial 153 begins: FarLowNarrow | 0.01995262314968879
+458.6847 	DATA 	Stim Appears
+458.9018 	DATA 	Stim Disappears
+459.3569 	DATA 	Keypress: num_6
+460.2540 	DATA 	Trial 154 begins: ThreeLinesControl | 0.015848931924611127
+460.5348 	DATA 	Stim Appears
+460.7517 	DATA 	Stim Disappears
+461.2448 	DATA 	Keypress: num_4
+462.1040 	DATA 	Trial 155 begins: FarHighNarrow | 0.015848931924611127
+462.3854 	DATA 	Stim Appears
+462.6012 	DATA 	Stim Disappears
+462.9889 	DATA 	Keypress: num_6
+463.9532 	DATA 	Trial 156 begins: ThreeLinesControl | 0.01995262314968879
+464.2264 	DATA 	Stim Appears
+464.4351 	DATA 	Stim Disappears
+464.6928 	DATA 	Keypress: num_6
+465.7868 	DATA 	Trial 157 begins: FarLowNarrow | 0.015848931924611127
+466.0604 	DATA 	Stim Appears
+466.2680 	DATA 	Stim Disappears
+466.7168 	DATA 	Keypress: num_4
+467.6201 	DATA 	Trial 158 begins: FarLowNarrow | 0.01995262314968879
+467.8930 	DATA 	Stim Appears
+468.1017 	DATA 	Stim Disappears
+468.4129 	DATA 	Keypress: num_4
+469.4536 	DATA 	Trial 159 begins: FarLowNarrow | 0.025118864315095794
+469.7288 	DATA 	Stim Appears
+469.9459 	DATA 	Stim Disappears
+470.2289 	DATA 	Keypress: num_4
+471.2987 	DATA 	Trial 160 begins: ThreeLinesControl | 0.015848931924611127
+471.5796 	DATA 	Stim Appears
+471.7956 	DATA 	Stim Disappears
+472.2289 	DATA 	Keypress: num_6
+473.1478 	DATA 	Trial 161 begins: FarLowWide | 0.01995262314968879
+473.4296 	DATA 	Stim Appears
+473.6464 	DATA 	Stim Disappears
+474.1810 	DATA 	Keypress: num_6
+474.9983 	DATA 	Trial 162 begins: FarHighNarrow | 0.012589254117941666
+475.2825 	DATA 	Stim Appears
+475.4983 	DATA 	Stim Disappears
+476.4129 	DATA 	Keypress: num_6
+476.8505 	DATA 	Trial 163 begins: FarLowWide | 0.015848931924611127
+477.1323 	DATA 	Stim Appears
+477.3493 	DATA 	Stim Disappears
+477.6289 	DATA 	Keypress: num_4
+478.7010 	DATA 	Trial 164 begins: FarLowWide | 0.01995262314968879
+478.9850 	DATA 	Stim Appears
+479.2020 	DATA 	Stim Disappears
+479.7570 	DATA 	Keypress: num_4
+480.5545 	DATA 	Trial 165 begins: Constant | 0.015848931924611127
+480.8352 	DATA 	Stim Appears
+481.0509 	DATA 	Stim Disappears
+481.5488 	DATA 	Keypress: num_6
+482.4066 	DATA 	Trial 166 begins: ThreeLinesControl | 0.012589254117941666
+482.6850 	DATA 	Stim Appears
+482.9017 	DATA 	Stim Disappears
+483.3729 	DATA 	Keypress: num_6
+484.2540 	DATA 	Trial 167 begins: Constant | 0.012589254117941666
+484.5349 	DATA 	Stim Appears
+484.7513 	DATA 	Stim Disappears
+485.0849 	DATA 	Keypress: num_6
+486.1040 	DATA 	Trial 168 begins: FarLowNarrow | 0.031622776601683784
+486.3854 	DATA 	Stim Appears
+486.6015 	DATA 	Stim Disappears
+487.0608 	DATA 	Keypress: num_6
+487.9541 	DATA 	Trial 169 begins: ThreeLinesControl | 0.009999999999999995
+488.2354 	DATA 	Stim Appears
+488.4512 	DATA 	Stim Disappears
+489.1168 	DATA 	Keypress: num_6
+489.8036 	DATA 	Trial 170 begins: FarHighWide | 0.00398107170553497
+490.0855 	DATA 	Stim Appears
+490.3012 	DATA 	Stim Disappears
+491.0369 	DATA 	Keypress: num_4
+491.6540 	DATA 	Trial 171 begins: Constant | 0.009999999999999995
+491.9351 	DATA 	Stim Appears
+492.1520 	DATA 	Stim Disappears
+493.1968 	DATA 	Keypress: num_4
+493.5039 	DATA 	Trial 172 begins: ThreeLinesControl | 0.00794328234724281
+493.7849 	DATA 	Stim Appears
+493.9937 	DATA 	Stim Disappears
+494.8608 	DATA 	Keypress: num_4
+495.3468 	DATA 	Trial 173 begins: Constant | 0.012589254117941666
+495.6187 	DATA 	Stim Appears
+495.8262 	DATA 	Stim Disappears
+496.6290 	DATA 	Keypress: num_4
+497.1792 	DATA 	Trial 174 begins: FarLowWide | 0.025118864315095794
+497.4514 	DATA 	Stim Appears
+497.6603 	DATA 	Stim Disappears
+498.5248 	DATA 	Keypress: num_6
+499.0140 	DATA 	Trial 175 begins: ThreeLinesControl | 0.009999999999999995
+499.2967 	DATA 	Stim Appears
+499.5133 	DATA 	Stim Disappears
+500.1649 	DATA 	Keypress: num_4
+500.8658 	DATA 	Trial 176 begins: FarLowNarrow | 0.02511886431509579
+501.1466 	DATA 	Stim Appears
+501.3633 	DATA 	Stim Disappears
+501.9969 	DATA 	Keypress: num_6
+502.7156 	DATA 	Trial 177 begins: FarHighWide | 0.00501187233627272
+502.9965 	DATA 	Stim Appears
+503.2134 	DATA 	Stim Disappears
+504.5088 	DATA 	Keypress: num_4
+504.5657 	DATA 	Trial 178 begins: ThreeLinesControl | 0.012589254117941666
+504.8490 	DATA 	Stim Appears
+505.0660 	DATA 	Stim Disappears
+506.3663 	DATA 	No keypress (maxWait exceeded)
+506.4188 	DATA 	Trial 179 begins: FarLowNarrow | 0.01995262314968879
+506.6991 	DATA 	Stim Appears
+506.7969 	DATA 	Keypress: num_6
+506.9161 	DATA 	Stim Disappears
+508.0609 	DATA 	Keypress: num_4
+508.2692 	DATA 	Trial 180 begins: FarHighWide | 0.006309573444801929
+508.5487 	DATA 	Stim Appears
+508.7678 	DATA 	Stim Disappears
+509.2768 	DATA 	Keypress: num_4
+510.1205 	DATA 	Trial 181 begins: FarHighWide | 0.007943282347242812
+510.4015 	DATA 	Stim Appears
+510.6179 	DATA 	Stim Disappears
+511.0529 	DATA 	Keypress: num_4
+511.9699 	DATA 	Trial 182 begins: FarHighWide | 0.009999999999999997
+512.2514 	DATA 	Stim Appears
+512.4685 	DATA 	Stim Disappears
+512.9247 	DATA 	Keypress: num_4
+513.8209 	DATA 	Trial 183 begins: ThreeLinesControl | 0.015848931924611127
+514.1013 	DATA 	Stim Appears
+514.3183 	DATA 	Stim Disappears
+514.7890 	DATA 	Keypress: num_6
+515.6711 	DATA 	Trial 184 begins: FarHighWide | 0.012589254117941668
+515.9510 	DATA 	Stim Appears
+516.1678 	DATA 	Stim Disappears
+516.7567 	DATA 	Keypress: num_4
+517.5209 	DATA 	Trial 185 begins: FarLowWide | 0.01995262314968879
+517.8023 	DATA 	Stim Appears
+518.0179 	DATA 	Stim Disappears
+518.8449 	DATA 	Keypress: num_6
+519.3700 	DATA 	Trial 186 begins: FarLowWide | 0.015848931924611127
+519.6521 	DATA 	Stim Appears
+519.8677 	DATA 	Stim Disappears
+521.1681 	DATA 	No keypress (maxWait exceeded)
+521.2294 	DATA 	Trial 187 begins: FarHighWide | 0.01584893192461113
+521.5017 	DATA 	Stim Appears
+521.7186 	DATA 	Stim Disappears
+521.8769 	DATA 	Keypress: num_6
+523.0707 	DATA 	Trial 188 begins: FarLowWide | 0.01995262314968879
+523.3515 	DATA 	Stim Appears
+523.5687 	DATA 	Stim Disappears
+524.0287 	DATA 	Keypress: num_4
+524.9216 	DATA 	Trial 189 begins: FarHighNarrow | 0.009999999999999995
+525.1934 	DATA 	Stim Appears
+525.4022 	DATA 	Stim Disappears
+525.7248 	DATA 	Keypress: num_4
+526.7545 	DATA 	Trial 190 begins: ThreeLinesControl | 0.012589254117941666
+527.0273 	DATA 	Stim Appears
+527.2348 	DATA 	Stim Disappears
+527.5969 	DATA 	Keypress: num_4
+528.5871 	DATA 	Trial 191 begins: FarHighWide | 0.012589254117941668
+528.8634 	DATA 	Stim Appears
+529.0802 	DATA 	Stim Disappears
+529.3649 	DATA 	Keypress: num_6
+530.4327 	DATA 	Trial 192 begins: FarHighWide | 0.009999999999999997
+530.7129 	DATA 	Stim Appears
+530.9300 	DATA 	Stim Disappears
+531.1727 	DATA 	Keypress: num_4
+532.2828 	DATA 	Trial 193 begins: FarLowNarrow | 0.025118864315095794
+532.5626 	DATA 	Stim Appears
+532.7797 	DATA 	Stim Disappears
+533.2210 	DATA 	Keypress: num_6
+534.1320 	DATA 	Trial 194 begins: FarHighWide | 0.012589254117941668
+534.4156 	DATA 	Stim Appears
+534.6321 	DATA 	Stim Disappears
+535.3328 	DATA 	Keypress: num_6
+535.9841 	DATA 	Trial 195 begins: FarLowWide | 0.025118864315095794
+536.2664 	DATA 	Stim Appears
+536.4823 	DATA 	Stim Disappears
+536.9248 	DATA 	Keypress: num_6
+537.8450 	DATA 	Trial 196 begins: ThreeLinesControl | 0.015848931924611127
+538.1324 	DATA 	Stim Appears
+538.3493 	DATA 	Stim Disappears
+538.6930 	DATA 	Keypress: num_6
+539.7027 	DATA 	Trial 197 begins: Constant | 0.015848931924611127
+539.9851 	DATA 	Stim Appears
+540.2011 	DATA 	Stim Disappears
+540.5089 	DATA 	Keypress: num_6
+541.5534 	DATA 	Trial 198 begins: FarLowWide | 0.01995262314968879
+541.8350 	DATA 	Stim Appears
+542.0522 	DATA 	Stim Disappears
+542.3569 	DATA 	Keypress: num_4
+543.4047 	DATA 	Trial 199 begins: ThreeLinesControl | 0.012589254117941666
+543.6849 	DATA 	Stim Appears
+543.9020 	DATA 	Stim Disappears
+544.5888 	DATA 	Keypress: num_4
+545.2544 	DATA 	Trial 200 begins: FarHighWide | 0.009999999999999997
+545.5348 	DATA 	Stim Appears
+545.7517 	DATA 	Stim Disappears
+546.2609 	DATA 	Keypress: num_4
+547.1041 	DATA 	Trial 201 begins: FarLowWide | 0.025118864315095794
+547.3850 	DATA 	Stim Appears
+547.6016 	DATA 	Stim Disappears
+548.0768 	DATA 	Keypress: num_6
+548.9535 	DATA 	Trial 202 begins: FarLowWide | 0.01995262314968879
+549.2343 	DATA 	Stim Appears
+549.4514 	DATA 	Stim Disappears
+549.9889 	DATA 	Keypress: num_6
+550.8032 	DATA 	Trial 203 begins: FarLowNarrow_null | 0.07943282347242815
+551.0843 	DATA 	Stim Appears
+551.3011 	DATA 	Stim Disappears
+551.6211 	DATA 	Keypress: num_4
+552.6531 	DATA 	Trial 204 begins: FarLowWide | 0.015848931924611127
+552.9351 	DATA 	Stim Appears
+553.1511 	DATA 	Stim Disappears
+553.3648 	DATA 	Keypress: num_4
+554.5033 	DATA 	Trial 205 begins: ThreeLinesControl_null | 0.05011872336272722
+554.7770 	DATA 	Stim Appears
+554.9845 	DATA 	Stim Disappears
+555.4928 	DATA 	Keypress: num_6
+556.3364 	DATA 	Trial 206 begins: Constant | 0.012589254117941666
+556.6108 	DATA 	Stim Appears
+556.8184 	DATA 	Stim Disappears
+557.1009 	DATA 	Keypress: num_6
+558.1705 	DATA 	Trial 207 begins: Constant_null | 0.06309573444801932
+558.4436 	DATA 	Stim Appears
+558.6512 	DATA 	Stim Disappears
+558.9009 	DATA 	Keypress: num_6
+560.0051 	DATA 	Trial 208 begins: FarHighNarrow | 0.012589254117941666
+560.2806 	DATA 	Stim Appears
+560.4964 	DATA 	Stim Disappears
+560.8049 	DATA 	Keypress: num_4
+561.8489 	DATA 	Trial 209 begins: FarHighNarrow | 0.015848931924611127
+562.1295 	DATA 	Stim Appears
+562.3465 	DATA 	Stim Disappears
+562.5814 	DATA 	Keypress: num_4
+563.7005 	DATA 	Trial 210 begins: FarLowWide | 0.01995262314968879
+563.9833 	DATA 	Stim Appears
+564.1991 	DATA 	Stim Disappears
+564.6849 	DATA 	Keypress: num_4
+565.5526 	DATA 	Trial 211 begins: FarHighNarrow | 0.01995262314968879
+565.8333 	DATA 	Stim Appears
+566.0492 	DATA 	Stim Disappears
+566.5088 	DATA 	Keypress: num_6
+567.4017 	DATA 	Trial 212 begins: FarLowNarrow | 0.01995262314968879
+567.6829 	DATA 	Stim Appears
+567.8998 	DATA 	Stim Disappears
+568.3329 	DATA 	Keypress: num_6
+569.2520 	DATA 	Trial 213 begins: FarHighWide_null | 0.06309573444801932
+569.5350 	DATA 	Stim Appears
+569.7519 	DATA 	Stim Disappears
+570.2208 	DATA 	Keypress: num_4
+571.1050 	DATA 	Trial 214 begins: FarLowWide | 0.025118864315095794
+571.3845 	DATA 	Stim Appears
+571.6016 	DATA 	Stim Disappears
+572.1649 	DATA 	Keypress: num_6
+572.9535 	DATA 	Trial 215 begins: FarHighWide | 0.012589254117941668
+573.2346 	DATA 	Stim Appears
+573.4515 	DATA 	Stim Disappears
+573.9649 	DATA 	Keypress: num_4
+574.8039 	DATA 	Trial 216 begins: ThreeLinesControl | 0.015848931924611127
+575.0856 	DATA 	Stim Appears
+575.3014 	DATA 	Stim Disappears
+575.9969 	DATA 	Keypress: num_6
+576.6543 	DATA 	Trial 217 begins: FarLowNarrow_null | 0.06309573444801932
+576.9355 	DATA 	Stim Appears
+577.1511 	DATA 	Stim Disappears
+577.5808 	DATA 	Keypress: num_4
+578.5036 	DATA 	Trial 218 begins: Constant | 0.009999999999999995
+578.7849 	DATA 	Stim Appears
+579.0011 	DATA 	Stim Disappears
+579.5329 	DATA 	Keypress: num_4
+580.3554 	DATA 	Trial 219 begins: FarHighWide | 0.01584893192461113
+580.6348 	DATA 	Stim Appears
+580.8518 	DATA 	Stim Disappears
+581.5730 	DATA 	Keypress: num_4
+582.2037 	DATA 	Trial 220 begins: ThreeLinesControl | 0.012589254117941666
+582.4847 	DATA 	Stim Appears
+582.7020 	DATA 	Stim Disappears
+583.3488 	DATA 	Keypress: num_4
+584.0541 	DATA 	Trial 221 begins: ThreeLinesControl | 0.015848931924611127
+584.3276 	DATA 	Stim Appears
+584.5447 	DATA 	Stim Disappears
+584.9408 	DATA 	Keypress: num_6
+585.8984 	DATA 	Trial 222 begins: FarLowNarrow | 0.015848931924611127
+586.1777 	DATA 	Stim Appears
+586.3945 	DATA 	Stim Disappears
+587.0449 	DATA 	Keypress: num_6
+587.7490 	DATA 	Trial 223 begins: ThreeLinesControl | 0.012589254117941666
+588.0181 	DATA 	Stim Appears
+588.2270 	DATA 	Stim Disappears
+588.8210 	DATA 	Keypress: num_6
+589.5850 	DATA 	Trial 224 begins: FarHighNarrow | 0.015848931924611127
+589.8630 	DATA 	Stim Appears
+590.0801 	DATA 	Stim Disappears
+590.7729 	DATA 	Keypress: num_6
+591.4320 	DATA 	Trial 225 begins: ThreeLinesControl | 0.009999999999999995
+591.7140 	DATA 	Stim Appears
+591.9301 	DATA 	Stim Disappears
+592.5729 	DATA 	Keypress: num_4
+593.2831 	DATA 	Trial 226 begins: Constant | 0.012589254117941666
+593.5641 	DATA 	Stim Appears
+593.7798 	DATA 	Stim Disappears
+594.6689 	DATA 	Keypress: num_6
+595.1320 	DATA 	Trial 227 begins: FarLowNarrow | 0.012589254117941666
+595.4170 	DATA 	Stim Appears
+595.6327 	DATA 	Stim Disappears
+596.3568 	DATA 	Keypress: num_4
+596.9854 	DATA 	Trial 228 begins: FarHighWide | 0.019952623149688792
+597.2665 	DATA 	Stim Appears
+597.4837 	DATA 	Stim Disappears
+598.4450 	DATA 	Keypress: num_6
+598.8362 	DATA 	Trial 229 begins: FarHighNarrow | 0.012589254117941666
+599.1187 	DATA 	Stim Appears
+599.3345 	DATA 	Stim Disappears
+599.9010 	DATA 	Keypress: num_6
+600.6869 	DATA 	Trial 230 begins: FarLowWide | 0.01995262314968879
+600.9681 	DATA 	Stim Appears
+601.1854 	DATA 	Stim Disappears
+602.1569 	DATA 	Keypress: num_4
+602.5377 	DATA 	Trial 231 begins: ThreeLinesControl | 0.012589254117941666
+602.8185 	DATA 	Stim Appears
+603.0351 	DATA 	Stim Disappears
+603.6049 	DATA 	Keypress: num_4
+604.3871 	DATA 	Trial 232 begins: Constant | 0.009999999999999995
+604.6681 	DATA 	Stim Appears
+604.8852 	DATA 	Stim Disappears
+605.3569 	DATA 	Keypress: num_4
+606.2373 	DATA 	Trial 233 begins: FarLowNarrow | 0.015848931924611127
+606.5179 	DATA 	Stim Appears
+606.7347 	DATA 	Stim Disappears
+607.2530 	DATA 	Keypress: num_6
+608.0867 	DATA 	Trial 234 begins: FarLowNarrow | 0.012589254117941666
+608.3687 	DATA 	Stim Appears
+608.5846 	DATA 	Stim Disappears
+609.2529 	DATA 	Keypress: num_4
+609.9376 	DATA 	Trial 235 begins: FarHighNarrow | 0.009999999999999995
+610.2185 	DATA 	Stim Appears
+610.4344 	DATA 	Stim Disappears
+611.0609 	DATA 	Keypress: num_4
+611.7880 	DATA 	Trial 236 begins: Constant | 0.012589254117941666
+612.0516 	DATA 	Stim Appears
+612.2686 	DATA 	Stim Disappears
+612.6368 	DATA 	Keypress: num_6
+613.6212 	DATA 	Trial 237 begins: FarLowNarrow_null | 0.05011872336272722
+613.8945 	DATA 	Stim Appears
+614.1113 	DATA 	Stim Disappears
+614.4448 	DATA 	Keypress: num_4
+615.4637 	DATA 	Trial 238 begins: Constant | 0.009999999999999995
+615.7349 	DATA 	Stim Appears
+615.9448 	DATA 	Stim Disappears
+616.6688 	DATA 	Keypress: num_6
+617.2971 	DATA 	Trial 239 begins: FarHighWide | 0.01584893192461113
+617.5677 	DATA 	Stim Appears
+617.7775 	DATA 	Stim Disappears
+618.1169 	DATA 	Keypress: num_6
+630.9331 	DATA 	Keypress: num_6
+633.9354 	DATA 	Trial 240 begins: ThreeLinesControl | 0.015848931924611127
+634.2188 	DATA 	Stim Appears
+634.4347 	DATA 	Stim Disappears
+635.6210 	DATA 	Keypress: num_6
+635.7878 	DATA 	Trial 241 begins: FarLowNarrow | 0.015848931924611127
+636.0683 	DATA 	Stim Appears
+636.2844 	DATA 	Stim Disappears
+636.7248 	DATA 	Keypress: num_4
+637.6379 	DATA 	Trial 242 begins: Constant | 0.00794328234724281
+637.9183 	DATA 	Stim Appears
+638.1353 	DATA 	Stim Disappears
+638.6368 	DATA 	Keypress: num_4
+639.4897 	DATA 	Trial 243 begins: Constant | 0.009999999999999995
+639.7680 	DATA 	Stim Appears
+639.9851 	DATA 	Stim Disappears
+640.3251 	DATA 	Keypress: num_6
+641.3387 	DATA 	Trial 244 begins: ThreeLinesControl | 0.012589254117941666
+641.6180 	DATA 	Stim Appears
+641.8349 	DATA 	Stim Disappears
+642.5570 	DATA 	Keypress: num_4
+643.1869 	DATA 	Trial 245 begins: FarHighNarrow | 0.012589254117941666
+643.4678 	DATA 	Stim Appears
+643.6849 	DATA 	Stim Disappears
+644.3008 	DATA 	Keypress: num_4
+645.0375 	DATA 	Trial 246 begins: ThreeLinesControl | 0.015848931924611127
+645.3108 	DATA 	Stim Appears
+645.5183 	DATA 	Stim Disappears
+646.2768 	DATA 	Keypress: num_6
+646.8712 	DATA 	Trial 247 begins: FarHighNarrow_null | 0.1
+647.1446 	DATA 	Stim Appears
+647.3614 	DATA 	Stim Disappears
+647.9088 	DATA 	Keypress: num_4
+648.7140 	DATA 	Trial 248 begins: FarLowNarrow | 0.01995262314968879
+648.9805 	DATA 	Stim Appears
+649.1973 	DATA 	Stim Disappears
+649.9009 	DATA 	Keypress: num_6
+650.5494 	DATA 	Trial 249 begins: FarLowWide | 0.025118864315095794
+650.8303 	DATA 	Stim Appears
+651.0472 	DATA 	Stim Disappears
+651.5809 	DATA 	Keypress: num_6
+652.3992 	DATA 	Trial 250 begins: FarHighNarrow | 0.015848931924611127
+652.6810 	DATA 	Stim Appears
+652.8970 	DATA 	Stim Disappears
+654.1973 	DATA 	No keypress (maxWait exceeded)
+654.2489 	DATA 	Trial 251 begins: FarLowNarrow | 0.015848931924611127
+654.3169 	DATA 	Keypress: num_4
+654.5332 	DATA 	Stim Appears
+654.7499 	DATA 	Stim Disappears
+655.3808 	DATA 	Keypress: num_4
+656.1030 	DATA 	Trial 252 begins: ThreeLinesControl | 0.012589254117941666
+656.3838 	DATA 	Stim Appears
+656.5997 	DATA 	Stim Disappears
+656.9569 	DATA 	Keypress: num_6
+657.9514 	DATA 	Trial 253 begins: FarLowWide | 0.01995262314968879
+658.2339 	DATA 	Stim Appears
+658.4496 	DATA 	Stim Disappears
+658.9489 	DATA 	Keypress: num_4
+659.8017 	DATA 	Trial 254 begins: FarLowNarrow | 0.01995262314968879
+660.0848 	DATA 	Stim Appears
+660.3016 	DATA 	Stim Disappears
+660.9009 	DATA 	Keypress: num_6
+661.6537 	DATA 	Trial 255 begins: Constant | 0.00794328234724281
+661.9344 	DATA 	Stim Appears
+662.1513 	DATA 	Stim Disappears
+662.5728 	DATA 	Keypress: num_4
+663.5037 	DATA 	Trial 256 begins: FarHighWide | 0.012589254117941668
+663.7851 	DATA 	Stim Appears
+664.0011 	DATA 	Stim Disappears
+664.5408 	DATA 	Keypress: num_4
+665.3535 	DATA 	Trial 257 begins: FarHighWide | 0.01584893192461113
+665.6351 	DATA 	Stim Appears
+665.8521 	DATA 	Stim Disappears
+666.2848 	DATA 	Keypress: num_4
+667.2050 	DATA 	Trial 258 begins: FarLowWide | 0.025118864315095794
+667.4850 	DATA 	Stim Appears
+667.7018 	DATA 	Stim Disappears
+668.0129 	DATA 	Keypress: num_6
+669.0539 	DATA 	Trial 259 begins: ThreeLinesControl | 0.009999999999999995
+669.3248 	DATA 	Stim Appears
+669.5346 	DATA 	Stim Disappears
+670.0049 	DATA 	Keypress: num_4
+670.8871 	DATA 	Trial 260 begins: ThreeLinesControl | 0.012589254117941666
+671.1688 	DATA 	Stim Appears
+671.3845 	DATA 	Stim Disappears
+671.7810 	DATA 	Keypress: num_4
+672.7366 	DATA 	Trial 261 begins: FarLowNarrow | 0.015848931924611127
+673.0016 	DATA 	Stim Appears
+673.2185 	DATA 	Stim Disappears
+673.6208 	DATA 	Keypress: num_6
+674.5708 	DATA 	Trial 262 begins: ThreeLinesControl | 0.015848931924611127
+674.8444 	DATA 	Stim Appears
+675.0613 	DATA 	Stim Disappears
+675.4849 	DATA 	Keypress: num_4
+676.4143 	DATA 	Trial 263 begins: Constant | 0.009999999999999995
+676.6954 	DATA 	Stim Appears
+676.9111 	DATA 	Stim Disappears
+678.0689 	DATA 	Keypress: num_6
+678.2627 	DATA 	Trial 264 begins: FarHighWide | 0.019952623149688792
+678.5453 	DATA 	Stim Appears
+678.7620 	DATA 	Stim Disappears
+679.3010 	DATA 	Keypress: num_6
+680.1151 	DATA 	Trial 265 begins: FarHighWide | 0.01584893192461113
+680.3977 	DATA 	Stim Appears
+680.6138 	DATA 	Stim Disappears
+680.9728 	DATA 	Keypress: num_6
+681.9662 	DATA 	Trial 266 begins: FarLowWide | 0.01995262314968879
+682.2479 	DATA 	Stim Appears
+682.4638 	DATA 	Stim Disappears
+682.9328 	DATA 	Keypress: num_4
+683.8160 	DATA 	Trial 267 begins: ThreeLinesControl_null | 0.06309573444801932
+684.1007 	DATA 	Stim Appears
+684.3175 	DATA 	Stim Disappears
+685.1169 	DATA 	Keypress: num_4
+685.6710 	DATA 	Trial 268 begins: ThreeLinesControl_null | 0.05011872336272722
+685.9507 	DATA 	Stim Appears
+686.1677 	DATA 	Stim Disappears
+686.5969 	DATA 	Keypress: num_4
+687.5207 	DATA 	Trial 269 begins: FarLowWide_null | 0.06309573444801932
+687.8002 	DATA 	Stim Appears
+688.0171 	DATA 	Stim Disappears
+688.6207 	DATA 	Keypress: num_4
+689.3691 	DATA 	Trial 270 begins: Constant | 0.00794328234724281
+689.6514 	DATA 	Stim Appears
+689.8682 	DATA 	Stim Disappears
+690.4689 	DATA 	Keypress: num_4
+691.2215 	DATA 	Trial 271 begins: FarLowNarrow | 0.012589254117941666
+691.5022 	DATA 	Stim Appears
+691.7180 	DATA 	Stim Disappears
+692.3889 	DATA 	Keypress: num_6
+693.0702 	DATA 	Trial 272 begins: FarHighNarrow | 0.01995262314968879
+693.3522 	DATA 	Stim Appears
+693.5676 	DATA 	Stim Disappears
+693.9968 	DATA 	Keypress: num_6
+694.9195 	DATA 	Trial 273 begins: ThreeLinesControl | 0.01995262314968879
+695.2018 	DATA 	Stim Appears
+695.4188 	DATA 	Stim Disappears
+695.7089 	DATA 	Keypress: num_6
+696.7709 	DATA 	Trial 274 begins: FarHighWide_null | 0.05011872336272722
+697.0518 	DATA 	Stim Appears
+697.2684 	DATA 	Stim Disappears
+697.8609 	DATA 	Keypress: num_4
+698.6206 	DATA 	Trial 275 begins: FarHighNarrow | 0.015848931924611127
+698.9017 	DATA 	Stim Appears
+699.1186 	DATA 	Stim Disappears
+699.3890 	DATA 	Keypress: num_4
+700.4710 	DATA 	Trial 276 begins: Constant | 0.009999999999999995
+700.7421 	DATA 	Stim Appears
+700.9523 	DATA 	Stim Disappears
+701.4529 	DATA 	Keypress: num_4
+702.3056 	DATA 	Trial 277 begins: FarLowWide | 0.025118864315095794
+702.5750 	DATA 	Stim Appears
+702.7846 	DATA 	Stim Disappears
+703.0608 	DATA 	Keypress: num_6
+704.1374 	DATA 	Trial 278 begins: FarHighWide | 0.012589254117941668
+704.4120 	DATA 	Stim Appears
+704.6279 	DATA 	Stim Disappears
+704.7809 	DATA 	Keypress: num_6
+705.9799 	DATA 	Trial 279 begins: FarHighNarrow | 0.01995262314968879
+706.2621 	DATA 	Stim Appears
+706.4789 	DATA 	Stim Disappears
+707.2128 	DATA 	Keypress: num_6
+707.8312 	DATA 	Trial 280 begins: FarHighNarrow_null | 0.07943282347242815
+708.0955 	DATA 	Stim Appears
+708.3115 	DATA 	Stim Disappears
+708.7329 	DATA 	Keypress: num_4
+709.6640 	DATA 	Trial 281 begins: FarHighNarrow | 0.015848931924611127
+709.9474 	DATA 	Stim Appears
+710.1644 	DATA 	Stim Disappears
+710.4449 	DATA 	Keypress: num_4
+711.5204 	DATA 	Trial 282 begins: FarLowNarrow | 0.009999999999999995
+711.7975 	DATA 	Stim Appears
+712.0142 	DATA 	Stim Disappears
+712.4048 	DATA 	Keypress: num_4
+713.3664 	DATA 	Trial 283 begins: ThreeLinesControl | 0.015848931924611127
+713.6483 	DATA 	Stim Appears
+713.8671 	DATA 	Stim Disappears
+714.3248 	DATA 	Keypress: num_4
+715.2198 	DATA 	Trial 284 begins: ThreeLinesControl_null | 0.03981071705534971
+715.5013 	DATA 	Stim Appears
+715.7168 	DATA 	Stim Disappears
+716.0848 	DATA 	Keypress: num_4
+717.0689 	DATA 	Trial 285 begins: Constant | 0.012589254117941666
+717.3511 	DATA 	Stim Appears
+717.5668 	DATA 	Stim Disappears
+718.1409 	DATA 	Keypress: num_4
+718.9189 	DATA 	Trial 286 begins: FarHighNarrow | 0.01995262314968879
+719.2021 	DATA 	Stim Appears
+719.4189 	DATA 	Stim Disappears
+719.9569 	DATA 	Keypress: num_4
+720.7708 	DATA 	Trial 287 begins: FarLowWide | 0.01995262314968879
+721.0516 	DATA 	Stim Appears
+721.2689 	DATA 	Stim Disappears
+721.9729 	DATA 	Keypress: num_4
+722.6212 	DATA 	Trial 288 begins: ThreeLinesControl_null | 0.031622776601683784
+722.9015 	DATA 	Stim Appears
+723.1184 	DATA 	Stim Disappears
+723.5889 	DATA 	Keypress: num_4
+724.4707 	DATA 	Trial 289 begins: FarLowNarrow | 0.012589254117941666
+724.7516 	DATA 	Stim Appears
+724.9685 	DATA 	Stim Disappears
+725.4529 	DATA 	Keypress: num_4
+726.3207 	DATA 	Trial 290 begins: FarHighNarrow | 0.025118864315095794
+726.6014 	DATA 	Stim Appears
+726.8183 	DATA 	Stim Disappears
+727.3409 	DATA 	Keypress: num_6
+728.1703 	DATA 	Trial 291 begins: FarHighNarrow | 0.01995262314968879
+728.4519 	DATA 	Stim Appears
+728.6679 	DATA 	Stim Disappears
+728.9890 	DATA 	Keypress: num_6
+730.0210 	DATA 	Trial 292 begins: FarHighWide | 0.009999999999999997
+730.2930 	DATA 	Stim Appears
+730.5017 	DATA 	Stim Disappears
+731.0608 	DATA 	Keypress: num_4
+731.8550 	DATA 	Trial 293 begins: FarHighNarrow | 0.015848931924611127
+732.1349 	DATA 	Stim Appears
+732.3424 	DATA 	Stim Disappears
+733.2608 	DATA 	Keypress: num_4
+733.6946 	DATA 	Trial 294 begins: ThreeLinesControl_null | 0.02511886431509579
+733.9615 	DATA 	Stim Appears
+734.1785 	DATA 	Stim Disappears
+734.9089 	DATA 	Keypress: num_4
+735.5305 	DATA 	Trial 295 begins: FarHighNarrow | 0.01995262314968879
+735.8124 	DATA 	Stim Appears
+736.0283 	DATA 	Stim Disappears
+736.6370 	DATA 	Keypress: num_6
+737.3803 	DATA 	Trial 296 begins: ThreeLinesControl_null | 0.01995262314968879
+737.6624 	DATA 	Stim Appears
+737.8783 	DATA 	Stim Disappears
+738.2449 	DATA 	Keypress: num_4
+739.2312 	DATA 	Trial 297 begins: FarLowNarrow | 0.015848931924611127
+739.5151 	DATA 	Stim Appears
+739.7310 	DATA 	Stim Disappears
+740.2689 	DATA 	Keypress: num_6
+741.0849 	DATA 	Trial 298 begins: ThreeLinesControl | 0.01995262314968879
+741.3650 	DATA 	Stim Appears
+741.5810 	DATA 	Stim Disappears
+742.2528 	DATA 	Keypress: num_6
+742.9329 	DATA 	Trial 299 begins: FarLowNarrow_null | 0.03981071705534971
+743.2150 	DATA 	Stim Appears
+743.4317 	DATA 	Stim Disappears
+744.0609 	DATA 	Keypress: num_4
+744.7852 	DATA 	Trial 300 begins: ThreeLinesControl | 0.015848931924611127
+745.0678 	DATA 	Stim Appears
+745.2836 	DATA 	Stim Disappears
+745.6769 	DATA 	Keypress: num_6
+746.6356 	DATA 	Trial 301 begins: FarHighNarrow_null | 0.06309573444801932
+746.9175 	DATA 	Stim Appears
+747.1348 	DATA 	Stim Disappears
+747.5169 	DATA 	Keypress: num_4
+748.4890 	DATA 	Trial 302 begins: Constant | 0.015848931924611127
+748.7676 	DATA 	Stim Appears
+748.9844 	DATA 	Stim Disappears
+749.1968 	DATA 	Keypress: num_4
+750.3369 	DATA 	Trial 303 begins: Constant | 0.01995262314968879
+750.6180 	DATA 	Stim Appears
+750.8351 	DATA 	Stim Disappears
+751.3491 	DATA 	Keypress: num_6
+752.1871 	DATA 	Trial 304 begins: FarLowNarrow | 0.012589254117941666
+752.4684 	DATA 	Stim Appears
+752.6851 	DATA 	Stim Disappears
+753.0689 	DATA 	Keypress: num_6
+754.0370 	DATA 	Trial 305 begins: FarLowWide | 0.025118864315095794
+754.3178 	DATA 	Stim Appears
+754.5350 	DATA 	Stim Disappears
+754.8528 	DATA 	Keypress: num_6
+755.8872 	DATA 	Trial 306 begins: FarLowNarrow | 0.009999999999999995
+756.1678 	DATA 	Stim Appears
+756.3846 	DATA 	Stim Disappears
+756.8448 	DATA 	Keypress: num_4
+757.7375 	DATA 	Trial 307 begins: FarHighWide | 0.012589254117941668
+758.0188 	DATA 	Stim Appears
+758.2345 	DATA 	Stim Disappears
+758.8209 	DATA 	Keypress: num_6
+759.5866 	DATA 	Trial 308 begins: ThreeLinesControl | 0.012589254117941666
+759.8595 	DATA 	Stim Appears
+760.0682 	DATA 	Stim Disappears
+760.4929 	DATA 	Keypress: num_6
+761.4204 	DATA 	Trial 309 begins: FarHighNarrow | 0.015848931924611127
+761.6922 	DATA 	Stim Appears
+761.9016 	DATA 	Stim Disappears
+762.4049 	DATA 	Keypress: num_6
+763.2547 	DATA 	Trial 310 begins: FarLowNarrow | 0.012589254117941666
+763.5261 	DATA 	Stim Appears
+763.7349 	DATA 	Stim Disappears
+764.2769 	DATA 	Keypress: num_4
+765.0880 	DATA 	Trial 311 begins: FarLowWide | 0.01995262314968879
+765.3621 	DATA 	Stim Appears
+765.5789 	DATA 	Stim Disappears
+766.0289 	DATA 	Keypress: num_4
+766.9311 	DATA 	Trial 312 begins: FarLowNarrow | 0.015848931924611127
+767.2122 	DATA 	Stim Appears
+767.4288 	DATA 	Stim Disappears
+767.9329 	DATA 	Keypress: num_6
+768.7807 	DATA 	Trial 313 begins: FarLowNarrow | 0.012589254117941666
+769.0649 	DATA 	Stim Appears
+769.2818 	DATA 	Stim Disappears
+769.5729 	DATA 	Keypress: num_6
+770.6336 	DATA 	Trial 314 begins: FarHighWide | 0.009999999999999997
+770.9146 	DATA 	Stim Appears
+771.1316 	DATA 	Stim Disappears
+771.5488 	DATA 	Keypress: num_6
+772.4836 	DATA 	Trial 315 begins: ThreeLinesControl | 0.009999999999999995
+772.7654 	DATA 	Stim Appears
+772.9817 	DATA 	Stim Disappears
+773.3488 	DATA 	Keypress: num_4
+774.3337 	DATA 	Trial 316 begins: ThreeLinesControl | 0.012589254117941666
+774.6172 	DATA 	Stim Appears
+774.8344 	DATA 	Stim Disappears
+775.2209 	DATA 	Keypress: num_4
+776.1867 	DATA 	Trial 317 begins: ThreeLinesControl | 0.015848931924611127
+776.4682 	DATA 	Stim Appears
+776.6841 	DATA 	Stim Disappears
+777.1488 	DATA 	Keypress: num_6
+778.0379 	DATA 	Trial 318 begins: FarLowNarrow | 0.009999999999999995
+778.3181 	DATA 	Stim Appears
+778.5350 	DATA 	Stim Disappears
+779.0209 	DATA 	Keypress: num_6
+779.8867 	DATA 	Trial 319 begins: FarHighWide | 0.007943282347242812
+780.1678 	DATA 	Stim Appears
+780.3849 	DATA 	Stim Disappears
+780.9728 	DATA 	Keypress: num_4
+781.7373 	DATA 	Trial 320 begins: Constant | 0.015848931924611127
+782.0178 	DATA 	Stim Appears
+782.2346 	DATA 	Stim Disappears
+782.6048 	DATA 	Keypress: num_4
+783.5881 	DATA 	Trial 321 begins: FarLowNarrow | 0.00794328234724281
+783.8687 	DATA 	Stim Appears
+784.0845 	DATA 	Stim Disappears
+784.3490 	DATA 	Keypress: num_4
+785.4379 	DATA 	Trial 322 begins: ThreeLinesControl | 0.012589254117941666
+785.7183 	DATA 	Stim Appears
+785.9353 	DATA 	Stim Disappears
+786.2529 	DATA 	Keypress: num_6
+787.2879 	DATA 	Trial 323 begins: ThreeLinesControl | 0.009999999999999995
+787.5682 	DATA 	Stim Appears
+787.7852 	DATA 	Stim Disappears
+788.2769 	DATA 	Keypress: num_4
+789.1376 	DATA 	Trial 324 begins: FarHighWide | 0.009999999999999997
+789.4101 	DATA 	Stim Appears
+789.6188 	DATA 	Stim Disappears
+790.0369 	DATA 	Keypress: num_6
+790.9736 	DATA 	Trial 325 begins: FarHighWide | 0.007943282347242812
+791.2428 	DATA 	Stim Appears
+791.4517 	DATA 	Stim Disappears
+792.0610 	DATA 	Keypress: num_4
+792.8038 	DATA 	Trial 326 begins: FarLowWide | 0.025118864315095794
+793.0757 	DATA 	Stim Appears
+793.2856 	DATA 	Stim Disappears
+793.7808 	DATA 	Keypress: num_6
+794.6377 	DATA 	Trial 327 begins: FarLowNarrow | 0.009999999999999995
+794.9122 	DATA 	Stim Appears
+795.1287 	DATA 	Stim Disappears
+795.4289 	DATA 	Keypress: num_6
+796.4813 	DATA 	Trial 328 begins: FarLowNarrow | 0.00794328234724281
+796.7624 	DATA 	Stim Appears
+796.9794 	DATA 	Stim Disappears
+797.2048 	DATA 	Keypress: num_4
+798.3330 	DATA 	Trial 329 begins: FarLowNarrow | 0.009999999999999995
+798.6127 	DATA 	Stim Appears
+798.8295 	DATA 	Stim Disappears
+799.1328 	DATA 	Keypress: num_4
+800.1827 	DATA 	Trial 330 begins: FarLowWide | 0.01995262314968879
+800.4652 	DATA 	Stim Appears
+800.6820 	DATA 	Stim Disappears
+800.9248 	DATA 	Keypress: num_4
+802.0352 	DATA 	Trial 331 begins: Constant | 0.01995262314968879
+802.3152 	DATA 	Stim Appears
+802.5321 	DATA 	Stim Disappears
+803.0369 	DATA 	Keypress: num_6
+803.8847 	DATA 	Trial 332 begins: FarLowNarrow | 0.012589254117941666
+804.1682 	DATA 	Stim Appears
+804.3851 	DATA 	Stim Disappears
+805.0208 	DATA 	Keypress: num_4
+805.7376 	DATA 	Trial 333 begins: FarHighWide | 0.009999999999999997
+806.0181 	DATA 	Stim Appears
+806.2350 	DATA 	Stim Disappears
+806.9888 	DATA 	Keypress: num_6
+807.5893 	DATA 	Trial 334 begins: FarLowNarrow_null | 0.031622776601683784
+807.8675 	DATA 	Stim Appears
+808.0844 	DATA 	Stim Disappears
+808.5009 	DATA 	Keypress: num_4
+809.4361 	DATA 	Trial 335 begins: FarLowNarrow_null | 0.02511886431509579
+809.7187 	DATA 	Stim Appears
+809.9344 	DATA 	Stim Disappears
+810.3328 	DATA 	Keypress: num_4
+811.2897 	DATA 	Trial 336 begins: FarHighNarrow | 0.012589254117941666
+811.5685 	DATA 	Stim Appears
+811.7854 	DATA 	Stim Disappears
+812.7409 	DATA 	Keypress: num_4
+813.1383 	DATA 	Trial 337 begins: FarLowNarrow | 0.015848931924611127
+813.4181 	DATA 	Stim Appears
+813.6352 	DATA 	Stim Disappears
+814.3249 	DATA 	Keypress: num_4
+814.9878 	DATA 	Trial 338 begins: FarHighWide | 0.007943282347242812
+815.2680 	DATA 	Stim Appears
+815.4850 	DATA 	Stim Disappears
+816.6529 	DATA 	Keypress: num_4
+816.8369 	DATA 	Trial 339 begins: FarLowWide | 0.025118864315095794
+817.1179 	DATA 	Stim Appears
+817.3347 	DATA 	Stim Disappears
+817.9728 	DATA 	Keypress: num_6
+818.6908 	DATA 	Trial 340 begins: FarHighWide | 0.009999999999999997
+818.9677 	DATA 	Stim Appears
+819.1765 	DATA 	Stim Disappears
+819.6768 	DATA 	Keypress: num_4
+820.5286 	DATA 	Trial 341 begins: Constant | 0.015848931924611127
+820.8015 	DATA 	Stim Appears
+821.0103 	DATA 	Stim Disappears
+821.6528 	DATA 	Keypress: num_6
+822.3629 	DATA 	Trial 342 begins: FarLowNarrow | 0.01995262314968879
+822.6344 	DATA 	Stim Appears
+822.8432 	DATA 	Stim Disappears
+823.5089 	DATA 	Keypress: num_6
+824.1949 	DATA 	Trial 343 begins: FarHighWide | 0.012589254117941668
+824.4791 	DATA 	Stim Appears
+824.6961 	DATA 	Stim Disappears
+825.7809 	DATA 	Keypress: num_6
+826.0479 	DATA 	Trial 344 begins: FarHighWide | 0.009999999999999997
+826.3293 	DATA 	Stim Appears
+826.5462 	DATA 	Stim Disappears
+827.1409 	DATA 	Keypress: num_6
+827.8981 	DATA 	Trial 345 begins: FarHighNarrow | 0.015848931924611127
+828.1789 	DATA 	Stim Appears
+828.3959 	DATA 	Stim Disappears
+828.9729 	DATA 	Keypress: num_4
+829.7535 	DATA 	Trial 346 begins: FarLowWide | 0.01995262314968879
+830.0321 	DATA 	Stim Appears
+830.2488 	DATA 	Stim Disappears
+830.6930 	DATA 	Keypress: num_4
+831.6018 	DATA 	Trial 347 begins: FarHighNarrow_null | 0.05011872336272722
+831.8826 	DATA 	Stim Appears
+832.0992 	DATA 	Stim Disappears
+832.5008 	DATA 	Keypress: num_6
+833.4519 	DATA 	Trial 348 begins: Constant | 0.012589254117941666
+833.7316 	DATA 	Stim Appears
+833.9520 	DATA 	Stim Disappears
+834.5649 	DATA 	Keypress: num_4
+835.3045 	DATA 	Trial 349 begins: FarLowNarrow | 0.015848931924611127
+835.5854 	DATA 	Stim Appears
+835.8012 	DATA 	Stim Disappears
+836.4609 	DATA 	Keypress: num_4
+837.1532 	DATA 	Trial 350 begins: FarLowNarrow | 0.01995262314968879
+837.4352 	DATA 	Stim Appears
+837.6512 	DATA 	Stim Disappears
+838.2289 	DATA 	Keypress: num_4
+839.0048 	DATA 	Trial 351 begins: Constant | 0.015848931924611127
+839.2854 	DATA 	Stim Appears
+839.5020 	DATA 	Stim Disappears
+840.0928 	DATA 	Keypress: num_6
+840.8536 	DATA 	Trial 352 begins: FarHighNarrow | 0.01995262314968879
+841.1353 	DATA 	Stim Appears
+841.3518 	DATA 	Stim Disappears
+842.2448 	DATA 	Keypress: num_6
+842.7043 	DATA 	Trial 353 begins: ThreeLinesControl | 0.012589254117941666
+842.9847 	DATA 	Stim Appears
+843.2017 	DATA 	Stim Disappears
+843.6849 	DATA 	Keypress: num_4
+844.5535 	DATA 	Trial 354 begins: FarHighWide | 0.007943282347242812
+844.8347 	DATA 	Stim Appears
+845.0515 	DATA 	Stim Disappears
+846.2689 	DATA 	Keypress: num_4
+846.4035 	DATA 	Trial 355 begins: FarHighNarrow | 0.015848931924611127
+846.6844 	DATA 	Stim Appears
+846.9015 	DATA 	Stim Disappears
+847.7728 	DATA 	Keypress: num_4
+848.2543 	DATA 	Trial 356 begins: FarHighNarrow | 0.01995262314968879
+848.5352 	DATA 	Stim Appears
+848.7512 	DATA 	Stim Disappears
+849.2049 	DATA 	Keypress: num_4
+850.1036 	DATA 	Trial 357 begins: FarHighWide_null | 0.03981071705534971
+850.3770 	DATA 	Stim Appears
+850.5845 	DATA 	Stim Disappears
+851.2129 	DATA 	Keypress: num_4
+851.9384 	DATA 	Trial 358 begins: Constant | 0.012589254117941666
+852.2101 	DATA 	Stim Appears
+852.4188 	DATA 	Stim Disappears
+853.3089 	DATA 	Keypress: num_4
+853.7709 	DATA 	Trial 359 begins: FarLowNarrow | 0.025118864315095794
+854.0458 	DATA 	Stim Appears
+854.2628 	DATA 	Stim Disappears
+854.8209 	DATA 	Keypress: num_6
+867.1490 	DATA 	Keypress: num_6
+870.1515 	DATA 	Trial 360 begins: Constant | 0.015848931924611127
+870.4346 	DATA 	Stim Appears
+870.6514 	DATA 	Stim Disappears
+871.3009 	DATA 	Keypress: num_4
+872.0057 	DATA 	Trial 361 begins: FarHighWide | 0.009999999999999997
+872.2844 	DATA 	Stim Appears
+872.5015 	DATA 	Stim Disappears
+872.8369 	DATA 	Keypress: num_4
+873.8656 	DATA 	Trial 362 begins: ThreeLinesControl | 0.015848931924611127
+874.1513 	DATA 	Stim Appears
+874.3678 	DATA 	Stim Disappears
+874.9728 	DATA 	Keypress: num_4
+875.7206 	DATA 	Trial 363 begins: ThreeLinesControl | 0.01995262314968879
+876.0010 	DATA 	Stim Appears
+876.2180 	DATA 	Stim Disappears
+876.8368 	DATA 	Keypress: num_6
+877.5708 	DATA 	Trial 364 begins: FarHighNarrow_null | 0.06309573444801932
+877.8522 	DATA 	Stim Appears
+878.0679 	DATA 	Stim Disappears
+878.5728 	DATA 	Keypress: num_4
+879.4197 	DATA 	Trial 365 begins: FarHighWide | 0.012589254117941668
+879.6938 	DATA 	Stim Appears
+879.9013 	DATA 	Stim Disappears
+880.5328 	DATA 	Keypress: num_4
+881.2526 	DATA 	Trial 366 begins: FarHighWide | 0.01584893192461113
+881.5273 	DATA 	Stim Appears
+881.7347 	DATA 	Stim Disappears
+882.1249 	DATA 	Keypress: num_6
+883.0872 	DATA 	Trial 367 begins: Constant | 0.01995262314968879
+883.3601 	DATA 	Stim Appears
+883.5687 	DATA 	Stim Disappears
+883.8929 	DATA 	Keypress: num_6
+884.9211 	DATA 	Trial 368 begins: FarHighWide | 0.012589254117941668
+885.1962 	DATA 	Stim Appears
+885.4133 	DATA 	Stim Disappears
+885.9088 	DATA 	Keypress: num_6
+886.7650 	DATA 	Trial 369 begins: FarLowWide | 0.025118864315095794
+887.0461 	DATA 	Stim Appears
+887.2631 	DATA 	Stim Disappears
+887.7088 	DATA 	Keypress: num_6
+888.6157 	DATA 	Trial 370 begins: Constant_null | 0.07943282347242814
+888.8961 	DATA 	Stim Appears
+889.1162 	DATA 	Stim Disappears
+889.6048 	DATA 	Keypress: num_4
+890.4686 	DATA 	Trial 371 begins: Constant | 0.015848931924611127
+890.7490 	DATA 	Stim Appears
+890.9658 	DATA 	Stim Disappears
+891.5009 	DATA 	Keypress: num_6
+892.3179 	DATA 	Trial 372 begins: FarHighWide | 0.009999999999999997
+892.5987 	DATA 	Stim Appears
+892.8159 	DATA 	Stim Disappears
+893.4048 	DATA 	Keypress: num_4
+894.1685 	DATA 	Trial 373 begins: ThreeLinesControl | 0.015848931924611127
+894.4519 	DATA 	Stim Appears
+894.6687 	DATA 	Stim Disappears
+895.4608 	DATA 	Keypress: num_6
+896.0209 	DATA 	Trial 374 begins: FarHighNarrow | 0.025118864315095794
+896.3014 	DATA 	Stim Appears
+896.5187 	DATA 	Stim Disappears
+897.1968 	DATA 	Keypress: num_6
+897.8714 	DATA 	Trial 375 begins: ThreeLinesControl | 0.012589254117941666
+898.1512 	DATA 	Stim Appears
+898.3682 	DATA 	Stim Disappears
+898.9968 	DATA 	Keypress: num_4
+899.7204 	DATA 	Trial 376 begins: FarLowNarrow | 0.01995262314968879
+900.0015 	DATA 	Stim Appears
+900.2184 	DATA 	Stim Disappears
+900.7649 	DATA 	Keypress: num_6
+901.5726 	DATA 	Trial 377 begins: Constant | 0.012589254117941666
+901.8522 	DATA 	Stim Appears
+902.0680 	DATA 	Stim Disappears
+902.6209 	DATA 	Keypress: num_4
+903.4205 	DATA 	Trial 378 begins: Constant | 0.015848931924611127
+903.7022 	DATA 	Stim Appears
+903.9176 	DATA 	Stim Disappears
+904.4369 	DATA 	Keypress: num_6
+905.2696 	DATA 	Trial 379 begins: FarHighNarrow | 0.01995262314968879
+905.5517 	DATA 	Stim Appears
+905.7678 	DATA 	Stim Disappears
+906.1969 	DATA 	Keypress: num_6
+907.1197 	DATA 	Trial 380 begins: FarHighWide | 0.012589254117941668
+907.4016 	DATA 	Stim Appears
+907.6184 	DATA 	Stim Disappears
+908.1089 	DATA 	Keypress: num_4
+908.9704 	DATA 	Trial 381 begins: FarHighWide | 0.01584893192461113
+909.2435 	DATA 	Stim Appears
+909.4511 	DATA 	Stim Disappears
+909.8609 	DATA 	Keypress: num_6
+910.8033 	DATA 	Trial 382 begins: FarLowNarrow | 0.015848931924611127
+911.0775 	DATA 	Stim Appears
+911.2850 	DATA 	Stim Disappears
+911.6129 	DATA 	Keypress: num_4
+912.6373 	DATA 	Trial 383 begins: FarHighNarrow | 0.015848931924611127
+912.9101 	DATA 	Stim Appears
+913.1188 	DATA 	Stim Disappears
+913.4690 	DATA 	Keypress: num_4
+914.4711 	DATA 	Trial 384 begins: ThreeLinesControl | 0.015848931924611127
+914.7472 	DATA 	Stim Appears
+914.9630 	DATA 	Stim Disappears
+915.3248 	DATA 	Keypress: num_4
+916.3154 	DATA 	Trial 385 begins: FarLowWide | 0.01995262314968879
+916.5971 	DATA 	Stim Appears
+916.8138 	DATA 	Stim Disappears
+917.1569 	DATA 	Keypress: num_6
+918.1661 	DATA 	Trial 386 begins: FarLowWide | 0.015848931924611127
+918.4470 	DATA 	Stim Appears
+918.6637 	DATA 	Stim Disappears
+918.9329 	DATA 	Keypress: num_6
+920.0164 	DATA 	Trial 387 begins: ThreeLinesControl | 0.01995262314968879
+920.2994 	DATA 	Stim Appears
+920.5164 	DATA 	Stim Disappears
+921.0049 	DATA 	Keypress: num_4
+921.8685 	DATA 	Trial 388 begins: ThreeLinesControl | 0.025118864315095794
+922.1497 	DATA 	Stim Appears
+922.3665 	DATA 	Stim Disappears
+922.8370 	DATA 	Keypress: num_6
+923.7188 	DATA 	Trial 389 begins: FarHighWide | 0.012589254117941668
+924.0011 	DATA 	Stim Appears
+924.2181 	DATA 	Stim Disappears
+924.6929 	DATA 	Keypress: num_4
+925.5701 	DATA 	Trial 390 begins: ThreeLinesControl | 0.01995262314968879
+925.8511 	DATA 	Stim Appears
+926.0681 	DATA 	Stim Disappears
+926.9808 	DATA 	Keypress: num_6
+927.4205 	DATA 	Trial 391 begins: FarHighNarrow | 0.01995262314968879
+927.7019 	DATA 	Stim Appears
+927.9180 	DATA 	Stim Disappears
+928.5889 	DATA 	Keypress: num_6
+929.2705 	DATA 	Trial 392 begins: FarLowWide | 0.012589254117941666
+929.5521 	DATA 	Stim Appears
+929.7688 	DATA 	Stim Disappears
+930.1568 	DATA 	Keypress: num_4
+931.1206 	DATA 	Trial 393 begins: FarLowWide_null | 0.05011872336272722
+931.4018 	DATA 	Stim Appears
+931.6187 	DATA 	Stim Disappears
+931.9969 	DATA 	Keypress: num_4
+932.9709 	DATA 	Trial 394 begins: FarLowWide | 0.015848931924611127
+933.2513 	DATA 	Stim Appears
+933.4684 	DATA 	Stim Disappears
+933.7889 	DATA 	Keypress: num_4
+934.8213 	DATA 	Trial 395 begins: FarLowWide | 0.01995262314968879
+935.1014 	DATA 	Stim Appears
+935.3185 	DATA 	Stim Disappears
+935.8769 	DATA 	Keypress: num_6
+936.6710 	DATA 	Trial 396 begins: FarLowNarrow | 0.01995262314968879
+936.9511 	DATA 	Stim Appears
+937.1678 	DATA 	Stim Disappears
+937.7729 	DATA 	Keypress: num_6
+938.5196 	DATA 	Trial 397 begins: FarHighNarrow | 0.015848931924611127
+938.8011 	DATA 	Stim Appears
+939.0112 	DATA 	Stim Disappears
+939.3569 	DATA 	Keypress: num_6
+940.3641 	DATA 	Trial 398 begins: FarLowWide | 0.015848931924611127
+940.6350 	DATA 	Stim Appears
+940.8438 	DATA 	Stim Disappears
+941.3648 	DATA 	Keypress: num_4
+942.2001 	DATA 	Trial 399 begins: FarLowWide | 0.01995262314968879
+942.4776 	DATA 	Stim Appears
+942.6939 	DATA 	Stim Disappears
+943.1168 	DATA 	Keypress: num_6
+944.0461 	DATA 	Trial 400 begins: ThreeLinesControl | 0.015848931924611127
+944.3308 	DATA 	Stim Appears
+944.5466 	DATA 	Stim Disappears
+945.0448 	DATA 	Keypress: num_6
+945.8986 	DATA 	Trial 401 begins: FarHighNarrow | 0.012589254117941666
+946.1804 	DATA 	Stim Appears
+946.3965 	DATA 	Stim Disappears
+946.9569 	DATA 	Keypress: num_6
+947.7487 	DATA 	Trial 402 begins: FarLowWide | 0.015848931924611127
+948.0303 	DATA 	Stim Appears
+948.2473 	DATA 	Stim Disappears
+948.9088 	DATA 	Keypress: num_6
+949.6006 	DATA 	Trial 403 begins: FarLowWide | 0.012589254117941666
+949.8832 	DATA 	Stim Appears
+950.1001 	DATA 	Stim Disappears
+950.6050 	DATA 	Keypress: num_4
+951.4527 	DATA 	Trial 404 begins: FarLowWide_null | 0.03981071705534971
+951.7333 	DATA 	Stim Appears
+951.9501 	DATA 	Stim Disappears
+952.4849 	DATA 	Keypress: num_4
+953.3020 	DATA 	Trial 405 begins: FarLowWide | 0.015848931924611127
+953.5831 	DATA 	Stim Appears
+953.8000 	DATA 	Stim Disappears
+954.8130 	DATA 	Keypress: num_6
+955.1521 	DATA 	Trial 406 begins: ThreeLinesControl | 0.012589254117941666
+955.4347 	DATA 	Stim Appears
+955.6520 	DATA 	Stim Disappears
+956.4048 	DATA 	Keypress: num_6
+957.0047 	DATA 	Trial 407 begins: FarHighNarrow | 0.009999999999999995
+957.2846 	DATA 	Stim Appears
+957.5016 	DATA 	Stim Disappears
+958.4369 	DATA 	Keypress: num_6
+958.8549 	DATA 	Trial 408 begins: Constant | 0.012589254117941666
+959.1347 	DATA 	Stim Appears
+959.3516 	DATA 	Stim Disappears
+959.8368 	DATA 	Keypress: num_4
+960.7057 	DATA 	Trial 409 begins: FarHighWide | 0.01584893192461113
+960.9851 	DATA 	Stim Appears
+961.2015 	DATA 	Stim Disappears
+961.9489 	DATA 	Keypress: num_6
+962.5541 	DATA 	Trial 410 begins: Constant | 0.015848931924611127
+962.8353 	DATA 	Stim Appears
+963.0510 	DATA 	Stim Disappears
+963.5088 	DATA 	Keypress: num_6
+964.4026 	DATA 	Trial 411 begins: FarLowWide_null | 0.031622776601683784
+964.6852 	DATA 	Stim Appears
+964.9020 	DATA 	Stim Disappears
+965.7730 	DATA 	Keypress: num_4
+966.2550 	DATA 	Trial 412 begins: FarHighNarrow | 0.00794328234724281
+966.5349 	DATA 	Stim Appears
+966.7517 	DATA 	Stim Disappears
+967.4849 	DATA 	Keypress: num_4
+968.1043 	DATA 	Trial 413 begins: FarHighNarrow | 0.009999999999999995
+968.3850 	DATA 	Stim Appears
+968.6015 	DATA 	Stim Disappears
+969.2209 	DATA 	Keypress: num_4
+969.9538 	DATA 	Trial 414 begins: FarHighNarrow | 0.012589254117941666
+970.2276 	DATA 	Stim Appears
+970.4445 	DATA 	Stim Disappears
+970.9089 	DATA 	Keypress: num_4
+971.7970 	DATA 	Trial 415 begins: FarHighWide | 0.012589254117941668
+972.0775 	DATA 	Stim Appears
+972.2851 	DATA 	Stim Disappears
+972.9488 	DATA 	Keypress: num_6
+973.6370 	DATA 	Trial 416 begins: FarLowNarrow | 0.015848931924611127
+973.9115 	DATA 	Stim Appears
+974.1303 	DATA 	Stim Disappears
+974.5248 	DATA 	Keypress: num_6
+975.4830 	DATA 	Trial 417 begins: FarLowWide_null | 0.02511886431509579
+975.7642 	DATA 	Stim Appears
+975.9800 	DATA 	Stim Disappears
+976.3249 	DATA 	Keypress: num_4
+977.3336 	DATA 	Trial 418 begins: Constant | 0.012589254117941666
+977.6143 	DATA 	Stim Appears
+977.8309 	DATA 	Stim Disappears
+978.5089 	DATA 	Keypress: num_6
+979.1843 	DATA 	Trial 419 begins: ThreeLinesControl | 0.009999999999999995
+979.4667 	DATA 	Stim Appears
+979.6838 	DATA 	Stim Disappears
+980.3088 	DATA 	Keypress: num_4
+981.0358 	DATA 	Trial 420 begins: FarHighNarrow_null | 0.05011872336272722
+981.3166 	DATA 	Stim Appears
+981.5336 	DATA 	Stim Disappears
+982.7728 	DATA 	Keypress: num_4
+982.8853 	DATA 	Trial 421 begins: FarLowNarrow | 0.012589254117941666
+983.1664 	DATA 	Stim Appears
+983.3837 	DATA 	Stim Disappears
+984.2210 	DATA 	Keypress: num_6
+984.7354 	DATA 	Trial 422 begins: ThreeLinesControl_null | 0.015848931924611127
+985.0186 	DATA 	Stim Appears
+985.2354 	DATA 	Stim Disappears
+985.6849 	DATA 	Keypress: num_4
+986.5873 	DATA 	Trial 423 begins: FarLowNarrow | 0.009999999999999995
+986.8685 	DATA 	Stim Appears
+987.0852 	DATA 	Stim Disappears
+987.4769 	DATA 	Keypress: num_4
+988.4377 	DATA 	Trial 424 begins: FarLowNarrow | 0.012589254117941666
+988.7182 	DATA 	Stim Appears
+988.9349 	DATA 	Stim Disappears
+989.2288 	DATA 	Keypress: num_4
+990.2872 	DATA 	Trial 425 begins: Constant | 0.009999999999999995
+990.5678 	DATA 	Stim Appears
+990.7848 	DATA 	Stim Disappears
+991.2689 	DATA 	Keypress: num_6
+992.1367 	DATA 	Trial 426 begins: FarLowWide | 0.012589254117941666
+992.4180 	DATA 	Stim Appears
+992.6346 	DATA 	Stim Disappears
+993.0448 	DATA 	Keypress: num_6
+993.9870 	DATA 	Trial 427 begins: ThreeLinesControl | 0.012589254117941666
+994.2589 	DATA 	Stim Appears
+994.4687 	DATA 	Stim Disappears
+994.9328 	DATA 	Keypress: num_4
+995.8208 	DATA 	Trial 428 begins: Constant | 0.00794328234724281
+996.1014 	DATA 	Stim Appears
+996.3183 	DATA 	Stim Disappears
+996.8448 	DATA 	Keypress: num_4
+997.6699 	DATA 	Trial 429 begins: FarLowNarrow | 0.015848931924611127
+997.9512 	DATA 	Stim Appears
+998.1683 	DATA 	Stim Disappears
+998.7088 	DATA 	Keypress: num_6
+999.5202 	DATA 	Trial 430 begins: Constant | 0.009999999999999995
+999.7941 	DATA 	Stim Appears
+1000.0112 	DATA 	Stim Disappears
+1000.3648 	DATA 	Keypress: num_6
+1001.3642 	DATA 	Trial 431 begins: FarHighWide | 0.009999999999999997
+1001.6452 	DATA 	Stim Appears
+1001.8611 	DATA 	Stim Disappears
+1002.4689 	DATA 	Keypress: num_4
+1003.2130 	DATA 	Trial 432 begins: FarHighWide | 0.012589254117941668
+1003.4952 	DATA 	Stim Appears
+1003.7117 	DATA 	Stim Disappears
+1004.2608 	DATA 	Keypress: num_4
+1005.0636 	DATA 	Trial 433 begins: FarLowNarrow | 0.012589254117941666
+1005.3477 	DATA 	Stim Appears
+1005.5636 	DATA 	Stim Disappears
+1006.0449 	DATA 	Keypress: num_4
+1006.9152 	DATA 	Trial 434 begins: Constant | 0.00794328234724281
+1007.1976 	DATA 	Stim Appears
+1007.4147 	DATA 	Stim Disappears
+1007.7728 	DATA 	Keypress: num_4
+1008.7670 	DATA 	Trial 435 begins: FarHighNarrow | 0.015848931924611127
+1009.0479 	DATA 	Stim Appears
+1009.2674 	DATA 	Stim Disappears
+1010.5677 	DATA 	No keypress (maxWait exceeded)
+1010.6199 	DATA 	Trial 436 begins: FarLowWide | 0.009999999999999995
+1010.9005 	DATA 	Stim Appears
+1011.1173 	DATA 	Stim Disappears
+1011.4849 	DATA 	Keypress: num_4
+1012.4727 	DATA 	Trial 437 begins: FarLowNarrow | 0.015848931924611127
+1012.7504 	DATA 	Stim Appears
+1012.9673 	DATA 	Stim Disappears
+1013.3249 	DATA 	Keypress: num_6
+1014.3196 	DATA 	Trial 438 begins: FarHighNarrow | 0.01995262314968879
+1014.6012 	DATA 	Stim Appears
+1014.8180 	DATA 	Stim Disappears
+1015.5088 	DATA 	Keypress: num_6
+1016.1703 	DATA 	Trial 439 begins: Constant | 0.009999999999999995
+1016.4517 	DATA 	Stim Appears
+1016.6678 	DATA 	Stim Disappears
+1017.4848 	DATA 	Keypress: num_6
+1018.0198 	DATA 	Trial 440 begins: FarHighWide | 0.01584893192461113
+1018.3019 	DATA 	Stim Appears
+1018.5185 	DATA 	Stim Disappears
+1019.1408 	DATA 	Keypress: num_6
+1019.8707 	DATA 	Trial 441 begins: ThreeLinesControl_null | 0.012589254117941666
+1020.1519 	DATA 	Stim Appears
+1020.3687 	DATA 	Stim Disappears
+1020.8929 	DATA 	Keypress: num_4
+1021.7210 	DATA 	Trial 442 begins: FarLowWide | 0.012589254117941666
+1022.0012 	DATA 	Stim Appears
+1022.2182 	DATA 	Stim Disappears
+1022.6609 	DATA 	Keypress: num_4
+1023.5708 	DATA 	Trial 443 begins: ThreeLinesControl | 0.015848931924611127
+1023.8513 	DATA 	Stim Appears
+1024.0683 	DATA 	Stim Disappears
+1024.7408 	DATA 	Keypress: num_6
+1025.4209 	DATA 	Trial 444 begins: FarHighWide | 0.012589254117941668
+1025.7010 	DATA 	Stim Appears
+1025.9086 	DATA 	Stim Disappears
+1026.5488 	DATA 	Keypress: num_4
+1027.2615 	DATA 	Trial 445 begins: ThreeLinesControl | 0.012589254117941666
+1027.5348 	DATA 	Stim Appears
+1027.7521 	DATA 	Stim Disappears
+1028.2128 	DATA 	Keypress: num_4
+1029.1041 	DATA 	Trial 446 begins: FarLowWide | 0.015848931924611127
+1029.3777 	DATA 	Stim Appears
+1029.5951 	DATA 	Stim Disappears
+1029.9968 	DATA 	Keypress: num_6
+1030.9491 	DATA 	Trial 447 begins: Constant | 0.00794328234724281
+1031.2115 	DATA 	Stim Appears
+1031.4285 	DATA 	Stim Disappears
+1032.6288 	DATA 	Keypress: num_6
+1032.7811 	DATA 	Trial 448 begins: FarHighNarrow | 0.015848931924611127
+1033.0514 	DATA 	Stim Appears
+1033.2612 	DATA 	Stim Disappears
+1033.8209 	DATA 	Keypress: num_6
+1034.6138 	DATA 	Trial 449 begins: FarHighNarrow | 0.012589254117941666
+1034.8975 	DATA 	Stim Appears
+1035.1145 	DATA 	Stim Disappears
+1035.6529 	DATA 	Keypress: num_6
+1036.4668 	DATA 	Trial 450 begins: Constant | 0.0063095734448019285
+1036.7481 	DATA 	Stim Appears
+1036.9640 	DATA 	Stim Disappears
+1037.5088 	DATA 	Keypress: num_4
+1038.3165 	DATA 	Trial 451 begins: FarLowNarrow | 0.012589254117941666
+1038.5983 	DATA 	Stim Appears
+1038.8142 	DATA 	Stim Disappears
+1039.5089 	DATA 	Keypress: num_6
+1040.1672 	DATA 	Trial 452 begins: FarHighWide | 0.01584893192461113
+1040.4499 	DATA 	Stim Appears
+1040.6667 	DATA 	Stim Disappears
+1041.5009 	DATA 	Keypress: num_6
+1042.0192 	DATA 	Trial 453 begins: FarHighNarrow | 0.009999999999999995
+1042.3009 	DATA 	Stim Appears
+1042.5166 	DATA 	Stim Disappears
+1043.2929 	DATA 	Keypress: num_4
+1043.8691 	DATA 	Trial 454 begins: ThreeLinesControl | 0.015848931924611127
+1044.1515 	DATA 	Stim Appears
+1044.3686 	DATA 	Stim Disappears
+1045.4289 	DATA 	Keypress: num_6
+1045.7240 	DATA 	Trial 455 begins: FarLowWide | 0.012589254117941666
+1046.0016 	DATA 	Stim Appears
+1046.2182 	DATA 	Stim Disappears
+1046.9248 	DATA 	Keypress: num_4
+1047.5706 	DATA 	Trial 456 begins: FarHighWide | 0.012589254117941668
+1047.8515 	DATA 	Stim Appears
+1048.0682 	DATA 	Stim Disappears
+1048.8049 	DATA 	Keypress: num_4
+1049.4238 	DATA 	Trial 457 begins: FarHighNarrow | 0.012589254117941666
+1049.7014 	DATA 	Stim Appears
+1049.9182 	DATA 	Stim Disappears
+1051.2184 	DATA 	No keypress (maxWait exceeded)
+1051.2721 	DATA 	Trial 458 begins: ThreeLinesControl | 0.012589254117941666
+1051.3090 	DATA 	Keypress: num_4
+1051.5519 	DATA 	Stim Appears
+1051.7680 	DATA 	Stim Disappears
+1052.4448 	DATA 	Keypress: num_4
+1053.1205 	DATA 	Trial 459 begins: FarLowNarrow | 0.009999999999999995
+1053.4022 	DATA 	Stim Appears
+1053.6177 	DATA 	Stim Disappears
+1054.2610 	DATA 	Keypress: num_4
+1054.9701 	DATA 	Trial 460 begins: FarHighNarrow | 0.015848931924611127
+1055.2428 	DATA 	Stim Appears
+1055.4515 	DATA 	Stim Disappears
+1055.9649 	DATA 	Keypress: num_6
+1056.8035 	DATA 	Trial 461 begins: Constant | 0.00794328234724281
+1057.0844 	DATA 	Stim Appears
+1057.2921 	DATA 	Stim Disappears
+1057.7809 	DATA 	Keypress: num_6
+1058.6445 	DATA 	Trial 462 begins: Constant | 0.0063095734448019285
+1058.9184 	DATA 	Stim Appears
+1059.1282 	DATA 	Stim Disappears
+1059.5169 	DATA 	Keypress: num_4
+1060.4801 	DATA 	Trial 463 begins: FarLowNarrow | 0.012589254117941666
+1060.7621 	DATA 	Stim Appears
+1060.9781 	DATA 	Stim Disappears
+1061.4049 	DATA 	Keypress: num_4
+1062.3291 	DATA 	Trial 464 begins: FarLowNarrow | 0.015848931924611127
+1062.6121 	DATA 	Stim Appears
+1062.8281 	DATA 	Stim Disappears
+1063.3968 	DATA 	Keypress: num_4
+1064.1794 	DATA 	Trial 465 begins: FarHighNarrow | 0.012589254117941666
+1064.4650 	DATA 	Stim Appears
+1064.6807 	DATA 	Stim Disappears
+1065.2928 	DATA 	Keypress: num_4
+1066.0328 	DATA 	Trial 466 begins: FarHighNarrow | 0.015848931924611127
+1066.3146 	DATA 	Stim Appears
+1066.5308 	DATA 	Stim Disappears
+1066.8929 	DATA 	Keypress: num_6
+1067.8826 	DATA 	Trial 467 begins: FarHighWide | 0.01584893192461113
+1068.1648 	DATA 	Stim Appears
+1068.3815 	DATA 	Stim Disappears
+1068.8848 	DATA 	Keypress: num_6
+1069.7335 	DATA 	Trial 468 begins: FarHighWide | 0.012589254117941668
+1070.0177 	DATA 	Stim Appears
+1070.2347 	DATA 	Stim Disappears
+1070.7809 	DATA 	Keypress: num_6
+1071.5868 	DATA 	Trial 469 begins: FarHighWide | 0.009999999999999997
+1071.8675 	DATA 	Stim Appears
+1072.0844 	DATA 	Stim Disappears
+1072.4929 	DATA 	Keypress: num_6
+1073.4386 	DATA 	Trial 470 begins: FarLowNarrow | 0.01995262314968879
+1073.7175 	DATA 	Stim Appears
+1073.9343 	DATA 	Stim Disappears
+1074.2769 	DATA 	Keypress: num_6
+1075.2868 	DATA 	Trial 471 begins: FarLowWide_null | 0.01995262314968879
+1075.5679 	DATA 	Stim Appears
+1075.7850 	DATA 	Stim Disappears
+1076.1088 	DATA 	Keypress: num_4
+1077.1366 	DATA 	Trial 472 begins: Constant | 0.00794328234724281
+1077.4179 	DATA 	Stim Appears
+1077.6347 	DATA 	Stim Disappears
+1078.2529 	DATA 	Keypress: num_4
+1078.9874 	DATA 	Trial 473 begins: FarLowNarrow | 0.015848931924611127
+1079.2687 	DATA 	Stim Appears
+1079.4847 	DATA 	Stim Disappears
+1079.9248 	DATA 	Keypress: num_6
+1080.8374 	DATA 	Trial 474 begins: ThreeLinesControl_null | 0.009999999999999995
+1081.1186 	DATA 	Stim Appears
+1081.3345 	DATA 	Stim Disappears
+1081.7728 	DATA 	Keypress: num_4
+1082.6864 	DATA 	Trial 475 begins: FarLowWide | 0.015848931924611127
+1082.9678 	DATA 	Stim Appears
+1083.1844 	DATA 	Stim Disappears
+1083.5088 	DATA 	Keypress: num_4
+1084.5364 	DATA 	Trial 476 begins: FarLowNarrow_null | 0.01995262314968879
+1084.8094 	DATA 	Stim Appears
+1085.0184 	DATA 	Stim Disappears
+1085.3648 	DATA 	Keypress: num_4
+1086.3707 	DATA 	Trial 477 begins: Constant | 0.009999999999999995
+1086.6429 	DATA 	Stim Appears
+1086.8516 	DATA 	Stim Disappears
+1087.1408 	DATA 	Keypress: num_4
+1088.2046 	DATA 	Trial 478 begins: FarHighNarrow_null | 0.03981071705534971
+1088.4762 	DATA 	Stim Appears
+1088.6849 	DATA 	Stim Disappears
+1089.0208 	DATA 	Keypress: num_4
+1090.0366 	DATA 	Trial 479 begins: ThreeLinesControl | 0.015848931924611127
+1090.3118 	DATA 	Stim Appears
+1090.5281 	DATA 	Stim Disappears
+1090.8529 	DATA 	Keypress: num_4
+1116.1651 	DATA 	Keypress: num_6
+1119.1685 	DATA 	Trial 480 begins: FarHighWide | 0.007943282347242812
+1119.4453 	DATA 	Stim Appears
+1119.6625 	DATA 	Stim Disappears
+1120.6929 	DATA 	Keypress: num_4
+1121.0172 	DATA 	Trial 481 begins: Constant | 0.012589254117941666
+1121.2953 	DATA 	Stim Appears
+1121.5123 	DATA 	Stim Disappears
+1121.8529 	DATA 	Keypress: num_4
+1122.8666 	DATA 	Trial 482 begins: ThreeLinesControl | 0.01995262314968879
+1123.1455 	DATA 	Stim Appears
+1123.3623 	DATA 	Stim Disappears
+1123.6048 	DATA 	Keypress: num_4
+1124.7157 	DATA 	Trial 483 begins: ThreeLinesControl | 0.025118864315095794
+1124.9982 	DATA 	Stim Appears
+1125.2149 	DATA 	Stim Disappears
+1125.5408 	DATA 	Keypress: num_4
+1126.5697 	DATA 	Trial 484 begins: FarLowNarrow | 0.012589254117941666
+1126.8490 	DATA 	Stim Appears
+1127.0648 	DATA 	Stim Disappears
+1127.3728 	DATA 	Keypress: num_4
+1128.4175 	DATA 	Trial 485 begins: FarHighWide | 0.009999999999999997
+1128.6988 	DATA 	Stim Appears
+1128.9146 	DATA 	Stim Disappears
+1129.4528 	DATA 	Keypress: num_4
+1130.2675 	DATA 	Trial 486 begins: FarHighNarrow | 0.012589254117941666
+1130.5511 	DATA 	Stim Appears
+1130.7679 	DATA 	Stim Disappears
+1131.0770 	DATA 	Keypress: num_4
+1132.1202 	DATA 	Trial 487 begins: FarHighNarrow | 0.015848931924611127
+1132.4016 	DATA 	Stim Appears
+1132.6173 	DATA 	Stim Disappears
+1132.8609 	DATA 	Keypress: num_4
+1133.9696 	DATA 	Trial 488 begins: FarLowWide | 0.01995262314968879
+1134.2515 	DATA 	Stim Appears
+1134.4683 	DATA 	Stim Disappears
+1134.8529 	DATA 	Keypress: num_4
+1135.8209 	DATA 	Trial 489 begins: FarLowNarrow | 0.015848931924611127
+1136.1011 	DATA 	Stim Appears
+1136.3180 	DATA 	Stim Disappears
+1136.9008 	DATA 	Keypress: num_6
+1137.6700 	DATA 	Trial 490 begins: ThreeLinesControl | 0.031622776601683784
+1137.9510 	DATA 	Stim Appears
+1138.1678 	DATA 	Stim Disappears
+1138.5568 	DATA 	Keypress: num_6
+1139.5206 	DATA 	Trial 491 begins: FarHighWide | 0.012589254117941668
+1139.8021 	DATA 	Stim Appears
+1140.0178 	DATA 	Stim Disappears
+1140.4928 	DATA 	Keypress: num_4
+1141.3700 	DATA 	Trial 492 begins: ThreeLinesControl | 0.02511886431509579
+1141.6517 	DATA 	Stim Appears
+1141.8686 	DATA 	Stim Disappears
+1142.6368 	DATA 	Keypress: num_6
+1143.2212 	DATA 	Trial 493 begins: FarLowNarrow | 0.012589254117941666
+1143.5018 	DATA 	Stim Appears
+1143.7186 	DATA 	Stim Disappears
+1144.1488 	DATA 	Keypress: num_4
+1145.0710 	DATA 	Trial 494 begins: FarLowNarrow | 0.015848931924611127
+1145.3434 	DATA 	Stim Appears
+1145.5521 	DATA 	Stim Disappears
+1146.1169 	DATA 	Keypress: num_6
+1146.9050 	DATA 	Trial 495 begins: FarHighWide | 0.01584893192461113
+1147.1757 	DATA 	Stim Appears
+1147.3853 	DATA 	Stim Disappears
+1148.2208 	DATA 	Keypress: num_4
+1148.7382 	DATA 	Trial 496 begins: FarLowWide | 0.025118864315095794
+1149.0100 	DATA 	Stim Appears
+1149.2177 	DATA 	Stim Disappears
+1149.9648 	DATA 	Keypress: num_6
+1150.5699 	DATA 	Trial 497 begins: Constant | 0.015848931924611127
+1150.8460 	DATA 	Stim Appears
+1151.0619 	DATA 	Stim Disappears
+1151.7969 	DATA 	Keypress: num_6
+1152.4142 	DATA 	Trial 498 begins: FarHighNarrow | 0.01995262314968879
+1152.6959 	DATA 	Stim Appears
+1152.9126 	DATA 	Stim Disappears
+1154.2130 	DATA 	No keypress (maxWait exceeded)
+1154.2646 	DATA 	Trial 499 begins: FarHighNarrow | 0.025118864315095794
+1154.5169 	DATA 	Keypress: num_4
+1154.5489 	DATA 	Stim Appears
+1154.7658 	DATA 	Stim Disappears
+1155.4368 	DATA 	Keypress: num_6
+1156.1186 	DATA 	Trial 500 begins: FarHighWide | 0.019952623149688792
+1156.3986 	DATA 	Stim Appears
+1156.6155 	DATA 	Stim Disappears
+1157.1488 	DATA 	Keypress: num_6
+1157.9692 	DATA 	Trial 501 begins: FarLowWide | 0.01995262314968879
+1158.2485 	DATA 	Stim Appears
+1158.4654 	DATA 	Stim Disappears
+1158.8208 	DATA 	Keypress: num_4
+1159.8177 	DATA 	Trial 502 begins: ThreeLinesControl | 0.01995262314968879
+1160.1015 	DATA 	Stim Appears
+1160.3182 	DATA 	Stim Disappears
+1161.0128 	DATA 	Keypress: num_6
+1161.6700 	DATA 	Trial 503 begins: FarLowNarrow | 0.012589254117941666
+1161.9519 	DATA 	Stim Appears
+1162.1678 	DATA 	Stim Disappears
+1162.5409 	DATA 	Keypress: num_4
+1163.5198 	DATA 	Trial 504 begins: FarHighNarrow | 0.01995262314968879
+1163.8009 	DATA 	Stim Appears
+1164.0177 	DATA 	Stim Disappears
+1164.3808 	DATA 	Keypress: num_6
+1165.3702 	DATA 	Trial 505 begins: FarLowNarrow | 0.015848931924611127
+1165.6519 	DATA 	Stim Appears
+1165.8677 	DATA 	Stim Disappears
+1166.4369 	DATA 	Keypress: num_6
+1167.2195 	DATA 	Trial 506 begins: ThreeLinesControl | 0.015848931924611127
+1167.5015 	DATA 	Stim Appears
+1167.7184 	DATA 	Stim Disappears
+1168.1169 	DATA 	Keypress: num_6
+1169.0704 	DATA 	Trial 507 begins: FarLowWide_null | 0.015848931924611127
+1169.3516 	DATA 	Stim Appears
+1169.5687 	DATA 	Stim Disappears
+1169.9088 	DATA 	Keypress: num_4
+1170.9209 	DATA 	Trial 508 begins: FarHighWide | 0.01584893192461113
+1171.2012 	DATA 	Stim Appears
+1171.4182 	DATA 	Stim Disappears
+1172.4688 	DATA 	Keypress: num_4
+1172.7702 	DATA 	Trial 509 begins: Constant | 0.012589254117941666
+1173.0515 	DATA 	Stim Appears
+1173.2680 	DATA 	Stim Disappears
+1173.7569 	DATA 	Keypress: num_6
+1174.6196 	DATA 	Trial 510 begins: FarHighWide | 0.019952623149688792
+1174.8929 	DATA 	Stim Appears
+1175.1017 	DATA 	Stim Disappears
+1175.4529 	DATA 	Keypress: num_6
+1176.4536 	DATA 	Trial 511 begins: FarLowWide | 0.025118864315095794
+1176.7271 	DATA 	Stim Appears
+1176.9346 	DATA 	Stim Disappears
+1177.4288 	DATA 	Keypress: num_4
+1178.2864 	DATA 	Trial 512 begins: FarLowWide | 0.031622776601683784
+1178.5597 	DATA 	Stim Appears
+1178.7685 	DATA 	Stim Disappears
+1179.2049 	DATA 	Keypress: num_6
+1180.1206 	DATA 	Trial 513 begins: FarHighWide | 0.01584893192461113
+1180.3954 	DATA 	Stim Appears
+1180.6126 	DATA 	Stim Disappears
+1181.9129 	DATA 	No keypress (maxWait exceeded)
+1181.9649 	DATA 	Trial 514 begins: FarHighWide | 0.019952623149688792
+1181.9709 	DATA 	Keypress: num_4
+1182.2463 	DATA 	Stim Appears
+1182.4623 	DATA 	Stim Disappears
+1183.0209 	DATA 	Keypress: num_4
+1183.8210 	DATA 	Trial 515 begins: FarHighWide | 0.025118864315095798
+1184.0965 	DATA 	Stim Appears
+1184.3152 	DATA 	Stim Disappears
+1184.8049 	DATA 	Keypress: num_6
+1185.6674 	DATA 	Trial 516 begins: Constant | 0.009999999999999995
+1185.9491 	DATA 	Stim Appears
+1186.1650 	DATA 	Stim Disappears
+1186.7973 	DATA 	Keypress: num_4
+1187.5180 	DATA 	Trial 517 begins: FarLowNarrow | 0.012589254117941666
+1187.7992 	DATA 	Stim Appears
+1188.0152 	DATA 	Stim Disappears
+1188.3648 	DATA 	Keypress: num_4
+1189.3675 	DATA 	Trial 518 begins: FarHighNarrow_null | 0.031622776601683784
+1189.6521 	DATA 	Stim Appears
+1189.8677 	DATA 	Stim Disappears
+1190.2049 	DATA 	Keypress: num_4
+1191.2196 	DATA 	Trial 519 begins: ThreeLinesControl | 0.012589254117941666
+1191.5019 	DATA 	Stim Appears
+1191.7176 	DATA 	Stim Disappears
+1192.2450 	DATA 	Keypress: num_6
+1193.0698 	DATA 	Trial 520 begins: FarHighNarrow | 0.015848931924611127
+1193.3514 	DATA 	Stim Appears
+1193.5687 	DATA 	Stim Disappears
+1193.8928 	DATA 	Keypress: num_4
+1194.9212 	DATA 	Trial 521 begins: Constant | 0.012589254117941666
+1195.2014 	DATA 	Stim Appears
+1195.4185 	DATA 	Stim Disappears
+1196.1329 	DATA 	Keypress: num_6
+1196.7752 	DATA 	Trial 522 begins: FarHighWide | 0.019952623149688792
+1197.0511 	DATA 	Stim Appears
+1197.2682 	DATA 	Stim Disappears
+1198.5685 	DATA 	No keypress (maxWait exceeded)
+1198.6211 	DATA 	Trial 523 begins: FarLowWide_null | 0.012589254117941666
+1198.9013 	DATA 	Stim Appears
+1199.1180 	DATA 	Stim Disappears
+1199.4369 	DATA 	Keypress: num_6
+1200.4701 	DATA 	Trial 524 begins: Constant_null | 0.06309573444801932
+1200.7521 	DATA 	Stim Appears
+1200.9678 	DATA 	Stim Disappears
+1201.5889 	DATA 	Keypress: num_4
+1202.3202 	DATA 	Trial 525 begins: Constant | 0.009999999999999995
+1202.6018 	DATA 	Stim Appears
+1202.8187 	DATA 	Stim Disappears
+1203.2688 	DATA 	Keypress: num_4
+1204.1716 	DATA 	Trial 526 begins: FarHighNarrow | 0.01995262314968879
+1204.4437 	DATA 	Stim Appears
+1204.6512 	DATA 	Stim Disappears
+1205.1728 	DATA 	Keypress: num_4
+1206.0011 	DATA 	Trial 527 begins: FarLowWide | 0.02511886431509579
+1206.2767 	DATA 	Stim Appears
+1206.4853 	DATA 	Stim Disappears
+1206.8689 	DATA 	Keypress: num_6
+1207.8373 	DATA 	Trial 528 begins: FarLowWide | 0.01995262314968879
+1208.1106 	DATA 	Stim Appears
+1208.3182 	DATA 	Stim Disappears
+1208.9647 	DATA 	Keypress: num_6
+1209.6705 	DATA 	Trial 529 begins: FarLowWide_null | 0.015848931924611127
+1209.9465 	DATA 	Stim Appears
+1210.1632 	DATA 	Stim Disappears
+1210.6528 	DATA 	Keypress: num_4
+1211.5164 	DATA 	Trial 530 begins: FarHighWide | 0.025118864315095798
+1211.7959 	DATA 	Stim Appears
+1212.0131 	DATA 	Stim Disappears
+1213.2610 	DATA 	Keypress: num_4
+1213.3673 	DATA 	Trial 531 begins: FarLowWide | 0.015848931924611127
+1213.6460 	DATA 	Stim Appears
+1213.8629 	DATA 	Stim Disappears
+1214.6208 	DATA 	Keypress: num_4
+1215.2166 	DATA 	Trial 532 begins: FarLowNarrow | 0.015848931924611127
+1215.4989 	DATA 	Stim Appears
+1215.7156 	DATA 	Stim Disappears
+1216.3569 	DATA 	Keypress: num_4
+1217.0676 	DATA 	Trial 533 begins: Constant | 0.012589254117941666
+1217.3487 	DATA 	Stim Appears
+1217.5656 	DATA 	Stim Disappears
+1217.9888 	DATA 	Keypress: num_4
+1218.9177 	DATA 	Trial 534 begins: FarLowNarrow | 0.01995262314968879
+1219.2015 	DATA 	Stim Appears
+1219.4185 	DATA 	Stim Disappears
+1219.8528 	DATA 	Keypress: num_4
+1220.7703 	DATA 	Trial 535 begins: FarHighWide | 0.03162277660168379
+1221.0513 	DATA 	Stim Appears
+1221.2684 	DATA 	Stim Disappears
+1221.6449 	DATA 	Keypress: num_6
+1222.6216 	DATA 	Trial 536 begins: Constant | 0.015848931924611127
+1222.9011 	DATA 	Stim Appears
+1223.1182 	DATA 	Stim Disappears
+1223.7328 	DATA 	Keypress: num_4
+1224.4726 	DATA 	Trial 537 begins: FarHighNarrow | 0.025118864315095794
+1224.7511 	DATA 	Stim Appears
+1224.9678 	DATA 	Stim Disappears
+1225.3168 	DATA 	Keypress: num_4
+1226.3202 	DATA 	Trial 538 begins: ThreeLinesControl | 0.009999999999999995
+1226.6020 	DATA 	Stim Appears
+1226.8178 	DATA 	Stim Disappears
+1227.1248 	DATA 	Keypress: num_4
+1228.1703 	DATA 	Trial 539 begins: Constant | 0.01995262314968879
+1228.4518 	DATA 	Stim Appears
+1228.6688 	DATA 	Stim Disappears
+1229.1568 	DATA 	Keypress: num_6
+1230.0219 	DATA 	Trial 540 begins: Constant | 0.015848931924611127
+1230.3014 	DATA 	Stim Appears
+1230.5187 	DATA 	Stim Disappears
+1230.8849 	DATA 	Keypress: num_6
+1231.8707 	DATA 	Trial 541 begins: Constant | 0.012589254117941666
+1232.1513 	DATA 	Stim Appears
+1232.3683 	DATA 	Stim Disappears
+1232.8687 	DATA 	Keypress: num_4
+1233.7209 	DATA 	Trial 542 begins: FarLowNarrow | 0.025118864315095794
+1234.0016 	DATA 	Stim Appears
+1234.2103 	DATA 	Stim Disappears
+1234.8369 	DATA 	Keypress: num_6
+1235.5622 	DATA 	Trial 543 begins: Constant | 0.015848931924611127
+1235.8352 	DATA 	Stim Appears
+1236.0440 	DATA 	Stim Disappears
+1236.5889 	DATA 	Keypress: num_6
+1237.3961 	DATA 	Trial 544 begins: FarLowWide_null | 0.012589254117941666
+1237.6681 	DATA 	Stim Appears
+1237.8767 	DATA 	Stim Disappears
+1238.2368 	DATA 	Keypress: num_4
+1239.2292 	DATA 	Trial 545 begins: FarHighWide | 0.025118864315095798
+1239.5126 	DATA 	Stim Appears
+1239.7298 	DATA 	Stim Disappears
+1240.1169 	DATA 	Keypress: num_4
+1241.0815 	DATA 	Trial 546 begins: FarLowNarrow | 0.01995262314968879
+1241.3627 	DATA 	Stim Appears
+1241.5795 	DATA 	Stim Disappears
+1242.1089 	DATA 	Keypress: num_4
+1242.9312 	DATA 	Trial 547 begins: FarLowWide | 0.01995262314968879
+1243.2137 	DATA 	Stim Appears
+1243.4295 	DATA 	Stim Disappears
+1244.0369 	DATA 	Keypress: num_4
+1244.7826 	DATA 	Trial 548 begins: FarLowNarrow | 0.025118864315095794
+1245.0666 	DATA 	Stim Appears
+1245.2824 	DATA 	Stim Disappears
+1245.5649 	DATA 	Keypress: num_6
+1246.6356 	DATA 	Trial 549 begins: FarLowWide | 0.025118864315095794
+1246.9161 	DATA 	Stim Appears
+1247.1321 	DATA 	Stim Disappears
+1247.3808 	DATA 	Keypress: num_6
+1248.4847 	DATA 	Trial 550 begins: FarHighWide | 0.03162277660168379
+1248.7661 	DATA 	Stim Appears
+1248.9835 	DATA 	Stim Disappears
+1249.1809 	DATA 	Keypress: num_6
+1250.3364 	DATA 	Trial 551 begins: FarLowNarrow | 0.01995262314968879
+1250.6180 	DATA 	Stim Appears
+1250.8351 	DATA 	Stim Disappears
+1251.5010 	DATA 	Keypress: num_4
+1252.1879 	DATA 	Trial 552 begins: FarHighNarrow | 0.031622776601683784
+1252.4679 	DATA 	Stim Appears
+1252.6846 	DATA 	Stim Disappears
+1253.1168 	DATA 	Keypress: num_6
+1254.0369 	DATA 	Trial 553 begins: FarLowWide | 0.01995262314968879
+1254.3186 	DATA 	Stim Appears
+1254.5347 	DATA 	Stim Disappears
+1254.8368 	DATA 	Keypress: num_6
+1255.8867 	DATA 	Trial 554 begins: FarHighWide | 0.025118864315095798
+1256.1683 	DATA 	Stim Appears
+1256.3844 	DATA 	Stim Disappears
+1256.7888 	DATA 	Keypress: num_6
+1257.7366 	DATA 	Trial 555 begins: FarLowNarrow | 0.025118864315095794
+1258.0185 	DATA 	Stim Appears
+1258.2343 	DATA 	Stim Disappears
+1258.5329 	DATA 	Keypress: num_6
+1259.5863 	DATA 	Trial 556 begins: FarHighWide | 0.019952623149688792
+1259.8684 	DATA 	Stim Appears
+1260.0851 	DATA 	Stim Disappears
+1260.4448 	DATA 	Keypress: num_6
+1261.4375 	DATA 	Trial 557 begins: ThreeLinesControl | 0.012589254117941666
+1261.7183 	DATA 	Stim Appears
+1261.9351 	DATA 	Stim Disappears
+1262.2209 	DATA 	Keypress: num_4
+1263.2868 	DATA 	Trial 558 begins: Constant | 0.012589254117941666
+1263.5677 	DATA 	Stim Appears
+1263.7847 	DATA 	Stim Disappears
+1264.3569 	DATA 	Keypress: num_6
+1265.1378 	DATA 	Trial 559 begins: FarHighNarrow_null | 0.02511886431509579
+1265.4110 	DATA 	Stim Appears
+1265.6278 	DATA 	Stim Disappears
+1266.0527 	DATA 	Keypress: num_4
+1266.9807 	DATA 	Trial 560 begins: FarHighNarrow | 0.02511886431509579
+1267.2514 	DATA 	Stim Appears
+1267.4602 	DATA 	Stim Disappears
+1267.9330 	DATA 	Keypress: num_6
+1268.8121 	DATA 	Trial 561 begins: Constant | 0.009999999999999995
+1269.0854 	DATA 	Stim Appears
+1269.2970 	DATA 	Stim Disappears
+1269.7329 	DATA 	Keypress: num_6
+1270.6492 	DATA 	Trial 562 begins: ThreeLinesControl | 0.015848931924611127
+1270.9304 	DATA 	Stim Appears
+1271.1462 	DATA 	Stim Disappears
+1272.0289 	DATA 	Keypress: num_4
+1272.4982 	DATA 	Trial 563 begins: FarHighNarrow_null | 0.01995262314968879
+1272.7801 	DATA 	Stim Appears
+1272.9973 	DATA 	Stim Disappears
+1273.5328 	DATA 	Keypress: num_4
+1274.3499 	DATA 	Trial 564 begins: ThreeLinesControl_null | 0.00794328234724281
+1274.6331 	DATA 	Stim Appears
+1274.8499 	DATA 	Stim Disappears
+1275.3889 	DATA 	Keypress: num_4
+1276.2019 	DATA 	Trial 565 begins: FarHighNarrow | 0.01995262314968879
+1276.4828 	DATA 	Stim Appears
+1276.6997 	DATA 	Stim Disappears
+1277.4769 	DATA 	Keypress: num_6
+1278.0517 	DATA 	Trial 566 begins: FarLowNarrow | 0.01995262314968879
+1278.3329 	DATA 	Stim Appears
+1278.5497 	DATA 	Stim Disappears
+1279.0370 	DATA 	Keypress: num_6
+1279.9017 	DATA 	Trial 567 begins: ThreeLinesControl | 0.01995262314968879
+1280.1855 	DATA 	Stim Appears
+1280.4014 	DATA 	Stim Disappears
+1280.7489 	DATA 	Keypress: num_6
+1281.7536 	DATA 	Trial 568 begins: ThreeLinesControl | 0.015848931924611127
+1282.0356 	DATA 	Stim Appears
+1282.2513 	DATA 	Stim Disappears
+1282.6848 	DATA 	Keypress: num_6
+1283.6053 	DATA 	Trial 569 begins: FarLowNarrow | 0.015848931924611127
+1283.9020 	DATA 	Stim Appears
+1284.1183 	DATA 	Stim Disappears
+1284.5809 	DATA 	Keypress: num_4
+1285.4709 	DATA 	Trial 570 begins: FarLowWide_null | 0.009999999999999995
+1285.7523 	DATA 	Stim Appears
+1285.9677 	DATA 	Stim Disappears
+1286.2689 	DATA 	Keypress: num_4
+1287.3197 	DATA 	Trial 571 begins: FarLowWide | 0.015848931924611127
+1287.6022 	DATA 	Stim Appears
+1287.8179 	DATA 	Stim Disappears
+1288.3008 	DATA 	Keypress: num_4
+1289.1704 	DATA 	Trial 572 begins: FarLowNarrow | 0.01995262314968879
+1289.4521 	DATA 	Stim Appears
+1289.6677 	DATA 	Stim Disappears
+1290.0607 	DATA 	Keypress: num_4
+1291.0268 	DATA 	Trial 573 begins: FarLowNarrow | 0.025118864315095794
+1291.3019 	DATA 	Stim Appears
+1291.5188 	DATA 	Stim Disappears
+1291.9249 	DATA 	Keypress: num_6
+1292.8713 	DATA 	Trial 574 begins: FarLowNarrow | 0.01995262314968879
+1293.1517 	DATA 	Stim Appears
+1293.3687 	DATA 	Stim Disappears
+1293.6448 	DATA 	Keypress: num_6
+1294.7204 	DATA 	Trial 575 begins: FarHighNarrow | 0.015848931924611127
+1294.9942 	DATA 	Stim Appears
+1295.2113 	DATA 	Stim Disappears
+1295.4933 	DATA 	Keypress: num_6
+1296.5627 	DATA 	Trial 576 begins: Constant | 0.00794328234724281
+1296.8346 	DATA 	Stim Appears
+1297.0443 	DATA 	Stim Disappears
+1297.3090 	DATA 	Keypress: num_6
+1298.3964 	DATA 	Trial 577 begins: FarHighNarrow | 0.012589254117941666
+1298.6679 	DATA 	Stim Appears
+1298.8778 	DATA 	Stim Disappears
+1299.4849 	DATA 	Keypress: num_4
+1300.2293 	DATA 	Trial 578 begins: FarLowNarrow | 0.015848931924611127
+1300.5142 	DATA 	Stim Appears
+1300.7298 	DATA 	Stim Disappears
+1301.3168 	DATA 	Keypress: num_6
+1302.0829 	DATA 	Trial 579 begins: FarHighNarrow | 0.015848931924611127
+1302.3635 	DATA 	Stim Appears
+1302.5809 	DATA 	Stim Disappears
+1302.9969 	DATA 	Keypress: num_6
+1303.9332 	DATA 	Trial 580 begins: FarLowNarrow | 0.012589254117941666
+1304.2137 	DATA 	Stim Appears
+1304.4325 	DATA 	Stim Disappears
+1304.7567 	DATA 	Keypress: num_4
+1305.7851 	DATA 	Trial 581 begins: ThreeLinesControl | 0.012589254117941666
+1306.0664 	DATA 	Stim Appears
+1306.2835 	DATA 	Stim Disappears
+1306.7569 	DATA 	Keypress: num_4
+1307.6368 	DATA 	Trial 582 begins: Constant | 0.0063095734448019285
+1307.9165 	DATA 	Stim Appears
+1308.1335 	DATA 	Stim Disappears
+1308.5809 	DATA 	Keypress: num_6
+1309.4855 	DATA 	Trial 583 begins: FarLowWide_null | 0.00794328234724281
+1309.7682 	DATA 	Stim Appears
+1309.9856 	DATA 	Stim Disappears
+1310.5169 	DATA 	Keypress: num_4
+1311.3384 	DATA 	Trial 584 begins: ThreeLinesControl | 0.015848931924611127
+1311.6181 	DATA 	Stim Appears
+1311.8351 	DATA 	Stim Disappears
+1312.1968 	DATA 	Keypress: num_4
+1313.1874 	DATA 	Trial 585 begins: FarLowWide | 0.01995262314968879
+1313.4682 	DATA 	Stim Appears
+1313.6851 	DATA 	Stim Disappears
+1314.1570 	DATA 	Keypress: num_4
+1315.0395 	DATA 	Trial 586 begins: Constant | 0.005011872336272719
+1315.3177 	DATA 	Stim Appears
+1315.5349 	DATA 	Stim Disappears
+1315.9328 	DATA 	Keypress: num_4
+1316.8870 	DATA 	Trial 587 begins: FarHighNarrow | 0.012589254117941666
+1317.1676 	DATA 	Stim Appears
+1317.3844 	DATA 	Stim Disappears
+1317.7648 	DATA 	Keypress: num_4
+1318.7373 	DATA 	Trial 588 begins: FarHighWide_null | 0.031622776601683784
+1319.0187 	DATA 	Stim Appears
+1319.2355 	DATA 	Stim Disappears
+1319.7009 	DATA 	Keypress: num_4
+1320.5882 	DATA 	Trial 589 begins: FarHighWide | 0.01584893192461113
+1320.8684 	DATA 	Stim Appears
+1321.0854 	DATA 	Stim Disappears
+1321.5889 	DATA 	Keypress: num_6
+1322.4383 	DATA 	Trial 590 begins: FarLowWide | 0.025118864315095794
+1322.7183 	DATA 	Stim Appears
+1322.9350 	DATA 	Stim Disappears
+1323.3408 	DATA 	Keypress: num_6
+1324.2875 	DATA 	Trial 591 begins: FarHighNarrow | 0.015848931924611127
+1324.5611 	DATA 	Stim Appears
+1324.7778 	DATA 	Stim Disappears
+1325.1969 	DATA 	Keypress: num_6
+1326.1299 	DATA 	Trial 592 begins: FarHighWide | 0.012589254117941668
+1326.4107 	DATA 	Stim Appears
+1326.6278 	DATA 	Stim Disappears
+1327.1809 	DATA 	Keypress: num_4
+1327.9800 	DATA 	Trial 593 begins: FarHighWide | 0.01584893192461113
+1328.2606 	DATA 	Stim Appears
+1328.4682 	DATA 	Stim Disappears
+1328.9409 	DATA 	Keypress: num_4
+1329.8219 	DATA 	Trial 594 begins: FarLowNarrow | 0.015848931924611127
+1330.0970 	DATA 	Stim Appears
+1330.3136 	DATA 	Stim Disappears
+1330.8128 	DATA 	Keypress: num_4
+1331.6658 	DATA 	Trial 595 begins: FarHighNarrow | 0.012589254117941666
+1331.9472 	DATA 	Stim Appears
+1332.1645 	DATA 	Stim Disappears
+1332.5167 	DATA 	Keypress: num_4
+1333.5176 	DATA 	Trial 596 begins: Constant | 0.0063095734448019285
+1333.7975 	DATA 	Stim Appears
+1334.0143 	DATA 	Stim Disappears
+1334.4608 	DATA 	Keypress: num_4
+1335.3688 	DATA 	Trial 597 begins: ThreeLinesControl | 0.01995262314968879
+1335.6501 	DATA 	Stim Appears
+1335.8669 	DATA 	Stim Disappears
+1336.3009 	DATA 	Keypress: num_6
+1337.2203 	DATA 	Trial 598 begins: Constant | 0.00794328234724281
+1337.5001 	DATA 	Stim Appears
+1337.7170 	DATA 	Stim Disappears
+1338.1329 	DATA 	Keypress: num_4
+1339.0705 	DATA 	Trial 599 begins: Constant | 0.009999999999999995
+1339.3518 	DATA 	Stim Appears
+1339.5688 	DATA 	Stim Disappears
+1339.9088 	DATA 	Keypress: num_4
+1354.7330 	DATA 	Keypress: num_6
+1357.7351 	DATA 	Trial 600 begins: Constant | 0.012589254117941666
+1358.0112 	DATA 	Stim Appears
+1358.2284 	DATA 	Stim Disappears
+1358.6289 	DATA 	Keypress: num_4
+1359.5839 	DATA 	Trial 601 begins: FarHighWide | 0.019952623149688792
+1359.8644 	DATA 	Stim Appears
+1360.0810 	DATA 	Stim Disappears
+1360.4768 	DATA 	Keypress: num_4
+1361.4354 	DATA 	Trial 602 begins: FarHighNarrow | 0.015848931924611127
+1361.7142 	DATA 	Stim Appears
+1361.9309 	DATA 	Stim Disappears
+1362.3650 	DATA 	Keypress: num_4
+1363.2842 	DATA 	Trial 603 begins: FarHighNarrow | 0.01995262314968879
+1363.5636 	DATA 	Stim Appears
+1363.7807 	DATA 	Stim Disappears
+1364.2368 	DATA 	Keypress: num_4
+1365.1349 	DATA 	Trial 604 begins: FarLowWide | 0.01995262314968879
+1365.4173 	DATA 	Stim Appears
+1365.6336 	DATA 	Stim Disappears
+1366.0769 	DATA 	Keypress: num_4
+1366.9862 	DATA 	Trial 605 begins: Constant | 0.015848931924611127
+1367.2663 	DATA 	Stim Appears
+1367.4833 	DATA 	Stim Disappears
+1367.9569 	DATA 	Keypress: num_6
+1368.8354 	DATA 	Trial 606 begins: FarHighNarrow | 0.025118864315095794
+1369.1163 	DATA 	Stim Appears
+1369.3344 	DATA 	Stim Disappears
+1369.6049 	DATA 	Keypress: num_6
+1370.6868 	DATA 	Trial 607 begins: Constant | 0.012589254117941666
+1370.9683 	DATA 	Stim Appears
+1371.1854 	DATA 	Stim Disappears
+1371.5009 	DATA 	Keypress: num_4
+1372.5377 	DATA 	Trial 608 begins: FarLowWide | 0.025118864315095794
+1372.8180 	DATA 	Stim Appears
+1373.0351 	DATA 	Stim Disappears
+1373.4767 	DATA 	Keypress: num_6
+1374.3877 	DATA 	Trial 609 begins: FarLowNarrow | 0.01995262314968879
+1374.6678 	DATA 	Stim Appears
+1374.8849 	DATA 	Stim Disappears
+1375.2369 	DATA 	Keypress: num_6
+1376.2369 	DATA 	Trial 610 begins: FarLowNarrow | 0.015848931924611127
+1376.5178 	DATA 	Stim Appears
+1376.7346 	DATA 	Stim Disappears
+1377.2929 	DATA 	Keypress: num_6
+1378.0869 	DATA 	Trial 611 begins: ThreeLinesControl | 0.015848931924611127
+1378.3688 	DATA 	Stim Appears
+1378.5845 	DATA 	Stim Disappears
+1379.2689 	DATA 	Keypress: num_4
+1379.9361 	DATA 	Trial 612 begins: FarLowNarrow | 0.012589254117941666
+1380.2085 	DATA 	Stim Appears
+1380.4184 	DATA 	Stim Disappears
+1381.0288 	DATA 	Keypress: num_4
+1381.7707 	DATA 	Trial 613 begins: Constant | 0.015848931924611127
+1382.0512 	DATA 	Stim Appears
+1382.2588 	DATA 	Stim Disappears
+1383.1409 	DATA 	Keypress: num_6
+1383.6111 	DATA 	Trial 614 begins: ThreeLinesControl_null | 0.0063095734448019285
+1383.8851 	DATA 	Stim Appears
+1384.1011 	DATA 	Stim Disappears
+1385.0769 	DATA 	Keypress: num_4
+1385.4541 	DATA 	Trial 615 begins: FarHighNarrow | 0.01995262314968879
+1385.7280 	DATA 	Stim Appears
+1385.9452 	DATA 	Stim Disappears
+1386.4608 	DATA 	Keypress: num_4
+1387.2974 	DATA 	Trial 616 begins: FarLowWide | 0.01995262314968879
+1387.5781 	DATA 	Stim Appears
+1387.7950 	DATA 	Stim Disappears
+1388.2929 	DATA 	Keypress: num_4
+1389.1472 	DATA 	Trial 617 begins: ThreeLinesControl | 0.01995262314968879
+1389.4307 	DATA 	Stim Appears
+1389.6477 	DATA 	Stim Disappears
+1390.0448 	DATA 	Keypress: num_4
+1391.0006 	DATA 	Trial 618 begins: FarLowNarrow | 0.015848931924611127
+1391.2805 	DATA 	Stim Appears
+1391.4972 	DATA 	Stim Disappears
+1392.3090 	DATA 	Keypress: num_6
+1392.8492 	DATA 	Trial 619 begins: ThreeLinesControl | 0.025118864315095794
+1393.1304 	DATA 	Stim Appears
+1393.3480 	DATA 	Stim Disappears
+1394.0528 	DATA 	Keypress: num_6
+1394.7000 	DATA 	Trial 620 begins: FarHighWide_null | 0.02511886431509579
+1394.9842 	DATA 	Stim Appears
+1395.2001 	DATA 	Stim Disappears
+1395.6208 	DATA 	Keypress: num_4
+1396.5526 	DATA 	Trial 621 begins: ThreeLinesControl | 0.01995262314968879
+1396.8343 	DATA 	Stim Appears
+1397.0501 	DATA 	Stim Disappears
+1397.5650 	DATA 	Keypress: num_6
+1398.4016 	DATA 	Trial 622 begins: Constant | 0.012589254117941666
+1398.6838 	DATA 	Stim Appears
+1398.9011 	DATA 	Stim Disappears
+1399.4608 	DATA 	Keypress: num_6
+1400.2533 	DATA 	Trial 623 begins: FarLowWide | 0.025118864315095794
+1400.5349 	DATA 	Stim Appears
+1400.7519 	DATA 	Stim Disappears
+1401.7168 	DATA 	Keypress: num_4
+1402.1083 	DATA 	Trial 624 begins: FarLowWide | 0.031622776601683784
+1402.3846 	DATA 	Stim Appears
+1402.6016 	DATA 	Stim Disappears
+1403.0929 	DATA 	Keypress: num_6
+1403.9545 	DATA 	Trial 625 begins: FarHighWide_null | 0.01995262314968879
+1404.2346 	DATA 	Stim Appears
+1404.4514 	DATA 	Stim Disappears
+1404.9089 	DATA 	Keypress: num_4
+1405.8035 	DATA 	Trial 626 begins: ThreeLinesControl | 0.015848931924611127
+1406.0854 	DATA 	Stim Appears
+1406.3013 	DATA 	Stim Disappears
+1406.8449 	DATA 	Keypress: num_4
+1407.6563 	DATA 	Trial 627 begins: FarLowNarrow_null | 0.015848931924611127
+1407.9352 	DATA 	Stim Appears
+1408.1510 	DATA 	Stim Disappears
+1408.7089 	DATA 	Keypress: num_4
+1409.5038 	DATA 	Trial 628 begins: FarHighNarrow | 0.025118864315095794
+1409.7750 	DATA 	Stim Appears
+1409.9847 	DATA 	Stim Disappears
+1410.5008 	DATA 	Keypress: num_6
+1411.3369 	DATA 	Trial 629 begins: FarHighWide | 0.025118864315095798
+1411.6089 	DATA 	Stim Appears
+1411.8187 	DATA 	Stim Disappears
+1412.3008 	DATA 	Keypress: num_6
+1413.1707 	DATA 	Trial 630 begins: FarLowWide | 0.02511886431509579
+1413.4419 	DATA 	Stim Appears
+1413.6517 	DATA 	Stim Disappears
+1414.2049 	DATA 	Keypress: num_4
+1415.0094 	DATA 	Trial 631 begins: ThreeLinesControl | 0.01995262314968879
+1415.2945 	DATA 	Stim Appears
+1415.5116 	DATA 	Stim Disappears
+1416.0849 	DATA 	Keypress: num_6
+1416.8638 	DATA 	Trial 632 begins: FarLowWide | 0.031622776601683784
+1417.1445 	DATA 	Stim Appears
+1417.3613 	DATA 	Stim Disappears
+1417.7648 	DATA 	Keypress: num_6
+1418.7135 	DATA 	Trial 633 begins: FarLowNarrow | 0.012589254117941666
+1418.9955 	DATA 	Stim Appears
+1419.2113 	DATA 	Stim Disappears
+1419.6769 	DATA 	Keypress: num_6
+1420.5632 	DATA 	Trial 634 begins: FarHighWide | 0.019952623149688792
+1420.8484 	DATA 	Stim Appears
+1421.0643 	DATA 	Stim Disappears
+1421.5169 	DATA 	Keypress: num_6
+1422.4176 	DATA 	Trial 635 begins: FarHighWide | 0.01584893192461113
+1422.6981 	DATA 	Stim Appears
+1422.9141 	DATA 	Stim Disappears
+1423.3089 	DATA 	Keypress: num_6
+1424.2669 	DATA 	Trial 636 begins: Constant | 0.009999999999999995
+1424.5511 	DATA 	Stim Appears
+1424.7668 	DATA 	Stim Disappears
+1425.2529 	DATA 	Keypress: num_6
+1426.1189 	DATA 	Trial 637 begins: FarLowWide_null | 0.0063095734448019285
+1426.4010 	DATA 	Stim Appears
+1426.6178 	DATA 	Stim Disappears
+1427.0128 	DATA 	Keypress: num_4
+1427.9702 	DATA 	Trial 638 begins: FarHighWide | 0.012589254117941668
+1428.2505 	DATA 	Stim Appears
+1428.4676 	DATA 	Stim Disappears
+1429.0609 	DATA 	Keypress: num_4
+1429.8213 	DATA 	Trial 639 begins: FarHighNarrow | 0.01995262314968879
+1430.1014 	DATA 	Stim Appears
+1430.3185 	DATA 	Stim Disappears
+1430.7409 	DATA 	Keypress: num_4
+1431.6711 	DATA 	Trial 640 begins: FarLowNarrow | 0.009999999999999995
+1431.9516 	DATA 	Stim Appears
+1432.1683 	DATA 	Stim Disappears
+1432.5009 	DATA 	Keypress: num_4
+1433.5216 	DATA 	Trial 641 begins: FarLowWide | 0.02511886431509579
+1433.8010 	DATA 	Stim Appears
+1434.0184 	DATA 	Stim Disappears
+1434.3728 	DATA 	Keypress: num_6
+1435.3715 	DATA 	Trial 642 begins: FarHighWide | 0.01584893192461113
+1435.6521 	DATA 	Stim Appears
+1435.8679 	DATA 	Stim Disappears
+1436.7889 	DATA 	Keypress: num_6
+1437.2221 	DATA 	Trial 643 begins: ThreeLinesControl | 0.015848931924611127
+1437.5015 	DATA 	Stim Appears
+1437.7178 	DATA 	Stim Disappears
+1438.5729 	DATA 	Keypress: num_6
+1439.0699 	DATA 	Trial 644 begins: FarHighWide_null | 0.015848931924611127
+1439.3516 	DATA 	Stim Appears
+1439.5591 	DATA 	Stim Disappears
+1440.4449 	DATA 	Keypress: num_4
+1440.9126 	DATA 	Trial 645 begins: FarHighWide | 0.012589254117941668
+1441.1850 	DATA 	Stim Appears
+1441.3925 	DATA 	Stim Disappears
+1442.0369 	DATA 	Keypress: num_4
+1442.7445 	DATA 	Trial 646 begins: Constant | 0.00794328234724281
+1443.0183 	DATA 	Stim Appears
+1443.2259 	DATA 	Stim Disappears
+1443.6688 	DATA 	Keypress: num_4
+1444.5793 	DATA 	Trial 647 begins: FarLowNarrow | 0.012589254117941666
+1444.8622 	DATA 	Stim Appears
+1445.0792 	DATA 	Stim Disappears
+1445.4208 	DATA 	Keypress: num_4
+1446.4316 	DATA 	Trial 648 begins: FarLowNarrow | 0.015848931924611127
+1446.7123 	DATA 	Stim Appears
+1446.9282 	DATA 	Stim Disappears
+1447.5728 	DATA 	Keypress: num_6
+1448.2806 	DATA 	Trial 649 begins: FarHighNarrow | 0.025118864315095794
+1448.5620 	DATA 	Stim Appears
+1448.7791 	DATA 	Stim Disappears
+1449.1809 	DATA 	Keypress: num_6
+1450.1311 	DATA 	Trial 650 begins: FarLowWide | 0.01995262314968879
+1450.4149 	DATA 	Stim Appears
+1450.6318 	DATA 	Stim Disappears
+1450.9329 	DATA 	Keypress: num_4
+1451.9842 	DATA 	Trial 651 begins: FarHighWide | 0.01584893192461113
+1452.2647 	DATA 	Stim Appears
+1452.4817 	DATA 	Stim Disappears
+1452.9249 	DATA 	Keypress: num_4
+1453.8334 	DATA 	Trial 652 begins: FarLowNarrow | 0.012589254117941666
+1454.1148 	DATA 	Stim Appears
+1454.3316 	DATA 	Stim Disappears
+1454.6609 	DATA 	Keypress: num_4
+1455.6837 	DATA 	Trial 653 begins: Constant | 0.009999999999999995
+1455.9677 	DATA 	Stim Appears
+1456.1843 	DATA 	Stim Disappears
+1456.4209 	DATA 	Keypress: num_4
+1457.5374 	DATA 	Trial 654 begins: FarLowNarrow | 0.015848931924611127
+1457.8171 	DATA 	Stim Appears
+1458.0342 	DATA 	Stim Disappears
+1458.2768 	DATA 	Keypress: num_4
+1459.3862 	DATA 	Trial 655 begins: FarHighNarrow | 0.01995262314968879
+1459.6682 	DATA 	Stim Appears
+1459.8852 	DATA 	Stim Disappears
+1460.1009 	DATA 	Keypress: num_4
+1461.2375 	DATA 	Trial 656 begins: Constant | 0.012589254117941666
+1461.5182 	DATA 	Stim Appears
+1461.7349 	DATA 	Stim Disappears
+1462.0368 	DATA 	Keypress: num_4
+1463.0874 	DATA 	Trial 657 begins: Constant | 0.015848931924611127
+1463.3689 	DATA 	Stim Appears
+1463.5846 	DATA 	Stim Disappears
+1463.8608 	DATA 	Keypress: num_4
+1464.9364 	DATA 	Trial 658 begins: Constant | 0.01995262314968879
+1465.2187 	DATA 	Stim Appears
+1465.4346 	DATA 	Stim Disappears
+1465.6529 	DATA 	Keypress: num_4
+1466.7869 	DATA 	Trial 659 begins: FarLowNarrow | 0.01995262314968879
+1467.0688 	DATA 	Stim Appears
+1467.2845 	DATA 	Stim Disappears
+1467.6289 	DATA 	Keypress: num_4
+1468.6369 	DATA 	Trial 660 begins: ThreeLinesControl | 0.012589254117941666
+1468.9184 	DATA 	Stim Appears
+1469.1354 	DATA 	Stim Disappears
+1469.5010 	DATA 	Keypress: num_4
+1470.4879 	DATA 	Trial 661 begins: FarLowNarrow | 0.025118864315095794
+1470.7591 	DATA 	Stim Appears
+1470.9678 	DATA 	Stim Disappears
+1471.3169 	DATA 	Keypress: num_4
+1472.3198 	DATA 	Trial 662 begins: FarLowWide | 0.025118864315095794
+1472.5929 	DATA 	Stim Appears
+1472.8017 	DATA 	Stim Disappears
+1473.2608 	DATA 	Keypress: num_4
+1474.1539 	DATA 	Trial 663 begins: FarHighNarrow | 0.025118864315095794
+1474.4290 	DATA 	Stim Appears
+1474.6461 	DATA 	Stim Disappears
+1474.9649 	DATA 	Keypress: num_6
+1475.9993 	DATA 	Trial 664 begins: FarLowNarrow | 0.031622776601683784
+1476.2786 	DATA 	Stim Appears
+1476.4956 	DATA 	Stim Disappears
+1476.7328 	DATA 	Keypress: num_6
+1477.8476 	DATA 	Trial 665 begins: Constant | 0.025118864315095794
+1478.1286 	DATA 	Stim Appears
+1478.3456 	DATA 	Stim Disappears
+1478.5808 	DATA 	Keypress: num_6
+1479.7000 	DATA 	Trial 666 begins: FarHighNarrow | 0.01995262314968879
+1479.9815 	DATA 	Stim Appears
+1480.1982 	DATA 	Stim Disappears
+1480.4288 	DATA 	Keypress: num_6
+1481.5503 	DATA 	Trial 667 begins: FarHighNarrow | 0.015848931924611127
+1481.8312 	DATA 	Stim Appears
+1482.0490 	DATA 	Stim Disappears
+1482.3569 	DATA 	Keypress: num_6
+1483.4012 	DATA 	Trial 668 begins: ThreeLinesControl | 0.015848931924611127
+1483.6820 	DATA 	Stim Appears
+1483.8980 	DATA 	Stim Disappears
+1484.3408 	DATA 	Keypress: num_4
+1485.2498 	DATA 	Trial 669 begins: FarHighWide | 0.019952623149688792
+1485.5351 	DATA 	Stim Appears
+1485.7509 	DATA 	Stim Disappears
+1486.1889 	DATA 	Keypress: num_4
+1487.1034 	DATA 	Trial 670 begins: FarLowWide | 0.031622776601683784
+1487.3848 	DATA 	Stim Appears
+1487.6007 	DATA 	Stim Disappears
+1487.9728 	DATA 	Keypress: num_6
+1488.9543 	DATA 	Trial 671 begins: FarLowWide | 0.02511886431509579
+1489.2349 	DATA 	Stim Appears
+1489.4517 	DATA 	Stim Disappears
+1489.7329 	DATA 	Keypress: num_6
+1490.8062 	DATA 	Trial 672 begins: FarLowWide | 0.01995262314968879
+1491.0847 	DATA 	Stim Appears
+1491.3016 	DATA 	Stim Disappears
+1491.8128 	DATA 	Keypress: num_4
+1492.6534 	DATA 	Trial 673 begins: ThreeLinesControl | 0.01995262314968879
+1492.9348 	DATA 	Stim Appears
+1493.1515 	DATA 	Stim Disappears
+1493.5648 	DATA 	Keypress: num_4
+1494.5057 	DATA 	Trial 674 begins: Constant | 0.01995262314968879
+1494.7855 	DATA 	Stim Appears
+1495.0011 	DATA 	Stim Disappears
+1495.3168 	DATA 	Keypress: num_6
+1496.3547 	DATA 	Trial 675 begins: FarLowWide | 0.025118864315095794
+1496.6351 	DATA 	Stim Appears
+1496.8521 	DATA 	Stim Disappears
+1497.1888 	DATA 	Keypress: num_6
+1498.2045 	DATA 	Trial 676 begins: FarLowNarrow | 0.02511886431509579
+1498.4852 	DATA 	Stim Appears
+1498.7022 	DATA 	Stim Disappears
+1499.0049 	DATA 	Keypress: num_6
+1500.0546 	DATA 	Trial 677 begins: FarHighNarrow | 0.012589254117941666
+1500.3259 	DATA 	Stim Appears
+1500.5346 	DATA 	Stim Disappears
+1501.1409 	DATA 	Keypress: num_4
+1501.8877 	DATA 	Trial 678 begins: FarLowWide | 0.01995262314968879
+1502.1597 	DATA 	Stim Appears
+1502.3684 	DATA 	Stim Disappears
+1502.6209 	DATA 	Keypress: num_4
+1503.7209 	DATA 	Trial 679 begins: FarLowWide | 0.025118864315095794
+1503.9934 	DATA 	Stim Appears
+1504.2021 	DATA 	Stim Disappears
+1504.4848 	DATA 	Keypress: num_4
+1505.5541 	DATA 	Trial 680 begins: FarHighNarrow | 0.015848931924611127
+1505.8294 	DATA 	Stim Appears
+1506.0460 	DATA 	Stim Disappears
+1506.3009 	DATA 	Keypress: num_4
+1507.3980 	DATA 	Trial 681 begins: FarHighWide | 0.025118864315095798
+1507.6795 	DATA 	Stim Appears
+1507.8961 	DATA 	Stim Disappears
+1508.2449 	DATA 	Keypress: num_6
+1509.2490 	DATA 	Trial 682 begins: FarHighNarrow | 0.01995262314968879
+1509.5320 	DATA 	Stim Appears
+1509.7491 	DATA 	Stim Disappears
+1510.1088 	DATA 	Keypress: num_6
+1511.1005 	DATA 	Trial 683 begins: FarLowWide | 0.031622776601683784
+1511.3818 	DATA 	Stim Appears
+1511.5989 	DATA 	Stim Disappears
+1512.1809 	DATA 	Keypress: num_6
+1512.9514 	DATA 	Trial 684 begins: FarLowNarrow | 0.01995262314968879
+1513.2318 	DATA 	Stim Appears
+1513.4487 	DATA 	Stim Disappears
+1514.0848 	DATA 	Keypress: num_4
+1514.8011 	DATA 	Trial 685 begins: FarLowWide | 0.02511886431509579
+1515.0848 	DATA 	Stim Appears
+1515.3019 	DATA 	Stim Disappears
+1515.7809 	DATA 	Keypress: num_4
+1516.6540 	DATA 	Trial 686 begins: ThreeLinesControl | 0.025118864315095794
+1516.9343 	DATA 	Stim Appears
+1517.1514 	DATA 	Stim Disappears
+1517.6128 	DATA 	Keypress: num_4
+1518.5043 	DATA 	Trial 687 begins: FarLowWide | 0.031622776601683784
+1518.7853 	DATA 	Stim Appears
+1519.0014 	DATA 	Stim Disappears
+1519.6048 	DATA 	Keypress: num_4
+1520.3539 	DATA 	Trial 688 begins: FarLowNarrow | 0.025118864315095794
+1520.6351 	DATA 	Stim Appears
+1520.8512 	DATA 	Stim Disappears
+1521.5249 	DATA 	Keypress: num_4
+1522.2090 	DATA 	Trial 689 begins: ThreeLinesControl | 0.031622776601683784
+1522.4850 	DATA 	Stim Appears
+1522.7020 	DATA 	Stim Disappears
+1523.0208 	DATA 	Keypress: num_6
+1524.0550 	DATA 	Trial 690 begins: Constant | 0.015848931924611127
+1524.3351 	DATA 	Stim Appears
+1524.5518 	DATA 	Stim Disappears
+1524.8769 	DATA 	Keypress: num_6
+1525.9142 	DATA 	Trial 691 begins: FarHighWide | 0.019952623149688792
+1526.2019 	DATA 	Stim Appears
+1526.4176 	DATA 	Stim Disappears
+1526.9888 	DATA 	Keypress: num_6
+1527.7700 	DATA 	Trial 692 begins: FarLowNarrow | 0.031622776601683784
+1528.0518 	DATA 	Stim Appears
+1528.2685 	DATA 	Stim Disappears
+1528.6448 	DATA 	Keypress: num_6
+1529.6205 	DATA 	Trial 693 begins: FarLowNarrow | 0.02511886431509579
+1529.8934 	DATA 	Stim Appears
+1530.1021 	DATA 	Stim Disappears
+1530.4288 	DATA 	Keypress: num_6
+1531.4541 	DATA 	Trial 694 begins: FarHighNarrow | 0.015848931924611127
+1531.7265 	DATA 	Stim Appears
+1531.9351 	DATA 	Stim Disappears
+1532.4289 	DATA 	Keypress: num_4
+1533.2869 	DATA 	Trial 695 begins: FarHighWide | 0.01584893192461113
+1533.5602 	DATA 	Stim Appears
+1533.7765 	DATA 	Stim Disappears
+1534.5008 	DATA 	Keypress: num_4
+1535.1287 	DATA 	Trial 696 begins: Constant | 0.012589254117941666
+1535.4127 	DATA 	Stim Appears
+1535.6293 	DATA 	Stim Disappears
+1536.9300 	DATA 	No keypress (maxWait exceeded)
+1536.9844 	DATA 	Trial 697 begins: FarLowNarrow | 0.01995262314968879
+1537.2632 	DATA 	Stim Appears
+1537.4798 	DATA 	Stim Disappears
+1538.7802 	DATA 	No keypress (maxWait exceeded)
+1538.8330 	DATA 	Trial 698 begins: FarHighWide | 0.019952623149688792
+1539.1121 	DATA 	Stim Appears
+1539.3298 	DATA 	Stim Disappears
+1540.6302 	DATA 	No keypress (maxWait exceeded)
+1540.6832 	DATA 	Trial 699 begins: FarLowWide_null | 0.005011872336272719
+1540.9657 	DATA 	Stim Appears
+1541.1825 	DATA 	Stim Disappears
+1542.4828 	DATA 	No keypress (maxWait exceeded)
+1542.5352 	DATA 	Trial 700 begins: FarLowWide | 0.03981071705534971
+1542.8156 	DATA 	Stim Appears
+1543.0326 	DATA 	Stim Disappears
+1544.3329 	DATA 	No keypress (maxWait exceeded)
+1544.3852 	DATA 	Trial 701 begins: ThreeLinesControl | 0.02511886431509579
+1544.6685 	DATA 	Stim Appears
+1544.8851 	DATA 	Stim Disappears
+1546.1855 	DATA 	No keypress (maxWait exceeded)
+1546.2379 	DATA 	Trial 702 begins: FarLowWide | 0.05011872336272721
+1546.5180 	DATA 	Stim Appears
+1546.7350 	DATA 	Stim Disappears
+1548.0353 	DATA 	No keypress (maxWait exceeded)
+1548.0872 	DATA 	Trial 703 begins: FarHighWide | 0.025118864315095798
+1548.3682 	DATA 	Stim Appears
+1548.5851 	DATA 	Stim Disappears
+1549.8854 	DATA 	No keypress (maxWait exceeded)
+1549.9379 	DATA 	Trial 704 begins: ThreeLinesControl | 0.031622776601683784
+1550.2177 	DATA 	Stim Appears
+1550.4349 	DATA 	Stim Disappears
+1551.7352 	DATA 	No keypress (maxWait exceeded)
+1551.7871 	DATA 	Trial 705 begins: FarHighNarrow | 0.01995262314968879
+1552.0686 	DATA 	Stim Appears
+1552.2845 	DATA 	Stim Disappears
+1553.5849 	DATA 	No keypress (maxWait exceeded)
+1553.6375 	DATA 	Trial 706 begins: FarLowWide | 0.0630957344480193
+1553.9185 	DATA 	Stim Appears
+1554.1345 	DATA 	Stim Disappears
+1555.4349 	DATA 	No keypress (maxWait exceeded)
+1555.4870 	DATA 	Trial 707 begins: Constant | 0.015848931924611127
+1555.7682 	DATA 	Stim Appears
+1555.9852 	DATA 	Stim Disappears
+1557.2855 	DATA 	No keypress (maxWait exceeded)
+1557.3387 	DATA 	Trial 708 begins: FarHighNarrow_null | 0.015848931924611127
+1557.6179 	DATA 	Stim Appears
+1557.8352 	DATA 	Stim Disappears
+1559.1355 	DATA 	No keypress (maxWait exceeded)
+1559.1884 	DATA 	Trial 709 begins: ThreeLinesControl | 0.03981071705534971
+1559.4599 	DATA 	Stim Appears
+1559.6687 	DATA 	Stim Disappears
+1560.9690 	DATA 	No keypress (maxWait exceeded)
+1561.0220 	DATA 	Trial 710 begins: Constant | 0.01995262314968879
+1561.2941 	DATA 	Stim Appears
+1561.5016 	DATA 	Stim Disappears
+1562.8019 	DATA 	No keypress (maxWait exceeded)
+1562.8541 	DATA 	Trial 711 begins: FarHighNarrow | 0.025118864315095794
+1563.1268 	DATA 	Stim Appears
+1563.3343 	DATA 	Stim Disappears
+1564.6347 	DATA 	No keypress (maxWait exceeded)
+1564.6870 	DATA 	Trial 712 begins: Constant | 0.025118864315095794
+1564.9625 	DATA 	Stim Appears
+1565.1796 	DATA 	Stim Disappears
+1566.4799 	DATA 	No keypress (maxWait exceeded)
+1566.5336 	DATA 	Trial 713 begins: FarHighWide | 0.03162277660168379
+1566.8136 	DATA 	Stim Appears
+1567.0293 	DATA 	Stim Disappears
+1568.3297 	DATA 	No keypress (maxWait exceeded)
+1568.3819 	DATA 	Trial 714 begins: FarHighWide | 0.03981071705534973
+1568.6636 	DATA 	Stim Appears
+1568.8793 	DATA 	Stim Disappears
+1570.1796 	DATA 	No keypress (maxWait exceeded)
+1570.2331 	DATA 	Trial 715 begins: Constant | 0.031622776601683784
+1570.5151 	DATA 	Stim Appears
+1570.7320 	DATA 	Stim Disappears
+1572.0323 	DATA 	No keypress (maxWait exceeded)
+1572.0846 	DATA 	Trial 716 begins: ThreeLinesControl_null | 0.005011872336272719
+1572.3663 	DATA 	Stim Appears
+1572.5819 	DATA 	Stim Disappears
+1573.8822 	DATA 	No keypress (maxWait exceeded)
+1573.9356 	DATA 	Trial 717 begins: FarLowNarrow | 0.025118864315095794
+1574.2158 	DATA 	Stim Appears
+1574.4347 	DATA 	Stim Disappears
+1575.7351 	DATA 	No keypress (maxWait exceeded)
+1575.7879 	DATA 	Trial 718 begins: FarLowWide | 0.07943282347242812
+1576.0689 	DATA 	Stim Appears
+1576.2847 	DATA 	Stim Disappears
+1577.5851 	DATA 	No keypress (maxWait exceeded)
+1577.6373 	DATA 	Trial 719 begins: FarHighWide | 0.050118723362727234
+1577.9184 	DATA 	Stim Appears
+1578.1344 	DATA 	Stim Disappears
+1579.4347 	DATA 	No keypress (maxWait exceeded)
+1685.9802 	DATA 	Keypress: escape
+1688.9970 	DATA 	Trial 720 begins: ThreeLinesControl | 0.05011872336272721
+1689.2811 	DATA 	Stim Appears
+1689.4994 	DATA 	Stim Disappears
+1690.5891 	DATA 	Keypress: num_4
+1690.8535 	DATA 	Trial 721 begins: ThreeLinesControl | 0.0630957344480193
+1691.1334 	DATA 	Stim Appears
+1691.3502 	DATA 	Stim Disappears
+1692.2849 	DATA 	Keypress: num_4
+1692.7048 	DATA 	Trial 722 begins: FarHighNarrow | 0.031622776601683784
+1692.9834 	DATA 	Stim Appears
+1693.2004 	DATA 	Stim Disappears
+1693.6529 	DATA 	Keypress: num_4
+1694.5551 	DATA 	Trial 723 begins: FarLowWide | 0.09999999999999998
+1694.8349 	DATA 	Stim Appears
+1695.0521 	DATA 	Stim Disappears
+1695.3409 	DATA 	Keypress: num_4
+1696.4058 	DATA 	Trial 724 begins: FarLowWide_null | 0.0063095734448019285
+1696.6851 	DATA 	Stim Appears
+1696.9019 	DATA 	Stim Disappears
+1697.2609 	DATA 	Keypress: num_4
+1698.2565 	DATA 	Trial 725 begins: FarHighWide | 0.06309573444801933
+1698.5350 	DATA 	Stim Appears
+1698.7519 	DATA 	Stim Disappears
+1699.2609 	DATA 	Keypress: num_6
+1700.1055 	DATA 	Trial 726 begins: FarLowWide | 0.1
+1700.3849 	DATA 	Stim Appears
+1700.6016 	DATA 	Stim Disappears
+1700.9728 	DATA 	Keypress: num_6
+1701.9563 	DATA 	Trial 727 begins: FarLowWide | 0.07943282347242815
+1702.2344 	DATA 	Stim Appears
+1702.4514 	DATA 	Stim Disappears
+1702.8049 	DATA 	Keypress: num_6
+1703.8054 	DATA 	Trial 728 begins: FarLowWide | 0.06309573444801932
+1704.0853 	DATA 	Stim Appears
+1704.3012 	DATA 	Stim Disappears
+1704.6448 	DATA 	Keypress: num_6
+1705.6556 	DATA 	Trial 729 begins: ThreeLinesControl | 0.07943282347242812
+1705.9180 	DATA 	Stim Appears
+1706.1353 	DATA 	Stim Disappears
+1706.5168 	DATA 	Keypress: num_6
+1707.4884 	DATA 	Trial 730 begins: FarLowWide | 0.05011872336272722
+1707.7683 	DATA 	Stim Appears
+1707.9850 	DATA 	Stim Disappears
+1708.4530 	DATA 	Keypress: num_6
+1709.3386 	DATA 	Trial 731 begins: ThreeLinesControl | 0.0630957344480193
+1709.6119 	DATA 	Stim Appears
+1709.8276 	DATA 	Stim Disappears
+1710.1169 	DATA 	Keypress: num_6
+1711.1801 	DATA 	Trial 732 begins: FarHighWide | 0.05011872336272723
+1711.4608 	DATA 	Stim Appears
+1711.6683 	DATA 	Stim Disappears
+1711.9328 	DATA 	Keypress: num_6
+1713.0213 	DATA 	Trial 733 begins: Constant | 0.03981071705534971
+1713.2948 	DATA 	Stim Appears
+1713.5117 	DATA 	Stim Disappears
+1713.7649 	DATA 	Keypress: num_6
+1714.8665 	DATA 	Trial 734 begins: FarHighNarrow | 0.03981071705534971
+1715.1475 	DATA 	Stim Appears
+1715.3644 	DATA 	Stim Disappears
+1715.5728 	DATA 	Keypress: num_6
+1716.7176 	DATA 	Trial 735 begins: FarHighWide | 0.03981071705534972
+1716.9976 	DATA 	Stim Appears
+1717.2143 	DATA 	Stim Disappears
+1717.4209 	DATA 	Keypress: num_6
+1718.5701 	DATA 	Trial 736 begins: FarLowNarrow | 0.031622776601683784
+1718.8470 	DATA 	Stim Appears
+1719.0641 	DATA 	Stim Disappears
+1719.4129 	DATA 	Keypress: num_6
+1720.4188 	DATA 	Trial 737 begins: ThreeLinesControl | 0.050118723362727206
+1720.7002 	DATA 	Stim Appears
+1720.9172 	DATA 	Stim Disappears
+1721.2449 	DATA 	Keypress: num_6
+1722.2742 	DATA 	Trial 738 begins: Constant | 0.031622776601683784
+1722.5667 	DATA 	Stim Appears
+1722.7837 	DATA 	Stim Disappears
+1723.0608 	DATA 	Keypress: num_6
+1724.1365 	DATA 	Trial 739 begins: Constant | 0.02511886431509579
+1724.4169 	DATA 	Stim Appears
+1724.6345 	DATA 	Stim Disappears
+1724.8128 	DATA 	Keypress: num_6
+1725.9884 	DATA 	Trial 740 begins: FarHighNarrow_null | 0.01995262314968879
+1726.2687 	DATA 	Stim Appears
+1726.4845 	DATA 	Stim Disappears
+1726.8129 	DATA 	Keypress: num_4
+1727.8386 	DATA 	Trial 741 begins: FarHighWide | 0.031622776601683784
+1728.1185 	DATA 	Stim Appears
+1728.3353 	DATA 	Stim Disappears
+1728.6528 	DATA 	Keypress: num_6
+1729.6887 	DATA 	Trial 742 begins: FarHighWide_null | 0.012589254117941666
+1729.9685 	DATA 	Stim Appears
+1730.1852 	DATA 	Stim Disappears
+1730.4450 	DATA 	Keypress: num_6
+1731.5402 	DATA 	Trial 743 begins: Constant | 0.01995262314968879
+1731.8181 	DATA 	Stim Appears
+1732.0350 	DATA 	Stim Disappears
+1732.3329 	DATA 	Keypress: num_4
+1733.3903 	DATA 	Trial 744 begins: Constant_null | 0.05011872336272722
+1733.6677 	DATA 	Stim Appears
+1733.8848 	DATA 	Stim Disappears
+1734.1808 	DATA 	Keypress: num_4
+1735.2372 	DATA 	Trial 745 begins: Constant | 0.025118864315095794
+1735.5090 	DATA 	Stim Appears
+1735.7177 	DATA 	Stim Disappears
+1735.9329 	DATA 	Keypress: num_4
+1737.0710 	DATA 	Trial 746 begins: ThreeLinesControl | 0.039810717055349706
+1737.3519 	DATA 	Stim Appears
+1737.5686 	DATA 	Stim Disappears
+1737.8928 	DATA 	Keypress: num_6
+1738.9215 	DATA 	Trial 747 begins: Constant | 0.031622776601683784
+1739.2015 	DATA 	Stim Appears
+1739.4183 	DATA 	Stim Disappears
+1739.6852 	DATA 	Keypress: num_6
+1740.8019 	DATA 	Trial 748 begins: ThreeLinesControl | 0.03162277660168378
+1741.0783 	DATA 	Stim Appears
+1741.2944 	DATA 	Stim Disappears
+1741.5729 	DATA 	Keypress: num_6
+1742.6480 	DATA 	Trial 749 begins: ThreeLinesControl | 0.025118864315095787
+1742.9283 	DATA 	Stim Appears
+1743.1449 	DATA 	Stim Disappears
+1743.5649 	DATA 	Keypress: num_4
+1744.4970 	DATA 	Trial 750 begins: Constant | 0.02511886431509579
+1744.7812 	DATA 	Stim Appears
+1744.9981 	DATA 	Stim Disappears
+1745.4128 	DATA 	Keypress: num_4
+1746.3505 	DATA 	Trial 751 begins: FarHighNarrow | 0.031622776601683784
+1746.6307 	DATA 	Stim Appears
+1746.8477 	DATA 	Stim Disappears
+1748.1480 	DATA 	No keypress (maxWait exceeded)
+1748.2009 	DATA 	Trial 752 begins: FarLowNarrow | 0.02511886431509579
+1748.4809 	DATA 	Stim Appears
+1748.6979 	DATA 	Stim Disappears
+1749.9982 	DATA 	No keypress (maxWait exceeded)
+1750.0510 	DATA 	Trial 753 begins: Constant | 0.031622776601683784
+1750.3338 	DATA 	Stim Appears
+1750.5504 	DATA 	Stim Disappears
+1751.8507 	DATA 	No keypress (maxWait exceeded)
+1751.9037 	DATA 	Trial 754 begins: FarHighNarrow_null | 0.015848931924611127
+1752.1833 	DATA 	Stim Appears
+1752.4010 	DATA 	Stim Disappears
+1753.7013 	DATA 	No keypress (maxWait exceeded)
+1753.7533 	DATA 	Trial 755 begins: FarHighWide | 0.02511886431509579
+1754.0343 	DATA 	Stim Appears
+1754.2501 	DATA 	Stim Disappears
+1755.5504 	DATA 	No keypress (maxWait exceeded)
+1755.6028 	DATA 	Trial 756 begins: FarLowWide | 0.03981071705534971
+1755.8853 	DATA 	Stim Appears
+1756.1011 	DATA 	Stim Disappears
+1757.4015 	DATA 	No keypress (maxWait exceeded)
+1757.4536 	DATA 	Trial 757 begins: FarHighWide | 0.031622776601683784
+1757.7351 	DATA 	Stim Appears
+1757.9524 	DATA 	Stim Disappears
+1759.2529 	DATA 	No keypress (maxWait exceeded)
+1759.3053 	DATA 	Trial 758 begins: FarLowNarrow | 0.031622776601683784
+1759.5850 	DATA 	Stim Appears
+1759.8018 	DATA 	Stim Disappears
+1761.1022 	DATA 	No keypress (maxWait exceeded)
+1761.1561 	DATA 	Trial 759 begins: FarHighNarrow_null | 0.01995262314968879
+1761.4346 	DATA 	Stim Appears
+1761.6516 	DATA 	Stim Disappears
+1762.9519 	DATA 	No keypress (maxWait exceeded)
+1763.0055 	DATA 	Trial 760 begins: FarHighNarrow | 0.03981071705534971
+1763.2845 	DATA 	Stim Appears
+1763.5013 	DATA 	Stim Disappears
+1764.8016 	DATA 	No keypress (maxWait exceeded)
+1764.8535 	DATA 	Trial 761 begins: ThreeLinesControl | 0.03162277660168378
+1765.1252 	DATA 	Stim Appears
+1765.3351 	DATA 	Stim Disappears
+1766.6354 	DATA 	No keypress (maxWait exceeded)
+1766.6878 	DATA 	Trial 762 begins: Constant | 0.03981071705534971
+1766.9592 	DATA 	Stim Appears
+1767.1679 	DATA 	Stim Disappears
+1768.4683 	DATA 	No keypress (maxWait exceeded)
+1768.5207 	DATA 	Trial 763 begins: FarLowWide | 0.05011872336272721
+1768.8014 	DATA 	Stim Appears
+1769.0089 	DATA 	Stim Disappears
+1770.3093 	DATA 	No keypress (maxWait exceeded)
+1770.3623 	DATA 	Trial 764 begins: FarHighWide_null | 0.015848931924611127
+1770.6289 	DATA 	Stim Appears
+1770.8450 	DATA 	Stim Disappears
+1772.1453 	DATA 	No keypress (maxWait exceeded)
+1772.1980 	DATA 	Trial 765 begins: Constant | 0.05011872336272721
+1772.4789 	DATA 	Stim Appears
+1772.6946 	DATA 	Stim Disappears
+1773.9949 	DATA 	No keypress (maxWait exceeded)
+1774.0492 	DATA 	Trial 766 begins: FarLowNarrow | 0.03981071705534971
+1774.3290 	DATA 	Stim Appears
+1774.5478 	DATA 	Stim Disappears
+1775.8482 	DATA 	No keypress (maxWait exceeded)
+1775.9008 	DATA 	Trial 767 begins: FarHighWide | 0.03981071705534971
+1776.1817 	DATA 	Stim Appears
+1776.3974 	DATA 	Stim Disappears
+1777.6978 	DATA 	No keypress (maxWait exceeded)
+1777.7503 	DATA 	Trial 768 begins: FarLowWide_null | 0.005011872336272719
+1778.0316 	DATA 	Stim Appears
+1778.2483 	DATA 	Stim Disappears
+1779.5486 	DATA 	No keypress (maxWait exceeded)
+1779.6009 	DATA 	Trial 769 begins: ThreeLinesControl | 0.039810717055349706
+1779.8840 	DATA 	Stim Appears
+1780.1014 	DATA 	Stim Disappears
+1781.4017 	DATA 	No keypress (maxWait exceeded)
+1781.4537 	DATA 	Trial 770 begins: FarHighWide | 0.05011872336272721
+1781.7342 	DATA 	Stim Appears
+1781.9512 	DATA 	Stim Disappears
+1783.2515 	DATA 	No keypress (maxWait exceeded)
+1783.3042 	DATA 	Trial 771 begins: FarHighWide | 0.0630957344480193
+1783.5838 	DATA 	Stim Appears
+1783.8001 	DATA 	Stim Disappears
+1785.1004 	DATA 	No keypress (maxWait exceeded)
+1785.1522 	DATA 	Trial 772 begins: FarHighNarrow | 0.05011872336272721
+1785.4344 	DATA 	Stim Appears
+1785.6518 	DATA 	Stim Disappears
+1786.9521 	DATA 	No keypress (maxWait exceeded)
+1787.0049 	DATA 	Trial 773 begins: ThreeLinesControl | 0.050118723362727206
+1787.2844 	DATA 	Stim Appears
+1787.5014 	DATA 	Stim Disappears
+1788.8017 	DATA 	No keypress (maxWait exceeded)
+1788.8519 	DATA 	Trial 774 begins: FarHighNarrow | 0.0630957344480193
+1789.1345 	DATA 	Stim Appears
+1789.3512 	DATA 	Stim Disappears
+1790.6516 	DATA 	No keypress (maxWait exceeded)
+1790.7040 	DATA 	Trial 775 begins: FarLowNarrow | 0.05011872336272721
+1790.9850 	DATA 	Stim Appears
+1791.2015 	DATA 	Stim Disappears
+1792.5018 	DATA 	No keypress (maxWait exceeded)
+1792.5559 	DATA 	Trial 776 begins: FarHighNarrow | 0.07943282347242812
+1792.8351 	DATA 	Stim Appears
+1793.0510 	DATA 	Stim Disappears
+1794.3513 	DATA 	No keypress (maxWait exceeded)
+1794.4048 	DATA 	Trial 777 begins: FarLowNarrow | 0.0630957344480193
+1794.6761 	DATA 	Stim Appears
+1794.8849 	DATA 	Stim Disappears
+1796.1852 	DATA 	No keypress (maxWait exceeded)
+1796.2375 	DATA 	Trial 778 begins: FarLowNarrow | 0.07943282347242812
+1796.5089 	DATA 	Stim Appears
+1796.7187 	DATA 	Stim Disappears
+1798.0190 	DATA 	No keypress (maxWait exceeded)
+1798.0718 	DATA 	Trial 779 begins: FarLowWide | 0.0630957344480193
+1798.3429 	DATA 	Stim Appears
+1798.5516 	DATA 	Stim Disappears
+1799.8519 	DATA 	No keypress (maxWait exceeded)
+1799.9046 	DATA 	Trial 780 begins: FarHighWide | 0.07943282347242812
+1800.1786 	DATA 	Stim Appears
+1800.3953 	DATA 	Stim Disappears
+1801.6956 	DATA 	No keypress (maxWait exceeded)
+1801.7478 	DATA 	Trial 781 begins: FarHighWide | 0.09999999999999998
+1802.0282 	DATA 	Stim Appears
+1802.2452 	DATA 	Stim Disappears
+1803.5455 	DATA 	No keypress (maxWait exceeded)
+1803.5998 	DATA 	Trial 782 begins: Constant | 0.0630957344480193
+1803.8793 	DATA 	Stim Appears
+1804.0951 	DATA 	Stim Disappears
+1805.3954 	DATA 	No keypress (maxWait exceeded)
+1805.4482 	DATA 	Trial 783 begins: FarLowNarrow | 0.09999999999999998
+1805.7310 	DATA 	Stim Appears
+1805.9479 	DATA 	Stim Disappears
+1807.2483 	DATA 	No keypress (maxWait exceeded)
+1807.3004 	DATA 	Trial 784 begins: Constant | 0.07943282347242812
+1807.5809 	DATA 	Stim Appears
+1807.7978 	DATA 	Stim Disappears
+1809.0981 	DATA 	No keypress (maxWait exceeded)
+1809.1510 	DATA 	Trial 785 begins: FarLowNarrow | 0.1
+1809.4318 	DATA 	Stim Appears
+1809.6508 	DATA 	Stim Disappears
+1810.9511 	DATA 	No keypress (maxWait exceeded)
+1811.0035 	DATA 	Trial 786 begins: FarLowWide | 0.07943282347242812
+1811.2849 	DATA 	Stim Appears
+1811.5005 	DATA 	Stim Disappears
+1812.8008 	DATA 	No keypress (maxWait exceeded)
+1812.8527 	DATA 	Trial 787 begins: Constant | 0.09999999999999998
+1813.1342 	DATA 	Stim Appears
+1813.3511 	DATA 	Stim Disappears
+1814.6515 	DATA 	No keypress (maxWait exceeded)
+1814.7034 	DATA 	Trial 788 begins: FarLowNarrow | 0.1
+1814.9850 	DATA 	Stim Appears
+1815.2011 	DATA 	Stim Disappears
+1816.5014 	DATA 	No keypress (maxWait exceeded)
+1816.5586 	DATA 	Trial 789 begins: Constant | 0.1
+1816.8353 	DATA 	Stim Appears
+1817.0512 	DATA 	Stim Disappears
+1818.3515 	DATA 	No keypress (maxWait exceeded)
+1818.4036 	DATA 	Trial 790 begins: FarLowNarrow | 0.1
+1818.6848 	DATA 	Stim Appears
+1818.9019 	DATA 	Stim Disappears
+1820.2023 	DATA 	No keypress (maxWait exceeded)
+1820.2539 	DATA 	Trial 791 begins: FarHighNarrow | 0.09999999999999998
+1820.5349 	DATA 	Stim Appears
+1820.7521 	DATA 	Stim Disappears
+1822.0525 	DATA 	No keypress (maxWait exceeded)
+1822.1051 	DATA 	Trial 792 begins: ThreeLinesControl | 0.0630957344480193
+1822.3849 	DATA 	Stim Appears
+1822.6018 	DATA 	Stim Disappears
+1823.9021 	DATA 	No keypress (maxWait exceeded)
+1823.9536 	DATA 	Trial 793 begins: FarLowNarrow | 0.1
+1824.2345 	DATA 	Stim Appears
+1824.4513 	DATA 	Stim Disappears
+1825.7517 	DATA 	No keypress (maxWait exceeded)
+1825.8039 	DATA 	Trial 794 begins: Constant | 0.1
+1826.0765 	DATA 	Stim Appears
+1826.2852 	DATA 	Stim Disappears
+1827.5854 	DATA 	No keypress (maxWait exceeded)
+1827.6376 	DATA 	Trial 795 begins: FarHighNarrow | 0.1
+1827.9092 	DATA 	Stim Appears
+1828.1180 	DATA 	Stim Disappears
+1829.4183 	DATA 	No keypress (maxWait exceeded)
+1829.4705 	DATA 	Trial 796 begins: FarLowNarrow | 0.1
+1829.7460 	DATA 	Stim Appears
+1829.9624 	DATA 	Stim Disappears
+1831.2628 	DATA 	No keypress (maxWait exceeded)
+1831.3148 	DATA 	Trial 797 begins: ThreeLinesControl_null | 0.0063095734448019285
+1831.5960 	DATA 	Stim Appears
+1831.8118 	DATA 	Stim Disappears
+1833.1122 	DATA 	No keypress (maxWait exceeded)
+1833.1656 	DATA 	Trial 798 begins: FarHighWide | 0.1
+1833.4458 	DATA 	Stim Appears
+1833.6618 	DATA 	Stim Disappears
+1834.9621 	DATA 	No keypress (maxWait exceeded)
+1835.0144 	DATA 	Trial 799 begins: ThreeLinesControl | 0.07943282347242812
+1835.2985 	DATA 	Stim Appears
+1835.5145 	DATA 	Stim Disappears
+1836.8149 	DATA 	No keypress (maxWait exceeded)
+1836.8690 	DATA 	Trial 800 begins: FarLowNarrow | 0.1
+1837.1484 	DATA 	Stim Appears
+1837.3646 	DATA 	Stim Disappears
+1838.6649 	DATA 	No keypress (maxWait exceeded)
+1838.7179 	DATA 	Trial 801 begins: FarHighNarrow | 0.1
+1838.9982 	DATA 	Stim Appears
+1839.2155 	DATA 	Stim Disappears
+1840.5159 	DATA 	No keypress (maxWait exceeded)
+1840.5687 	DATA 	Trial 802 begins: FarHighNarrow | 0.1
+1840.8514 	DATA 	Stim Appears
+1841.0684 	DATA 	Stim Disappears
+1842.3687 	DATA 	No keypress (maxWait exceeded)
+1842.4214 	DATA 	Trial 803 begins: FarHighNarrow | 0.1
+1842.7011 	DATA 	Stim Appears
+1842.9181 	DATA 	Stim Disappears
+1844.2184 	DATA 	No keypress (maxWait exceeded)
+1844.2727 	DATA 	Trial 804 begins: FarHighWide | 0.1
+1844.5511 	DATA 	Stim Appears
+1844.7679 	DATA 	Stim Disappears
+1846.0682 	DATA 	No keypress (maxWait exceeded)
+1846.1201 	DATA 	Trial 805 begins: FarHighNarrow | 0.1
+1846.4019 	DATA 	Stim Appears
+1846.6177 	DATA 	Stim Disappears
+1847.9180 	DATA 	No keypress (maxWait exceeded)
+1848.0115 	DATA 	Trial 806 begins: FarHighNarrow | 0.1
+1848.3016 	DATA 	Stim Appears
+1848.5185 	DATA 	Stim Disappears
+1849.8188 	DATA 	No keypress (maxWait exceeded)
+1849.8727 	DATA 	Trial 807 begins: FarHighWide | 0.1
+1850.1518 	DATA 	Stim Appears
+1850.3688 	DATA 	Stim Disappears
+1851.6691 	DATA 	No keypress (maxWait exceeded)
+1851.7217 	DATA 	Trial 808 begins: ThreeLinesControl | 0.09999999999999998
+1852.0011 	DATA 	Stim Appears
+1852.2181 	DATA 	Stim Disappears
+1853.5185 	DATA 	No keypress (maxWait exceeded)
+1853.5701 	DATA 	Trial 809 begins: FarHighWide | 0.1
+1853.8511 	DATA 	Stim Appears
+1854.0682 	DATA 	Stim Disappears
+1855.3685 	DATA 	No keypress (maxWait exceeded)
+1855.4233 	DATA 	Trial 810 begins: FarHighWide | 0.1
+1855.6931 	DATA 	Stim Appears
+1855.9017 	DATA 	Stim Disappears
+1857.2020 	DATA 	No keypress (maxWait exceeded)
+1857.2549 	DATA 	Trial 811 begins: FarHighWide | 0.1
+1857.5258 	DATA 	Stim Appears
+1857.7344 	DATA 	Stim Disappears
+1859.0347 	DATA 	No keypress (maxWait exceeded)
+1859.0857 	DATA 	Trial 812 begins: FarLowWide | 0.09999999999999998
+1859.3597 	DATA 	Stim Appears
+1859.5684 	DATA 	Stim Disappears
+1860.8687 	DATA 	No keypress (maxWait exceeded)
+1860.9235 	DATA 	Trial 813 begins: ThreeLinesControl | 0.1
+1861.1957 	DATA 	Stim Appears
+1861.4127 	DATA 	Stim Disappears
+1862.7129 	DATA 	No keypress (maxWait exceeded)
+1862.7642 	DATA 	Trial 814 begins: FarLowWide | 0.1
+1863.0452 	DATA 	Stim Appears
+1863.2624 	DATA 	Stim Disappears
+1864.5627 	DATA 	No keypress (maxWait exceeded)
+1864.6139 	DATA 	Trial 815 begins: FarHighNarrow | 0.1
+1864.8982 	DATA 	Stim Appears
+1865.1152 	DATA 	Stim Disappears
+1866.4155 	DATA 	No keypress (maxWait exceeded)
+1866.4672 	DATA 	Trial 816 begins: FarHighNarrow | 0.1
+1866.7482 	DATA 	Stim Appears
+1866.9649 	DATA 	Stim Disappears
+1868.2652 	DATA 	No keypress (maxWait exceeded)
+1868.3146 	DATA 	Trial 817 begins: Constant | 0.1
+1868.5992 	DATA 	Stim Appears
+1868.8149 	DATA 	Stim Disappears
+1870.1152 	DATA 	No keypress (maxWait exceeded)
+1870.1656 	DATA 	Trial 818 begins: ThreeLinesControl | 0.1
+1870.4520 	DATA 	Stim Appears
+1870.6675 	DATA 	Stim Disappears
+1871.9678 	DATA 	No keypress (maxWait exceeded)
+1872.0189 	DATA 	Trial 819 begins: ThreeLinesControl_null | 0.00794328234724281
+1872.3014 	DATA 	Stim Appears
+1872.5177 	DATA 	Stim Disappears
+1873.8180 	DATA 	No keypress (maxWait exceeded)
+1873.8699 	DATA 	Trial 820 begins: Constant | 0.1
+1874.1517 	DATA 	Stim Appears
+1874.3683 	DATA 	Stim Disappears
+1875.6686 	DATA 	No keypress (maxWait exceeded)
+1875.7192 	DATA 	Trial 821 begins: FarHighNarrow | 0.1
+1876.0013 	DATA 	Stim Appears
+1876.2184 	DATA 	Stim Disappears
+1877.5187 	DATA 	No keypress (maxWait exceeded)
+1877.5717 	DATA 	Trial 822 begins: FarLowNarrow | 0.1
+1877.8515 	DATA 	Stim Appears
+1878.0683 	DATA 	Stim Disappears
+1879.3686 	DATA 	No keypress (maxWait exceeded)
+1879.4207 	DATA 	Trial 823 begins: FarHighWide | 0.1
+1879.7010 	DATA 	Stim Appears
+1879.9180 	DATA 	Stim Disappears
+1881.2184 	DATA 	No keypress (maxWait exceeded)
+1881.2707 	DATA 	Trial 824 begins: FarHighNarrow | 0.1
+1881.5520 	DATA 	Stim Appears
+1881.7677 	DATA 	Stim Disappears
+1883.0681 	DATA 	No keypress (maxWait exceeded)
+1883.1179 	DATA 	Trial 825 begins: FarLowWide | 0.1
+1883.4020 	DATA 	Stim Appears
+1883.6188 	DATA 	Stim Disappears
+1884.9191 	DATA 	No keypress (maxWait exceeded)
+1884.9715 	DATA 	Trial 826 begins: FarLowNarrow | 0.1
+1885.2438 	DATA 	Stim Appears
+1885.4513 	DATA 	Stim Disappears
+1886.7516 	DATA 	No keypress (maxWait exceeded)
+1886.8034 	DATA 	Trial 827 begins: FarHighWide_null | 0.01995262314968879
+1887.0765 	DATA 	Stim Appears
+1887.2852 	DATA 	Stim Disappears
+1888.5855 	DATA 	No keypress (maxWait exceeded)
+1888.6353 	DATA 	Trial 828 begins: FarHighNarrow | 0.1
+1888.9095 	DATA 	Stim Appears
+1889.1182 	DATA 	Stim Disappears
+1890.4185 	DATA 	No keypress (maxWait exceeded)
+1890.4682 	DATA 	Trial 829 begins: ThreeLinesControl_null | 0.009999999999999995
+1890.7464 	DATA 	Stim Appears
+1890.9621 	DATA 	Stim Disappears
+1892.2625 	DATA 	No keypress (maxWait exceeded)
+1892.3147 	DATA 	Trial 830 begins: FarHighNarrow | 0.1
+1892.5962 	DATA 	Stim Appears
+1892.8129 	DATA 	Stim Disappears
+1894.1132 	DATA 	No keypress (maxWait exceeded)
+1894.1646 	DATA 	Trial 831 begins: FarLowNarrow | 0.1
+1894.4461 	DATA 	Stim Appears
+1894.6660 	DATA 	Stim Disappears
+1895.9664 	DATA 	No keypress (maxWait exceeded)
+1896.0187 	DATA 	Trial 832 begins: FarHighNarrow | 0.1
+1896.2988 	DATA 	Stim Appears
+1896.5155 	DATA 	Stim Disappears
+1897.8158 	DATA 	No keypress (maxWait exceeded)
+1897.8670 	DATA 	Trial 833 begins: ThreeLinesControl | 0.1
+1898.1489 	DATA 	Stim Appears
+1898.3656 	DATA 	Stim Disappears
+1899.6659 	DATA 	No keypress (maxWait exceeded)
+1899.7187 	DATA 	Trial 834 begins: FarHighNarrow | 0.1
+1900.0012 	DATA 	Stim Appears
+1900.2182 	DATA 	Stim Disappears
+1901.5185 	DATA 	No keypress (maxWait exceeded)
+1901.5683 	DATA 	Trial 835 begins: FarHighNarrow_null | 0.025118864315095794
+1901.8512 	DATA 	Stim Appears
+1902.0683 	DATA 	Stim Disappears
+1903.3687 	DATA 	No keypress (maxWait exceeded)
+1903.4189 	DATA 	Trial 836 begins: Constant | 0.1
+1903.7020 	DATA 	Stim Appears
+1903.9183 	DATA 	Stim Disappears
+1905.2188 	DATA 	No keypress (maxWait exceeded)
+1905.2715 	DATA 	Trial 837 begins: Constant | 0.1
+1905.5519 	DATA 	Stim Appears
+1905.7678 	DATA 	Stim Disappears
+1907.0681 	DATA 	No keypress (maxWait exceeded)
+1907.1209 	DATA 	Trial 838 begins: FarLowNarrow_null | 0.012589254117941666
+1907.4018 	DATA 	Stim Appears
+1907.6177 	DATA 	Stim Disappears
+1908.9180 	DATA 	No keypress (maxWait exceeded)
+1908.9698 	DATA 	Trial 839 begins: FarHighWide | 0.1
+1909.2517 	DATA 	Stim Appears
+1909.4688 	DATA 	Stim Disappears
+1910.7691 	DATA 	No keypress (maxWait exceeded)
+1938.7963 	DATA 	Keypress: escape
+1938.9927 	DATA 	Keypress: escape
+1941.8019 	DATA 	Trial 840 begins: FarHighNarrow | 0.1
+1942.0848 	DATA 	Stim Appears
+1942.3021 	DATA 	Stim Disappears
+1942.8764 	DATA 	Keypress: escape
