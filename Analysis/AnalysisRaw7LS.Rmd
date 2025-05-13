@@ -11,54 +11,22 @@ library(dplyr)
 library(car)
 library(ggplot2)
 library(ggpubr)
-library(viridis)
 library(ggpattern)
+library(ggsignif)
+library(viridis)
 library(xtable)
+library(lme4)
+library(lmerTest)
+library(afex)
 
 
-df <- read.csv("rawData7LS.csv")
-originalLen <- nrow(df)
-df %<>% subset(Reaction_Time != 99)
-newLen <- nrow(df)
-PercentLost = (originalLen-newLen) / originalLen
-```
+dfFull <- read.csv("glmDataRaw7LS.csv")
+dfFull$CondShort %<>% as.factor
+dfMean <- read.csv('subjectMeansByTCFactorRaw7LS.csv')
+dfMean$CondShort %<>% as.factor
+dfOverallMean <- read.csv('subjectMeansOverallRaw7LS.csv')
+dfOverallMean$CondShort %<>% as.factor
 
-```{r functions, include=FALSE}
-MC <- function(L_max, L_min = 112.6482, nDigits=3){
-  # Function to find michelson contrast using L_min as the background luminance in PsychoPy units
-  michelson_contrast <- (L_max-L_min) / (L_max+L_min)
-  michelson_contrast %<>% round(nDigits)
-  return(michelson_contrast)
-}
-
-toCandela <- function(x, nDigits = 10){
-  CandelaPerMeterSquared <- (x * 112.417) + 112.6482
-  CandelaPerMeterSquared %<>% round(nDigits)
-  return(CandelaPerMeterSquared)
-}
-
-```
-
-```{r data, include=FALSE}
-df$TC_c <- scale(df$Target_Contrast,scale=F) %>% c()
-df$TC_michelson <- toCandela(df$Target_Contrast) %>% MC()
-df$TC_michelson_c <- scale(df$TC_michelson,scale=F) %>% c()
-
-df$FCfar_c <- scale(df$FCfar,scale=F) %>% c()
-df$FCfar_michelson <- toCandela(df$FCfar) %>% MC()
-df$FCfar_michelson_c <- scale(df$FCfar_michelson,scale=F) %>% c()
-
-df$FCmed_c <- scale(df$FCmed,scale=F) %>% c()
-df$FCmed_michelson <- toCandela(df$FCmed) %>% MC()
-df$FCmed_michelson_c <- scale(df$FCmed_michelson,scale=F) %>% c()
-
-df$FCclose_c <- scale(df$FCclose,scale=F) %>% c()
-df$FCclose_michelson <- toCandela(df$FCclose) %>% MC()
-df$FCclose_michelson_c <- scale(df$FCclose_michelson,scale=F) %>% c()
-
-df$Condition %<>% as.factor()
-
-df %<>% mutate(TC_factor = cut_number(Target_Contrast, 3, labels = c("Low", "Medium", "High")))
 ```
 
 \section{Stats}
@@ -73,31 +41,48 @@ df %<>% mutate(TC_factor = cut_number(Target_Contrast, 3, labels = c("Low", "Med
   CI's are estimated using the Profile-based method. This essentially is measuring the derivative of the probability density function. When the PDF in/decreases rapidly enough, the that is where the CI is estimated to be.
 ```{r} 
 #### Perform GLM ####
-conds <- levels(df$Condition)
-model_glm <- glm(
-  formula = "Correct_Response ~ TC_michelson_c * Condition",
+conds <- levels(dfFull$CondShort)
+Formula <- "Correct_Response ~ TC_michelson_c * CondShort + (1|Participant_Number)"
+Contrasts <- list(CondShort = contr.treatment(conds, which(conds == 'Single')))
+model_glm <- glmer(
+  formula = Formula,
   family = binomial(link='logit'),
-  data = df,
-  contrasts = list(Condition = contr.treatment(conds, which(conds == 'ThreeLinesControl')))
+  data = dfFull,
+  contrasts = Contrasts,
+  weights = weights,
+  control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 1e5),
+                         check.conv.grad = .makeCC("warning", tol = 0.005, relTol = NULL)),
 )
-
-df$probability <- predict.glm(model_glm,type='response')
+dfFull$probability <- predict(model_glm,type='response', re.form = NA) # re.form=NA is fixed effects only. =NULL is both
 
 # Likelihood Ratio test
-model_LRT <-  car::Anova(model_glm,type = 3, test.statistic = 'LR')
+#model_LRT <-  car::Anova(model_glm,type = 3, test.statistic = 'LR')
+model_LRT <- afex::mixed(
+  formula = Formula,
+  data = dfFull,
+  family = binomial(link = 'logit'),
+  method = "LRT",  # Type III tests via LRT
+  type = 3,
+  control = glmerControl(optimizer = "bobyqa", optCtrl = list(maxfun = 1e5),
+                         check.conv.grad = .makeCC("warning", tol = 0.005, relTol = NULL))
+)
 # CI's #
-model_CIs <- confint(model_glm)
+model_CIs <- lme4::confint.merMod(model_glm, method = 'profile', parm = 'beta_')
 ```
 
 ```{r LaTexPart1, include=FALSE}
 # Make the output DF better and Print it #
-model_df <- as.data.frame(summary(model_glm)$coefficients)
+model_df <- broom.mixed::tidy(model_glm,effects='fixed') %>% as.data.frame()
+model_df <- model_df[-1]
 model_df %<>% cbind(.,exp(model_CIs))
-model_df %<>%  tibble::add_column('Odds Scale'= exp(model_df$Estimate), .after = 1)
+model_df %<>%  tibble::add_column('Odds Scale'= exp(model_df$estimate), .after = 2)
 
-newRows <- c('(Intercept)','Constant','IN','IW','DN','DW','TC','Constant:TC','IN:TC','IW:TC','DN:TC','DW:TC')
+model_df$term %<>% gsub("CondShort","",.)
+model_df$term %<>% gsub("_michelson_c","",.)
+rownames(model_df) <- model_df$term
+model_df <- model_df[-1]
+
 newCols <- c('Est.','Odds','SE','z','p','2.5\\%','97.5\\%')
-rownames(model_df) <- newRows
 colnames(model_df) <- newCols
 
 for (col in colnames(model_df)){
@@ -133,12 +118,12 @@ print(
 \subsection{Pairwise comparisons}
 Now we will use `emmeans::emmeans()` to perform pairwise comparisons between conditions.
 ```{r}
-model_TC <- lm(
-  data = df,
-  formula = "TC_michelson_c ~ Condition",
-  contrasts = list(Condition = contr.treatment(conds, which(conds == 'ThreeLinesControl')))
+model_TC <- lmer(
+  data = dfFull,
+  formula = "TC_michelson_c ~ WidthGroup*ExpectedGroup + (1|Participant_Number)",
+  weights = weights
 )
-model_EM <- emmeans::emmeans(model_TC, 'Condition', type = 'response')
+model_EM <- emmeans::emmeans(model_TC, specs = ~ExpectedGroup*WidthGroup, type = 'response', pbkrtest.limit = 5584)
 AnovaTC <- Anova(model_TC,type=3)
 EM_pairs <- pairs(model_EM)
 EM_pairs_df <- EM_pairs %>% as.data.frame()
@@ -147,17 +132,22 @@ EM_pairs_df <- EM_pairs %>% as.data.frame()
 ```{r LaTexPart2, include=F}
 #### Now format the printing of the Anova and Emmeanns
 colnames(EM_pairs_df) <- c('Comparison','Est.','SE','df','t-ratio','p')
-EM_pairs_df$Comparison %<>% gsub("FarHigh","I",.)
-EM_pairs_df$Comparison %<>% gsub("FarLow","D",.)
-EM_pairs_df$Comparison %<>% gsub("Wide","W",.)
-EM_pairs_df$Comparison %<>% gsub("Narrow","N",.)
-EM_pairs_df$Comparison %<>% gsub("ThreeLinesControl","Single",.)
-
+EM_pairs_df$Comparison %<>% gsub("low","D",.)
+EM_pairs_df$Comparison %<>% gsub("high","I",.)
+EM_pairs_df$Comparison %<>% gsub("wide","W",.)
+EM_pairs_df$Comparison %<>% gsub("narrow","N",.)
+EM_pairs_df$Comparison %<>% gsub("D controls","Single",.)
+EM_pairs_df$Comparison %<>% gsub("I controls","Constant",.)
+EM_pairs_df$Comparison %<>% gsub(" ","",.)
+EM_pairs_df$Comparison %<>% gsub("-"," - ",.)
 EM_signif_df <- subset(EM_pairs_df, p <= 0.05)
-for (i in c(2,3,5,6)){
+
+for (i in c(2,3,6)){
   EM_pairs_df[[i]] %<>% sprintf("%.2e",.)
   EM_signif_df[[i]] %<>% sprintf("%.2e",.)
-  }
+}
+EM_pairs_df$`t-ratio` %<>% sprintf("%.2f",.)
+EM_signif_df$`t-ratio` %<>% sprintf("%.2f",.)
 
 sink("/Users/harrysteinharter/Documents/LaTex/ThesisV2/tables3/Exp3Pairwise.tex")
 EM_pairs_df %>% xtable(
@@ -179,37 +169,25 @@ sink()
 ```
 
 ```{r aesthetics, include=FALSE}
-df %<>% mutate(
-      WidthGroup = case_when(
-        Condition %in% c("Constant", "ThreeLinesControl") ~ "controls",
-        Condition %in% c("FarLowWide", "FarHighWide") ~ "wide",
-        Condition %in% c("FarLowNarrow", "FarHighNarrow") ~ "narrow"
-        ),
-      ExpectedGroup = case_when(
-        Condition %in% c('Constant','FarHighNarrow','FarHighWide') ~ 'high',
-        Condition %in% c('ThreeLinesControl','FarLowNarrow','FarLowWide') ~ 'low'
-      )
-)
-df$FullCondition <- paste(df$ExpectedGroup, df$WidthGroup, sep="_")
-
 cV <- viridis(2, option = 'viridis')
 colorPalette <- c('high' = cV[1], 'low' = cV[2])
 colorPalette <- c('high' = 'firebrick', 'low' = 'dodgerblue')
-
+palette3Way <- viridis(conds %>% length())
+palette3Way %<>% setNames(.,conds)
 ```
 
 ```{r curvesplot, echo=FALSE}
-ggplot(data = df,
+ggplot(data = dfFull,
        mapping = aes(x = TC_michelson, color = ExpectedGroup)
 ) + geom_line(
   mapping = aes(y = probability, linetype = WidthGroup),
   linewidth = 1.0
 ) + geom_jitter(
-  mapping = aes(y = Correct_Response, shape = WidthGroup),
-  alpha = I(.2),
+  mapping = aes(y = performance, shape = WidthGroup),
+  alpha = I(.1),
   size = I(.7),
   height = 0.05,
-  width = 0.1,
+  width = NULL,
   show.legend = FALSE
 ) + scale_x_continuous(
   transform = 'log10'
@@ -249,8 +227,9 @@ ggsave(
 Bar plot to compare mean `TC_michelson` across `Condition`.
 ```{r barplot, echo = FALSE}
 ggplot(
-  data = df,
-  mapping = aes(x = factor(Condition, c('Constant','FarHighNarrow','FarHighWide','ThreeLinesControl','FarLowNarrow','FarLowWide')), y = TC_michelson, group = WidthGroup, linetype = WidthGroup)
+  data = dfOverallMean,
+  mapping = aes(x = factor(CondShort, c('Constant','IN','IW','Single','DN','DW')), 
+                y = overall_mean, group = WidthGroup, linetype = WidthGroup)
 ) + stat_summary(
   mapping = aes(color = ExpectedGroup, shape = WidthGroup),
   geom = 'point',
@@ -280,10 +259,77 @@ ggplot(
   legend.title = element_text(hjust = .5, vjust = .5),
   text = element_text(size=16,family='times'),
   legend.position = 'right'
-) + ylab("Mean Target Contrast") + xlab("Condition")
+) + ylab(
+  "Mean Target Contrast"
+) + xlab(
+  "Condition"
+)
 
 ggsave(
   filename = "/Users/harrysteinharter/Documents/LaTex/ThesisV2/images3/Exp3AnovaPlot.png",
+  units = 'in',
+  dpi = 500,
+  width = W <- 8,
+  height = W * (2/3)
+  )
+```
+
+Now we want to see if there's a "Stronger interaction w/ weak stimuli". So we can test this by binning `TC_michelson_c` into 3 groups: `low`, `med`, `high`. We can then test for a 3-way interaction between TC:Contrast:Condition. Depending on the presence or absence of an interaction, and graphical interpretation to see directionality, we can say whether or not the 2-way interaction between `WidthGroup` and `ExpectedGroup` is stronger w/ a weak stimulus. `TC_factor` already exists from the beginning.
+Absence of a 3-way interaction indicates that the 2-way interaction is not modulated by the 3rd predictor. I.E., \textit{there is \textbf{NO} stronger interaction w/ weak stimuli}.
+```{r 3WayIntrxn}
+model3way <- lmer(
+  data = dfFull,
+  formula = "Correct_Response ~ TC_factor * WidthGroup * ExpectedGroup + (1|Participant_Number)",
+)
+anova3way <- Anova(model3way,type = 3)
+model_EMx3 <- emmeans::emmeans(model3way, specs = ~ExpectedGroup*WidthGroup|TC_factor, 
+                               type = 'response', pbkrtest.limit = 5584)
+EM_pairs_x3 <- pairs(model_EMx3)
+EM_pairs_df_x3 <- EM_pairs_x3 %>% as.data.frame()
+EM_signif_df_x3 <- subset(EM_pairs_df_x3, p.value <= .05)
+```
+```{r plot3way, echo=F}
+ggplot(
+  data = dfMean,
+  mapping = aes(
+    x = factor(TC_factor,c('Low','Medium','High')), y = mean, 
+    color = ExpectedGroup, shape = WidthGroup, 
+    group = interaction(ExpectedGroup,WidthGroup))) + 
+  stat_summary(
+    geom = 'point',
+    fun.data = mean_cl_normal,
+    position = position_dodge(.75),
+    size = I(5),) + 
+  stat_summary(
+    geom = 'errorbar',
+    fun.data = mean_cl_normal,
+    position = position_dodge(.75), 
+    width = 0.2,
+    linetype = I('solid'),
+    color = 'black') +
+  scale_color_manual(
+    values = colorPalette,
+    labels = c('Increasing','Decreasing'),
+    name = 'Contrast') +
+  scale_shape_manual(
+    values = list(
+      'controls' = 15,
+      'narrow' = 16,
+      'wide' = 17),
+    labels = c('Controls','Narrow','Wide'),
+    name = 'Condition') +
+  theme_pubr() + 
+  theme(
+    legend.position = 'right',
+    legend.title = element_text(hjust = .5, vjust = .5),
+    text = element_text(family = 'times', size = 16)) +
+  xlab('Target Contrast') + ylab('Mean Response Rate') +
+  guides(
+    color = guide_legend(order = 1),
+    shape = guide_legend(order = 2))
+  
+ggsave(
+  filename = "/Users/harrysteinharter/Documents/LaTex/ThesisV2/images3/Exp3Anova3Way.png",
   units = 'in',
   dpi = 500,
   width = W <- 8,
