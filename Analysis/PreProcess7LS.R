@@ -34,7 +34,8 @@ setwd('/Users/harrysteinharter/Documents/MSc/Timo Internship/7LineSegments/Analy
 file_list <- list.files(path = "../Outputs/", pattern = "\\.csv$", full.names = TRUE)
 # Read and bind all CSV files into one data frame
 all_data <- do.call(rbind, lapply(file_list, read.csv))
-df <- all_data %>%  subset(Reaction_Time < 99)
+df <- all_data %>%  subset(Reaction_Time < 99 & Correct_Response != 'None')
+df$Correct_Response %<>% as.numeric()
 
 
 #### Perform transformations ####
@@ -55,24 +56,23 @@ if (TRUE){
   df$FCclose_michelson <- toCandela(df$FCclose) %>% MC()
   df$FCclose_michelson_c <- scale(df$FCclose_michelson,scale=F) %>% c()
   
-  df$CondShort <- recode(df$Condition, recodes = 
-                           "'FarHighNarrow' = 'IN'; 'FarLowNarrow' = 'DN';
-                        'FarHighWide' = 'IW'; 'FarLowWide' = 'DW';
-                        'ThreeLinesControl' = 'Single'; 'Constant' = 'Constant'") %>% as.factor()
-  
   df %<>% mutate(TC_factor = ggplot2::cut_number(Target_Contrast, 3, labels = c("Low", "Medium", "High")))
 }
 #### Seperate ####
 # Seperate into Real and Null Files
 dfNull <- subset(df, endsWith(Condition,"_null"))
-droplevels(dfNull$CondShort)
+#dfNull$CondShort %<>% droplevels()
 dfReal <- subset(df, !endsWith(Condition,"_null"))
-droplevels(dfReal$CondShort)
+dfReal$CondShort <- recode(dfReal$Condition, recodes = 
+                         "'FarHighNarrow' = 'IN'; 'FarLowNarrow' = 'DN';
+                        'FarHighWide' = 'IW'; 'FarLowWide' = 'DW';
+                        'ThreeLinesControl' = 'Single'; 'Constant' = 'Constant'") %>% as.factor()
+dfReal$CondShort %<>% droplevels()
 dfReal %<>% categorize
 
 #### Mutate real data ####
 grandMean_real <- dfReal %>% 
-  group_by(Participant_Number,Condition) %>% 
+  group_by(Participant_Number,CondShort) %>% 
   mutate(overall_mean = mean(TC_michelson), weights = n()) %>% 
   select(Participant_Number,CondShort,overall_mean,WidthGroup,ExpectedGroup) %>% 
   ungroup() %>% 

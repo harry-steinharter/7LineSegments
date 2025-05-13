@@ -67,7 +67,7 @@ model_LRT <- afex::mixed(
                          check.conv.grad = .makeCC("warning", tol = 0.005, relTol = NULL))
 )
 # CI's #
-model_CIs <- lme4::confint.merMod(model_glm, method = 'profile', parm = 'beta_')
+model_CIs <- lme4::confint.merMod(model_glm, method = 'Wald', parm = 'beta_')
 ```
 
 ```{r LaTexPart1, include=FALSE}
@@ -123,7 +123,7 @@ model_TC <- lmer(
   formula = "TC_michelson_c ~ WidthGroup*ExpectedGroup + (1|Participant_Number)",
   weights = weights
 )
-model_EM <- emmeans::emmeans(model_TC, specs = ~ExpectedGroup*WidthGroup, type = 'response', pbkrtest.limit = 5584)
+model_EM <- emmeans::emmeans(model_TC, specs = ~ExpectedGroup*WidthGroup, type = 'response', pbkrtest.limit = 1e5)
 AnovaTC <- Anova(model_TC,type=3)
 EM_pairs <- pairs(model_EM)
 EM_pairs_df <- EM_pairs %>% as.data.frame()
@@ -283,7 +283,7 @@ model3way <- lmer(
 )
 anova3way <- Anova(model3way,type = 3)
 model_EMx3 <- emmeans::emmeans(model3way, specs = ~ExpectedGroup*WidthGroup|TC_factor, 
-                               type = 'response', pbkrtest.limit = 5584)
+                               type = 'response', pbkrtest.limit = 1e5)
 EM_pairs_x3 <- pairs(model_EMx3)
 EM_pairs_df_x3 <- EM_pairs_x3 %>% as.data.frame()
 EM_signif_df_x3 <- subset(EM_pairs_df_x3, p.value <= .05)
