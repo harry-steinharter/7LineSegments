@@ -188,13 +188,6 @@ ggplot(data = dfFull,
 ) + geom_line(
   mapping = aes(y = probability, linetype = WidthGroup),
   linewidth = 1.0
-) + geom_jitter(
-  mapping = aes(y = performance, shape = WidthGroup),
-  alpha = I(.1),
-  size = I(.7),
-  height = 0.05,
-  width = NULL,
-  show.legend = FALSE
 ) + scale_x_continuous(
   transform = 'log10'
 ) + scale_linetype_manual(
