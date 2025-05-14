@@ -1,3 +1,4 @@
 psychopy/
 __pycache__/
 *.DS_Store
+Analysis/.Rhistory
