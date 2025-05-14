@@ -287,6 +287,13 @@ model_EMx3 <- emmeans::emmeans(model3way, specs = ~ExpectedGroup*WidthGroup|TC_f
 
 ```{r LaTexPart3, include=F}
 EM_pairs_x3 <- pairs(model_EMx3)
+EM_pairs_x3@grid$contrast %<>% gsub('low','D',.)
+EM_pairs_x3@grid$contrast %<>% gsub('high','I',.)
+EM_pairs_x3@grid$contrast %<>% gsub(' narrow','N',.)
+EM_pairs_x3@grid$contrast %<>% gsub(' wide','W',.)
+EM_pairs_x3@grid$contrast %<>% gsub(' wide','W',.)
+EM_pairs_x3@grid$contrast %<>% gsub('I controls','Constant',.)
+EM_pairs_x3@grid$contrast %<>% gsub('D controls','Single',.)
 sink("/Users/harrysteinharter/Documents/LaTex/ThesisV2/tables3/Exp3Pairs3WayIntrxn.tex")
 print(xtable(
   EM_pairs_x3,
@@ -345,4 +352,6 @@ ggsave(
   height = W * (2/3)
   )
 ```
+
+
 

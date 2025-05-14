@@ -68,7 +68,7 @@ dfReal$CondShort <- recode(dfReal$Condition, recodes =
                         'FarHighWide' = 'IW'; 'FarLowWide' = 'DW';
                         'ThreeLinesControl' = 'Single'; 'Constant' = 'Constant'") %>% as.factor()
 dfReal$CondShort %<>% droplevels()
-dfReal %<>% categorize
+dfReal %<>% categorize()
 
 #### Mutate real data ####
 grandMean_real <- dfReal %>% 
