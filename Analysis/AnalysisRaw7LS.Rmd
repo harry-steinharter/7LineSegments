@@ -1,6 +1,8 @@
 ---
 title: "AnalysisRaw7LS"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 date: "`r Sys.Date()`"
 ---
 
@@ -39,7 +41,7 @@ dfOverallMean$CondShort %<>% as.factor
   
 \subsection{Confidence Intervals}
   CI's are estimated using the Profile-based method. This essentially is measuring the derivative of the probability density function. When the PDF in/decreases rapidly enough, the that is where the CI is estimated to be.
-```{r} 
+```{r stats, echo=F} 
 #### Perform GLM ####
 conds <- levels(dfFull$CondShort)
 Formula <- "Correct_Response ~ TC_michelson_c * CondShort + (1|Participant_Number)"
@@ -92,19 +94,22 @@ for (col in colnames(model_df)){
 model_df %>% xtable(
   auto = TRUE,
   align = c('l','r','r','r','r','r','r','r'),
-  digits = 3,) %>% 
+  digits = 3,
+  label = "table:Exp3GLM",
+  caption = c("Caption Here","Exp 3: GLM"),) %>% 
   print(
     include.rownames = T,
     type = 'latex',
     file = "/Users/harrysteinharter/Documents/LaTex/ThesisV2/tables3/Exp3GLM.tex",)
 ## LRT printing ##
-LRT_print <- model_LRT %>% as.data.frame()
+LRT_print <- model_LRT$anova_table
 rownames(LRT_print) %<>% gsub("_michelson_c","",.)
+rownames(LRT_print) %<>%gsub("CondShort","Flankers",.)
 LRT_print$`Pr(>Chisq)` %<>% sprintf("%.2e",.)
 print(
   xtable(
     LRT_print,
-    align = c('l','r','r','r'),
+    align = c('l','r','r','r','r'),
     auto = TRUE,
     label = "table:Exp3LRT",
     caption = c("Caption Here","Exp 3: LRT"),
@@ -117,7 +122,7 @@ print(
 ```
 \subsection{Pairwise comparisons}
 Now we will use `emmeans::emmeans()` to perform pairwise comparisons between conditions.
-```{r}
+```{r em1, echo=F}
 model_TC <- lmer(
   data = dfFull,
   formula = "TC_michelson_c ~ WidthGroup*ExpectedGroup + (1|Participant_Number)",
@@ -177,6 +182,7 @@ palette3Way %<>% setNames(.,conds)
 ```
 
 ```{r curvesplot, echo=FALSE}
+factorCuts <- dfFull %>% subset(TC_factor == 'Medium', select = TC_michelson) %>% range()
 ggplot(data = dfFull,
        mapping = aes(x = TC_michelson, color = ExpectedGroup)
 ) + geom_line(
@@ -212,7 +218,7 @@ ggplot(data = dfFull,
   legend.title = element_text(hjust = .5, vjust = .5),
   text = element_text(size=16,family='times'),
   legend.position = 'right'
-)
+) + geom_vline(xintercept = factorCuts, linetype = 'dotted')
 
 ggsave(
   filename = "/Users/harrysteinharter/Documents/LaTex/ThesisV2/images3/Exp3GLM.png",
@@ -276,7 +282,7 @@ ggsave(
 
 Now we want to see if there's a "Stronger interaction w/ weak stimuli". So we can test this by binning `TC_michelson_c` into 3 groups: `low`, `med`, `high`. We can then test for a 3-way interaction between TC:Contrast:Condition. Depending on the presence or absence of an interaction, and graphical interpretation to see directionality, we can say whether or not the 2-way interaction between `WidthGroup` and `ExpectedGroup` is stronger w/ a weak stimulus. `TC_factor` already exists from the beginning.
 Absence of a 3-way interaction indicates that the 2-way interaction is not modulated by the 3rd predictor. I.E., \textit{there is \textbf{NO} stronger interaction w/ weak stimuli}.
-```{r 3WayIntrxn}
+```{r 3WayIntrxn, echo=F}
 model3way <- lmer(
   data = dfFull,
   formula = "Correct_Response ~ TC_factor * WidthGroup * ExpectedGroup + (1|Participant_Number)",
@@ -284,10 +290,20 @@ model3way <- lmer(
 anova3way <- Anova(model3way,type = 3)
 model_EMx3 <- emmeans::emmeans(model3way, specs = ~ExpectedGroup*WidthGroup|TC_factor, 
                                type = 'response', pbkrtest.limit = 1e5)
-EM_pairs_x3 <- pairs(model_EMx3)
-EM_pairs_df_x3 <- EM_pairs_x3 %>% as.data.frame()
-EM_signif_df_x3 <- subset(EM_pairs_df_x3, p.value <= .05)
 ```
+
+```{r LaTexPart3, include=F}
+EM_pairs_x3 <- pairs(model_EMx3)
+sink("/Users/harrysteinharter/Documents/LaTex/ThesisV2/tables3/Exp3Pairs3WayIntrxn.tex")
+print(xtable(
+  EM_pairs_x3,
+  label = "table:Exp3Pairs3Way",
+  caption = c("Caption Here","Exp 3: Pairs3Way"),), 
+  type = 'latex',)
+sink()
+```
+
+
 ```{r plot3way, echo=F}
 ggplot(
   data = dfMean,

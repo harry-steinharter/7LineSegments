@@ -80,7 +80,7 @@ grandMean_real <- dfReal %>%
 
 meanByTC <- dfReal %>% 
   group_by(Participant_Number,CondShort,TC_factor) %>% 
-  mutate(mean = mean(TC_michelson), weights = n()) %>% 
+  mutate(mean = mean(Correct_Response), weights = n()) %>% 
   select(Participant_Number,TC_factor,CondShort,mean,WidthGroup,ExpectedGroup) %>% 
   ungroup() %>% 
   distinct()
