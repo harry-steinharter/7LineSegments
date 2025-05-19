@@ -9,6 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(dplyr)
 library(magrittr)
 library(eyelinker)
+library(purrr)
 library(ivs)
 ```
 
@@ -49,4 +50,64 @@ IV_indexing <- locations[!is.na(locations$haystack),]
 button_w_saccade <- button_w[IV_indexing$haystack,]
 saccade_w_button <- sacc[IV_indexing$needles,]
 ```
+\section{Subset `msg`}
+```{r msgDF}
+blocks <- saccade_w_button$block
+msg_w_saccades <- msg[which(msg$block %in% blocks),]
+msg_w_saccades <- msg_w_saccades[which(grepl("TRIAL_START",msg_w_saccades$text)),]
 
+split_cols <- do.call(rbind, strsplit(msg_w_saccades$text, " | ", fixed = TRUE))
+msg_w_saccades$trialN    <- split_cols[, 1]
+msg_w_saccades$Condition <- split_cols[, 2]
+msg_w_saccades$TC        <- split_cols[, 3]
+msg_w_saccades$trialN %<>% gsub("TRIAL_START ", '', .)
+
+msg_w_saccades <- subset(msg_w_saccades, !endsWith(Condition,"_null"))
+msg_w_saccades$CondShort <- car::recode(msg_w_saccades$Condition, recodes = 
+                         "'FarHighNarrow' = 'IN'; 'FarLowNarrow' = 'DN';
+                        'FarHighWide' = 'IW'; 'FarLowWide' = 'DW';
+                        'ThreeLinesControl' = 'Single'; 'Constant' = 'Constant'") %>% as.factor()
+```
+
+Create the final data frame. But first we must refilter each data frame so it only includes the correct trials.
+```{r dfFull}
+# Step 1: Find common block values
+common_blocks <- reduce(
+  list(
+    button_w_saccade$block,
+    saccade_w_button$block,
+    msg_w_saccades$block
+  ),
+  intersect
+)
+
+# Step 2: Filter all data frames
+button_w_saccade_filt <- button_w_saccade %>% filter(block %in% common_blocks)
+saccade_w_button_filt <- saccade_w_button %>% filter(block %in% common_blocks)
+msg_w_saccades_filt   <- msg_w_saccades   %>% filter(block %in% common_blocks)
+```
+Then we must reduce the number of rows in the saccade df by taking summary stats.
+```{r}
+saccadeFinal <- saccade_w_button_filt %>% group_by(block) %>% 
+  mutate(nSaccades = n(), 
+         meamAmplitude = mean(ampl), 
+         meanPeakVelocity = mean(pv), 
+         meanDuration = mean(dur)) %>% 
+  select(nSaccades,meamAmplitude,meanPeakVelocity,meanDuration,block) %>% 
+  ungroup() %>% 
+  distinct()
+```
+
+```{r}
+# Step 3: Combine them row-wise
+all_data <- cbind(saccadeFinal,msg_w_saccades[c(4,5,6,7)])
+dataByCondition <- all_data %>% group_by(CondShort) %>% 
+  mutate(nTrialsWithSaccade = n(),
+         grandMeanAmp = mean(meamAmplitude, na.rm = TRUE),
+         grandMeanVel = mean(meanPeakVelocity, na.rm = TRUE),
+         grandMeanDurt = mean(meanDuration, na.rm = TRUE),
+         meanSaccades = mean(nSaccades, na.rm = TRUE)) %>% 
+  select(nTrialsWithSaccade,meanSaccades,grandMeanVel,grandMeanDurt,grandMeanAmp,CondShort) %>% 
+  ungroup() %>% 
+  distinct()
+```
