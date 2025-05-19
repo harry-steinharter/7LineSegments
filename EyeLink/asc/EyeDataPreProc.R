@@ -6,6 +6,7 @@ library(ivs)
 
 fileList <- list.files()
 fileList  <- fileList[which(endsWith(fileList, '.asc'))]
+fileList <- fileList[which(fileList != '75.asc')]
 
 for (File in fileList){
   subNumber <- strsplit(File,'.',fixed = TRUE)[[1]][1] %>% as.integer()

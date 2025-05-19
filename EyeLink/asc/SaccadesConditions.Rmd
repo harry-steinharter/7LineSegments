@@ -1,0 +1,80 @@
+---
+title: "SaccadesConditions"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+library(viridis)
+library(ggpubr)
+library(emmeans)
+
+categorize <- function(df){
+  df %<>%mutate(
+    WidthGroup = case_when(
+      CondShort %in% c("Constant", "Single") ~ "Controls",
+      CondShort %in% c('IW','DW') ~ "Wide",
+      CondShort %in% c('IN','DN') ~ "Narrow"
+    ),
+    ExpectedGroup = case_when(
+      CondShort %in% c('Constant','IN','IW') ~ 'Increasing',
+      CondShort %in% c('Single','DN','DW') ~ 'Decreasing'
+    )
+  )
+  return(df)
+}
+
+fileList <- list.files()
+fileList  <- fileList[which(endsWith(fileList, '.csv') & startsWith(fileList,'summary'))]
+dfFull <- do.call(rbind, lapply(fileList, read.csv)) %>% .[-1]
+dfFull$CondShort <- factor(dfFull$CondShort, c('Constant','IN','IW','Single','DN','DW'))
+dfFull %<>% categorize()
+
+```
+
+Plotting
+```{r, include=F}
+conds <- levels(dfFull$CondShort)
+cV <- viridis(2, option = 'viridis')
+colorPalette <- c('Increasing' = cV[1], 'Decreasing' = cV[2])
+colorPalette <- c('Increasing' = 'firebrick', 'Decreasing' = 'dodgerblue')
+palette3Way <- viridis(conds %>% length())
+palette3Way %<>% setNames(.,conds)
+```
+
+```{r,echo=F}
+ggplot(data = dfFull,
+       mapping = aes(x = CondShort, y = nTrialsWithSaccade)) +
+  stat_summary(geom = 'point',
+               mapping = aes(shape = WidthGroup, color = ExpectedGroup),
+               fun = mean,
+               size = 5) +
+  stat_summary(geom = 'errorbar',
+               fun.data = mean_cl_normal,
+               width = .2) + 
+  scale_color_manual(
+    values = colorPalette,
+    name = "Contrast") + 
+  scale_shape_manual(
+    name = 'Conditions',
+    values = c(
+      'Controls' = 15,
+      'Narrow' = 16,
+      'Wide' = 17),) + 
+  theme_pubr() + 
+  theme(
+  legend.title = element_text(hjust = .5, vjust = .5),
+  text = element_text(size=16,family='times'),
+  legend.position = 'right') + 
+  ylab("Mean Number of Trials With Saccades") + 
+  xlab("Condition")
+```
+Stats
+```{r,echo=F}
+model <- lm(data = dfFull,
+            formula = 'nTrialsWithSaccade ~ CondShort')
+anova <- car::Anova(model, type = 3)
+EM_pairs <- pairs(emmeans(model, specs = ~ CondShort))
+```
