@@ -63,7 +63,7 @@ if (TRUE){
 dfNull <- subset(df, endsWith(Condition,"_null"))
 #dfNull$CondShort %<>% droplevels()
 dfReal <- subset(df, !endsWith(Condition,"_null"))
-dfReal$CondShort <- recode(dfReal$Condition, recodes = 
+dfReal$CondShort <- car::recode(dfReal$Condition, recodes = 
                          "'FarHighNarrow' = 'IN'; 'FarLowNarrow' = 'DN';
                         'FarHighWide' = 'IW'; 'FarLowWide' = 'DW';
                         'ThreeLinesControl' = 'Single'; 'Constant' = 'Constant'") %>% as.factor()

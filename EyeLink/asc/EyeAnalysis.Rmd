@@ -1,0 +1,52 @@
+---
+title: "EyeTracking"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(magrittr)
+library(eyelinker)
+library(ivs)
+```
+
+\section{Try with a new package}
+```{r}
+asc <- read.asc('83.asc')
+str(asc, max.level = 1)
+msg <- asc$msg
+button <- asc$button
+sacc <- asc$sacc
+```
+
+\section{Button}
+Transform the `button` data frame to keep only periods when the target is presented (not the fixation) and only trials that are "easy" to interperet. By "easy" I mean there are exactly 4 times when the button changes state: On Fixation -> Off Fixation -> On Target -> Off Target.
+Creates `button_w` a wide data frame that has each trial and the stimulus onset `stimS` and stimulus disappearance `stimE`.
+```{r ButtonTransformation}
+button %<>% group_by( # Keep only 'easy' trials with the expected number of buttons
+  block) %>% mutate(nPer=n()) %>% ungroup() %>% subset(nPer == 4)
+button$stim <- c('fix','fix','target','target') %>% rep(nrow(button)/4) %>% c() # What is presented
+button %<>% subset(stim == 'target') # Keep only target
+button_w <- button %>% 
+  group_by(block) %>% 
+  arrange(time, .by_group = TRUE) %>% 
+  mutate(stimS = min(time), stimE = max(time)) %>% 
+  ungroup() %>% 
+  select(c('block','button','stim','stimS','stimE')) %>% 
+  distinct()
+```
+\section{Interal Vectors}
+Set internal vectors (IVs) using the `ivs` package. Vectors will allow easy indexing to see which saccades take place in which stimulus period.
+```{r IVs}
+sacc_IVs <- iv(sacc$stime,sacc$etime)
+button_IVs <- iv(button_w$stimS,button_w$stimE)
+locations <- iv_locate_overlaps(sacc_IVs,button_IVs)
+IV_indexing <- locations[!is.na(locations$haystack),]
+
+# Index the button_w df based on the index values of IV_indexing$haystack
+button_w_saccade <- button_w[IV_indexing$haystack,]
+saccade_w_button <- sacc[IV_indexing$needles,]
+```
+
